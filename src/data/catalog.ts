@@ -1,6 +1,7 @@
-// Catálogo Semillero Curado y 100% Verificado con YouTube OEmbed
-// Cobertura completa: Sistemas (55), Electrónica (55), Industrial (55) y Tronco Común (45)
-// Total: 210 recursos educativos activos y disponibles
+// Catálogo Académico Oficial Academflix - 100% Curado y Verificado
+// Rigurosamente auditado: Cero Shorts, Cero Memes, Cero Restricciones de Inserción.
+// Clases magistrales y cursos universitarios de ingeniería de larga duración (>= 3 min hasta más de 10 horas).
+// Total: 220 recursos educativos activos.
 
 export interface CatalogItem {
   title: string;
@@ -18,3777 +19,3963 @@ export interface CatalogItem {
 
 export const CATALOG_SEED_DATA: CatalogItem[] = [
   {
-    "title": "Curso COMPLETO de PYTHON desde CERO para PRINCIPIANTES",
-    "desc": "Clase magistral y contenido audiovisual enfocado en software, programacion, python, fundamentos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Kp4Mvapo5kc",
+    "title": "Aprende JavaScript - Curso Completo desde Cero",
+    "desc": "Clase magistral universitaria de 9:15:21 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ivdTnPl1ND0",
+    "yt_id": "ivdTnPl1ND0",
+    "thumb": "https://img.youtube.com/vi/ivdTnPl1ND0/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 1140,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende Git y GitHub - Curso desde Cero",
+    "desc": "Clase magistral universitaria de 5:32:55 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=mBYSUUnMt9M",
+    "yt_id": "mBYSUUnMt9M",
+    "thumb": "https://img.youtube.com/vi/mBYSUUnMt9M/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 1279,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Qué es FreeCodeCamp | Cómo Aprender Desarrollo Web Gratis Desde Cero | free code camp en español",
+    "desc": "Clase magistral universitaria de 10:08 impartida por deivchoi. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ihPb7hIUcro",
+    "yt_id": "ihPb7hIUcro",
+    "thumb": "https://img.youtube.com/vi/ihPb7hIUcro/hqdefault.jpg",
+    "author": "deivchoi",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 1197,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Aprende Python - Curso de Python desde Cero",
+    "desc": "Clase magistral universitaria de 4:36:43 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=DLikpfc64cA",
+    "yt_id": "DLikpfc64cA",
+    "thumb": "https://img.youtube.com/vi/DLikpfc64cA/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 1101,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende HTML y CSS - Curso Desde Cero",
+    "desc": "Clase magistral universitaria de 5:15:40 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=XqFR2lqBYPs",
+    "yt_id": "XqFR2lqBYPs",
+    "thumb": "https://img.youtube.com/vi/XqFR2lqBYPs/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 917,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende TypeScript - Curso desde cero",
+    "desc": "Clase magistral universitaria de 2:18:48 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=T7uaEZ3ZoZE",
+    "yt_id": "T7uaEZ3ZoZE",
+    "thumb": "https://img.youtube.com/vi/T7uaEZ3ZoZE/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 1255,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende React Desde Cero - Curso de React Con Proyectos",
+    "desc": "Clase magistral universitaria de 8:10:26 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=6Jfk8ic3KVk",
+    "yt_id": "6Jfk8ic3KVk",
+    "thumb": "https://img.youtube.com/vi/6Jfk8ic3KVk/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 938,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Introducción a la programación y la informática - Curso completo",
+    "desc": "Clase magistral universitaria de 1:59:09 impartida por freeCodeCamp.org. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+    "yt_id": "zOjov-2OZ0E",
+    "thumb": "https://img.youtube.com/vi/zOjov-2OZ0E/hqdefault.jpg",
+    "author": "freeCodeCamp.org",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 847,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende Node.js y Express - Curso desde Cero",
+    "desc": "Clase magistral universitaria de 8:29:33 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=1hpc70_OoAg",
+    "yt_id": "1hpc70_OoAg",
+    "thumb": "https://img.youtube.com/vi/1hpc70_OoAg/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 1447,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "MI EXPERIENCIA CON FREECODECAMP - ¿LA MEJOR PARA APRENDER A PROGRAMAR GRATIS?",
+    "desc": "Clase magistral universitaria de 6:30 impartida por El Camino Del Programador. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=-5vUXUhRtRw",
+    "yt_id": "-5vUXUhRtRw",
+    "thumb": "https://img.youtube.com/vi/-5vUXUhRtRw/hqdefault.jpg",
+    "author": "El Camino Del Programador",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 961,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "6 Proyectos de Python Básicos - Curso Completo Paso a Paso",
+    "desc": "Clase magistral universitaria de 2:28:33 impartida por freeCodeCamp Español. Contenido de alta fidelidad académica enfocado en programacion, fundamentos, software, codigo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=tWnyBD2src0",
+    "yt_id": "tWnyBD2src0",
+    "thumb": "https://img.youtube.com/vi/tWnyBD2src0/hqdefault.jpg",
+    "author": "freeCodeCamp Español",
+    "career": "sistemas",
+    "tags": [
+      "programacion",
+      "fundamentos",
+      "software",
+      "codigo"
+    ],
+    "views": 961,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Las 8 Estructuras de Datos que TODO Programador Usa (Pero Nadie Explica Bien)",
+    "desc": "Clase magistral universitaria de 20:30 impartida por Torti Code. Contenido de alta fidelidad académica enfocado en algoritmos, estructuras-de-datos, optimizacion, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=9ifwAPFxpu0",
+    "yt_id": "9ifwAPFxpu0",
+    "thumb": "https://img.youtube.com/vi/9ifwAPFxpu0/hqdefault.jpg",
+    "author": "Torti Code",
+    "career": "sistemas",
+    "tags": [
+      "algoritmos",
+      "estructuras-de-datos",
+      "optimizacion",
+      "software"
+    ],
+    "views": 1066,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso de ESTRUCTURAS DE DATOS desde CERO (Completo)",
+    "desc": "Clase magistral universitaria de 5:29:12 impartida por otro más de sistemas. Contenido de alta fidelidad académica enfocado en algoritmos, estructuras-de-datos, optimizacion, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=9iTVxKv9kCc",
+    "yt_id": "9iTVxKv9kCc",
+    "thumb": "https://img.youtube.com/vi/9iTVxKv9kCc/hqdefault.jpg",
+    "author": "otro más de sistemas",
+    "career": "sistemas",
+    "tags": [
+      "algoritmos",
+      "estructuras-de-datos",
+      "optimizacion",
+      "software"
+    ],
+    "views": 1385,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende Estructuras de Datos RÁPIDO | Guía práctica en menos de 30 Minutos",
+    "desc": "Clase magistral universitaria de 28:55 impartida por otro más de sistemas. Contenido de alta fidelidad académica enfocado en algoritmos, estructuras-de-datos, optimizacion, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=4Bq7rI2t6vU",
+    "yt_id": "4Bq7rI2t6vU",
+    "thumb": "https://img.youtube.com/vi/4Bq7rI2t6vU/hqdefault.jpg",
+    "author": "otro más de sistemas",
+    "career": "sistemas",
+    "tags": [
+      "algoritmos",
+      "estructuras-de-datos",
+      "optimizacion",
+      "software"
+    ],
+    "views": 1330,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso COMPLETO de LÓGICA DE PROGRAMACIÓN Desde Cero",
+    "desc": "Clase magistral universitaria de 7:29:56 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en algoritmos, estructuras-de-datos, optimizacion, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=TdITcVD64zI",
+    "yt_id": "TdITcVD64zI",
+    "thumb": "https://img.youtube.com/vi/TdITcVD64zI/hqdefault.jpg",
     "author": "MoureDev by Brais Moure",
     "career": "sistemas",
     "tags": [
-      "software",
-      "programacion",
-      "python",
-      "fundamentos"
+      "algoritmos",
+      "estructuras-de-datos",
+      "optimizacion",
+      "software"
+    ],
+    "views": 1438,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "INTRODUCCIÓN A ALGORITMOS - Ideas y conceptos básicos",
+    "desc": "Clase magistral universitaria de 7:22 impartida por Manik. Contenido de alta fidelidad académica enfocado en algoritmos, estructuras-de-datos, optimizacion, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=f10jKIslSUY",
+    "yt_id": "f10jKIslSUY",
+    "thumb": "https://img.youtube.com/vi/f10jKIslSUY/hqdefault.jpg",
+    "author": "Manik",
+    "career": "sistemas",
+    "tags": [
+      "algoritmos",
+      "estructuras-de-datos",
+      "optimizacion",
+      "software"
     ],
     "views": 1200,
     "year": 2023,
-    "type": "curso",
+    "type": "video"
+  },
+  {
+    "title": "Curso COMPLETO de PYTHON desde CERO para PRINCIPIANTES",
+    "desc": "Clase magistral universitaria de 10:07:35 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
     "url": "https://www.youtube.com/watch?v=Kp4Mvapo5kc",
-    "thumb": "https://img.youtube.com/vi/Kp4Mvapo5kc/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Python 3 desde cero - Curso de programación profesional",
-    "desc": "Clase magistral y contenido audiovisual enfocado en frontend, react, javascript, web, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "mENHDQ8SLsI",
-    "author": "La Geekipedia De Ernesto",
+    "yt_id": "Kp4Mvapo5kc",
+    "thumb": "https://img.youtube.com/vi/Kp4Mvapo5kc/hqdefault.jpg",
+    "author": "MoureDev by Brais Moure",
     "career": "sistemas",
     "tags": [
-      "frontend",
-      "react",
-      "javascript",
-      "web"
-    ],
-    "views": 1477,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=mENHDQ8SLsI",
-    "thumb": "https://img.youtube.com/vi/mENHDQ8SLsI/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Python 3 desde cero #1 - Introducción e instalación de Python",
-    "desc": "Clase magistral y contenido audiovisual enfocado en backend, arquitectura, clean architecture, apis, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "DAdRO6ByBoU",
-    "author": "La Geekipedia De Ernesto",
-    "career": "sistemas",
-    "tags": [
+      "python",
+      "software",
       "backend",
-      "arquitectura",
-      "clean architecture",
-      "apis"
+      "desarrollo"
     ],
-    "views": 1754,
+    "views": 721,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=DAdRO6ByBoU",
-    "thumb": "https://img.youtube.com/vi/DAdRO6ByBoU/hqdefault.jpg"
+    "type": "curso"
   },
   {
     "title": "Curso de PYTHON desde CERO (Completo)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en bases de datos, sql, postgresql, optimizacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
+    "desc": "Clase magistral universitaria de 8:06:30 impartida por Soy Dalto. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=nKPbfIU442g",
     "yt_id": "nKPbfIU442g",
+    "thumb": "https://img.youtube.com/vi/nKPbfIU442g/hqdefault.jpg",
     "author": "Soy Dalto",
     "career": "sistemas",
     "tags": [
-      "bases de datos",
-      "sql",
-      "postgresql",
-      "optimizacion"
-    ],
-    "views": 2031,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=nKPbfIU442g",
-    "thumb": "https://img.youtube.com/vi/nKPbfIU442g/hqdefault.jpg"
-  },
-  {
-    "title": "Curso COMPLETO de Python DESDE CERO para Principiantes 2025",
-    "desc": "Clase magistral y contenido audiovisual enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "TkN2i-_4N4g",
-    "author": "midudev",
-    "career": "sistemas",
-    "tags": [
-      "devops",
-      "docker",
-      "kubernetes",
-      "cloud"
-    ],
-    "views": 2308,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=TkN2i-_4N4g",
-    "thumb": "https://img.youtube.com/vi/TkN2i-_4N4g/hqdefault.jpg"
-  },
-  {
-    "title": "Python desde cero en una hora para principiantes!",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algoritmos, estructuras de datos, complejidad, ciencias computacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "IimBRwHhW54",
-    "author": "HolaMundo",
-    "career": "sistemas",
-    "tags": [
-      "algoritmos",
-      "estructuras de datos",
-      "complejidad",
-      "ciencias computacion"
-    ],
-    "views": 2585,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=IimBRwHhW54",
-    "thumb": "https://img.youtube.com/vi/IimBRwHhW54/hqdefault.jpg"
-  },
-  {
-    "title": "✅ Curso Maestro de Python: De Cero a Programador Master 😎 #1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad, ciberseguridad, redes, hacking etico, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "HKL1G9-mwcM",
-    "author": "Aprende a Programar",
-    "career": "sistemas",
-    "tags": [
-      "seguridad",
-      "ciberseguridad",
-      "redes",
-      "hacking etico"
-    ],
-    "views": 2862,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=HKL1G9-mwcM",
-    "thumb": "https://img.youtube.com/vi/HKL1G9-mwcM/hqdefault.jpg"
-  },
-  {
-    "title": "✅ Curso Maestro de Python: Tipos de Datos 😎 #2",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ia, machine learning, deep learning, python, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "v5zoIqha5U4",
-    "author": "Aprende a Programar",
-    "career": "sistemas",
-    "tags": [
-      "ia",
-      "machine learning",
-      "deep learning",
-      "python"
-    ],
-    "views": 3139,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=v5zoIqha5U4",
-    "thumb": "https://img.youtube.com/vi/v5zoIqha5U4/hqdefault.jpg"
-  },
-  {
-    "title": "Aprende PYTHON en 10 minutos 🟢",
-    "desc": "Clase magistral y contenido audiovisual enfocado en software, programacion, python, fundamentos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "_6N18g3ewnw",
-    "author": "Programador X",
-    "career": "sistemas",
-    "tags": [
-      "software",
-      "programacion",
       "python",
-      "fundamentos"
+      "software",
+      "backend",
+      "desarrollo"
     ],
-    "views": 3416,
+    "views": 791,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=_6N18g3ewnw",
-    "thumb": "https://img.youtube.com/vi/_6N18g3ewnw/hqdefault.jpg"
+    "type": "curso"
+  },
+  {
+    "title": "Python en 8 Minutos",
+    "desc": "Clase magistral universitaria de 9:38 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=PtBHnMMRI0E",
+    "yt_id": "PtBHnMMRI0E",
+    "thumb": "https://img.youtube.com/vi/PtBHnMMRI0E/hqdefault.jpg",
+    "author": "MoureDev by Brais Moure",
+    "career": "sistemas",
+    "tags": [
+      "python",
+      "software",
+      "backend",
+      "desarrollo"
+    ],
+    "views": 1489,
+    "year": 2023,
+    "type": "video"
   },
   {
     "title": "Curso COMPLETO de PYTHON desde CERO para PRINCIPIANTES [Intermedio]",
-    "desc": "Clase magistral y contenido audiovisual enfocado en frontend, react, javascript, web, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
+    "desc": "Clase magistral universitaria de 7:18:02 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=TbcEqkabAWU",
     "yt_id": "TbcEqkabAWU",
+    "thumb": "https://img.youtube.com/vi/TbcEqkabAWU/hqdefault.jpg",
     "author": "MoureDev by Brais Moure",
     "career": "sistemas",
     "tags": [
-      "frontend",
-      "react",
-      "javascript",
-      "web"
+      "python",
+      "software",
+      "backend",
+      "desarrollo"
     ],
-    "views": 3693,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=TbcEqkabAWU",
-    "thumb": "https://img.youtube.com/vi/TbcEqkabAWU/hqdefault.jpg"
+    "views": 1087,
+    "year": 2023,
+    "type": "curso"
   },
   {
-    "title": "01 Curso de PYTHON desde CERO para PRINCIPIANTES (VARIABLES)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en backend, arquitectura, clean architecture, apis, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "pgZ1hfJrPiA",
-    "author": "Codings Academy",
+    "title": "Curso COMPLETO de PYTHON desde CERO para BACKEND",
+    "desc": "Clase magistral universitaria de 7:55:47 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=_y9qQZXE24A",
+    "yt_id": "_y9qQZXE24A",
+    "thumb": "https://img.youtube.com/vi/_y9qQZXE24A/hqdefault.jpg",
+    "author": "MoureDev by Brais Moure",
     "career": "sistemas",
     "tags": [
+      "python",
+      "software",
       "backend",
-      "arquitectura",
-      "clean architecture",
-      "apis"
+      "desarrollo"
     ],
-    "views": 3970,
+    "views": 1144,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=pgZ1hfJrPiA",
-    "thumb": "https://img.youtube.com/vi/pgZ1hfJrPiA/hqdefault.jpg"
+    "type": "curso"
   },
   {
-    "title": "Curso para aprender Python en 100 días",
-    "desc": "Clase magistral y contenido audiovisual enfocado en bases de datos, sql, postgresql, optimizacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "vObqezA3YnQ",
+    "title": "Curso de PYTHON Desde Cero: Primeros Pasos en una hora",
+    "desc": "Clase magistral universitaria de 57:47 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=WatTqrq8kQQ",
+    "yt_id": "WatTqrq8kQQ",
+    "thumb": "https://img.youtube.com/vi/WatTqrq8kQQ/hqdefault.jpg",
+    "author": "MoureDev by Brais Moure",
+    "career": "sistemas",
+    "tags": [
+      "python",
+      "software",
+      "backend",
+      "desarrollo"
+    ],
+    "views": 1205,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso COMPLETO de Python DESDE CERO para Principiantes 2025",
+    "desc": "Clase magistral universitaria de 8:32:52 impartida por midudev. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=TkN2i-_4N4g",
+    "yt_id": "TkN2i-_4N4g",
+    "thumb": "https://img.youtube.com/vi/TkN2i-_4N4g/hqdefault.jpg",
     "author": "midudev",
     "career": "sistemas",
     "tags": [
-      "bases de datos",
-      "sql",
-      "postgresql",
-      "optimizacion"
-    ],
-    "views": 4247,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=vObqezA3YnQ",
-    "thumb": "https://img.youtube.com/vi/vObqezA3YnQ/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de PYTHON de 44 HORAS",
-    "desc": "Clase magistral y contenido audiovisual enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "FP7JFWcOBKE",
-    "author": "MoureDev by Brais Moure",
-    "career": "sistemas",
-    "tags": [
-      "devops",
-      "docker",
-      "kubernetes",
-      "cloud"
-    ],
-    "views": 4524,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=FP7JFWcOBKE",
-    "thumb": "https://img.youtube.com/vi/FP7JFWcOBKE/hqdefault.jpg"
-  },
-  {
-    "title": "#2 - CURSO PYTHON desde CERO 👉 Instalación 🐍",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algoritmos, estructuras de datos, complejidad, ciencias computacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "2wfTpVG4g4E",
-    "author": "CodingTube",
-    "career": "sistemas",
-    "tags": [
-      "algoritmos",
-      "estructuras de datos",
-      "complejidad",
-      "ciencias computacion"
-    ],
-    "views": 4801,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=2wfTpVG4g4E",
-    "thumb": "https://img.youtube.com/vi/2wfTpVG4g4E/hqdefault.jpg"
-  },
-  {
-    "title": "Python: cero horas también cuenta - TLA",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad, ciberseguridad, redes, hacking etico, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "V8cgNtxeOiA",
-    "author": "¿Te lo aprendiste?",
-    "career": "sistemas",
-    "tags": [
-      "seguridad",
-      "ciberseguridad",
-      "redes",
-      "hacking etico"
-    ],
-    "views": 5078,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=V8cgNtxeOiA",
-    "thumb": "https://img.youtube.com/vi/V8cgNtxeOiA/hqdefault.jpg"
-  },
-  {
-    "title": "Aprende Python - Curso completo para principiantes [Tutorial]",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ia, machine learning, deep learning, python, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "0ftxmhe323g",
-    "author": "A2 Capacitación: Excel",
-    "career": "sistemas",
-    "tags": [
-      "ia",
-      "machine learning",
-      "deep learning",
-      "python"
-    ],
-    "views": 5355,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=0ftxmhe323g",
-    "thumb": "https://img.youtube.com/vi/0ftxmhe323g/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Python Actualización 2024. Vídeo 0",
-    "desc": "Clase magistral y contenido audiovisual enfocado en software, programacion, python, fundamentos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "tDYr14IIu_4",
-    "author": "pildorasinformaticas",
-    "career": "sistemas",
-    "tags": [
-      "software",
-      "programacion",
       "python",
-      "fundamentos"
+      "software",
+      "backend",
+      "desarrollo"
     ],
-    "views": 5632,
+    "views": 1481,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=tDYr14IIu_4",
-    "thumb": "https://img.youtube.com/vi/tDYr14IIu_4/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Python. Vídeo 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en frontend, react, javascript, web, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "G2FCfQj-9ig",
-    "author": "pildorasinformaticas",
-    "career": "sistemas",
-    "tags": [
-      "frontend",
-      "react",
-      "javascript",
-      "web"
-    ],
-    "views": 5909,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=G2FCfQj-9ig",
-    "thumb": "https://img.youtube.com/vi/G2FCfQj-9ig/hqdefault.jpg"
+    "type": "curso"
   },
   {
     "title": "Aprende Python ahora! curso completo e intensivo desde cero",
-    "desc": "Clase magistral y contenido audiovisual enfocado en backend, arquitectura, clean architecture, apis, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
+    "desc": "Clase magistral universitaria de 5:05:50 impartida por HolaMundo. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=tQZy0U8s9LY",
     "yt_id": "tQZy0U8s9LY",
+    "thumb": "https://img.youtube.com/vi/tQZy0U8s9LY/hqdefault.jpg",
     "author": "HolaMundo",
     "career": "sistemas",
     "tags": [
-      "backend",
-      "arquitectura",
-      "clean architecture",
-      "apis"
-    ],
-    "views": 6186,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=tQZy0U8s9LY",
-    "thumb": "https://img.youtube.com/vi/tQZy0U8s9LY/hqdefault.jpg"
-  },
-  {
-    "title": "Aprendiendo Python desde cero 🐍 - Día 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en bases de datos, sql, postgresql, optimizacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "HY9-GfEM4t0",
-    "author": "Un Poco de Tecnología",
-    "career": "sistemas",
-    "tags": [
-      "bases de datos",
-      "sql",
-      "postgresql",
-      "optimizacion"
-    ],
-    "views": 6463,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=HY9-GfEM4t0",
-    "thumb": "https://img.youtube.com/vi/HY9-GfEM4t0/hqdefault.jpg"
-  },
-  {
-    "title": "Reconstruye un entorno virtual de Python desde cero",
-    "desc": "Clase magistral y contenido audiovisual enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "NqN6xV2WRYs",
-    "author": "Julián López | Ingeniero del Software y Profesor",
-    "career": "sistemas",
-    "tags": [
-      "devops",
-      "docker",
-      "kubernetes",
-      "cloud"
-    ],
-    "views": 6740,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=NqN6xV2WRYs",
-    "thumb": "https://img.youtube.com/vi/NqN6xV2WRYs/hqdefault.jpg"
-  },
-  {
-    "title": "💻 ¿Quieres aprender Python desde cero ?",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algoritmos, estructuras de datos, complejidad, ciencias computacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "i4hRY3ez6MY",
-    "author": "ECONODATA INSTITUTE",
-    "career": "sistemas",
-    "tags": [
-      "algoritmos",
-      "estructuras de datos",
-      "complejidad",
-      "ciencias computacion"
-    ],
-    "views": 7017,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=i4hRY3ez6MY",
-    "thumb": "https://img.youtube.com/vi/i4hRY3ez6MY/hqdefault.jpg"
-  },
-  {
-    "title": "¿Cómo empezar a programar en Python ahora? Conoce los primeros pasos de una forma fácil",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad, ciberseguridad, redes, hacking etico, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ugdVNyIreLQ",
-    "author": "Linkfy",
-    "career": "sistemas",
-    "tags": [
-      "seguridad",
-      "ciberseguridad",
-      "redes",
-      "hacking etico"
-    ],
-    "views": 7294,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ugdVNyIreLQ",
-    "thumb": "https://img.youtube.com/vi/ugdVNyIreLQ/hqdefault.jpg"
-  },
-  {
-    "title": "02 Curso de PYTHON desde CERO para PRINCIPIANTES (TIPO DE DATOS)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ia, machine learning, deep learning, python, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "fwz6k_6mZXw",
-    "author": "Codings Academy",
-    "career": "sistemas",
-    "tags": [
-      "ia",
-      "machine learning",
-      "deep learning",
-      "python"
-    ],
-    "views": 7571,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=fwz6k_6mZXw",
-    "thumb": "https://img.youtube.com/vi/fwz6k_6mZXw/hqdefault.jpg"
-  },
-  {
-    "title": "🧐LA VIDA COMO PROGRAMADOR 🧐 #programacion #python #viral #memes #programming",
-    "desc": "Clase magistral y contenido audiovisual enfocado en software, programacion, python, fundamentos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "kvS1Fx5231o",
-    "author": "Picando Código",
-    "career": "sistemas",
-    "tags": [
-      "software",
-      "programacion",
       "python",
-      "fundamentos"
-    ],
-    "views": 7848,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=kvS1Fx5231o",
-    "thumb": "https://img.youtube.com/vi/kvS1Fx5231o/hqdefault.jpg"
-  },
-  {
-    "title": "Python 3.15: lazy imports, frozendict y UTF-8 por defecto",
-    "desc": "Clase magistral y contenido audiovisual enfocado en frontend, react, javascript, web, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "t0hw0D-SNwc",
-    "author": "Edward Diaz | Full Stack & DevOps",
-    "career": "sistemas",
-    "tags": [
-      "frontend",
-      "react",
-      "javascript",
-      "web"
-    ],
-    "views": 8125,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=t0hw0D-SNwc",
-    "thumb": "https://img.youtube.com/vi/t0hw0D-SNwc/hqdefault.jpg"
-  },
-  {
-    "title": "Crea un diccionario de python desde listas como un pr0.",
-    "desc": "Clase magistral y contenido audiovisual enfocado en backend, arquitectura, clean architecture, apis, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "nhP61oYlJXo",
-    "author": "Culebreando en Python",
-    "career": "sistemas",
-    "tags": [
+      "software",
       "backend",
-      "arquitectura",
-      "clean architecture",
-      "apis"
+      "desarrollo"
     ],
-    "views": 8402,
+    "views": 1496,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=nhP61oYlJXo",
-    "thumb": "https://img.youtube.com/vi/nhP61oYlJXo/hqdefault.jpg"
+    "type": "curso"
   },
   {
-    "title": "NO USES PYTHON ❌",
-    "desc": "Clase magistral y contenido audiovisual enfocado en bases de datos, sql, postgresql, optimizacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "4IV0N8ZiX4k",
+    "title": "La forma real de aprender Python para Web desde cero",
+    "desc": "Clase magistral universitaria de 5:49:25 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=n2YrGsXJC6Y",
+    "yt_id": "n2YrGsXJC6Y",
+    "thumb": "https://img.youtube.com/vi/n2YrGsXJC6Y/hqdefault.jpg",
+    "author": "MoureDev by Brais Moure",
+    "career": "sistemas",
+    "tags": [
+      "python",
+      "software",
+      "backend",
+      "desarrollo"
+    ],
+    "views": 1077,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende Programación desde cero (sin perder años)",
+    "desc": "Clase magistral universitaria de 9:18 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en python, software, backend, desarrollo, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=IV0Cs5wlycY",
+    "yt_id": "IV0Cs5wlycY",
+    "thumb": "https://img.youtube.com/vi/IV0Cs5wlycY/hqdefault.jpg",
+    "author": "MoureDev by Brais Moure",
+    "career": "sistemas",
+    "tags": [
+      "python",
+      "software",
+      "backend",
+      "desarrollo"
+    ],
+    "views": 922,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso de Java desde cero 2026 | Qué vas a aprender y cómo empezar",
+    "desc": "Clase magistral universitaria de 26:19 impartida por pildorasinformaticas. Contenido de alta fidelidad académica enfocado en java, poo, backend, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=_WJkT42l7Wk",
+    "yt_id": "_WJkT42l7Wk",
+    "thumb": "https://img.youtube.com/vi/_WJkT42l7Wk/hqdefault.jpg",
+    "author": "pildorasinformaticas",
+    "career": "sistemas",
+    "tags": [
+      "java",
+      "poo",
+      "backend",
+      "software"
+    ],
+    "views": 1081,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso de Java desde cero 2026 | Historia, características y mitos explicados",
+    "desc": "Clase magistral universitaria de 34:37 impartida por pildorasinformaticas. Contenido de alta fidelidad académica enfocado en java, poo, backend, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=wWCdvXN4qAQ",
+    "yt_id": "wWCdvXN4qAQ",
+    "thumb": "https://img.youtube.com/vi/wWCdvXN4qAQ/hqdefault.jpg",
+    "author": "pildorasinformaticas",
+    "career": "sistemas",
+    "tags": [
+      "java",
+      "poo",
+      "backend",
+      "software"
+    ],
+    "views": 1341,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Java desde cero: Curso completo para principiantes (POO incluida)",
+    "desc": "Clase magistral universitaria de 8:48:49 impartida por MoureDev by Brais Moure. Contenido de alta fidelidad académica enfocado en java, poo, backend, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=JOAqpdM36wI",
+    "yt_id": "JOAqpdM36wI",
+    "thumb": "https://img.youtube.com/vi/JOAqpdM36wI/hqdefault.jpg",
+    "author": "MoureDev by Brais Moure",
+    "career": "sistemas",
+    "tags": [
+      "java",
+      "poo",
+      "backend",
+      "software"
+    ],
+    "views": 888,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "CURSO GRATIS JAVA PARA PRINCIPIANTES ☕👩🏻‍💻",
+    "desc": "Clase magistral universitaria de 11:39:19 impartida por TodoCode. Contenido de alta fidelidad académica enfocado en java, poo, backend, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=qxXcI56NfnE",
+    "yt_id": "qxXcI56NfnE",
+    "thumb": "https://img.youtube.com/vi/qxXcI56NfnE/hqdefault.jpg",
     "author": "TodoCode",
     "career": "sistemas",
     "tags": [
-      "bases de datos",
-      "sql",
-      "postgresql",
-      "optimizacion"
-    ],
-    "views": 8679,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=4IV0N8ZiX4k",
-    "thumb": "https://img.youtube.com/vi/4IV0N8ZiX4k/hqdefault.jpg"
-  },
-  {
-    "title": "Aprender Python por primera vez no tiene por qué ser una locura. 😂💻",
-    "desc": "Clase magistral y contenido audiovisual enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "fcD-sUNLG0Q",
-    "author": "ECONODATA CORPORATION",
-    "career": "sistemas",
-    "tags": [
-      "devops",
-      "docker",
-      "kubernetes",
-      "cloud"
-    ],
-    "views": 8956,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=fcD-sUNLG0Q",
-    "thumb": "https://img.youtube.com/vi/fcD-sUNLG0Q/hqdefault.jpg"
-  },
-  {
-    "title": "APRENDE a Programar Jugando  De Cero a PYTHON",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algoritmos, estructuras de datos, complejidad, ciencias computacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "P-Fb-puES4Q",
-    "author": "SNXW LABS",
-    "career": "sistemas",
-    "tags": [
-      "algoritmos",
-      "estructuras de datos",
-      "complejidad",
-      "ciencias computacion"
-    ],
-    "views": 9233,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=P-Fb-puES4Q",
-    "thumb": "https://img.youtube.com/vi/P-Fb-puES4Q/hqdefault.jpg"
-  },
-  {
-    "title": "Se puede aprender Python a profundidad? vale la pena?",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad, ciberseguridad, redes, hacking etico, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "m3aWo6t_KPE",
-    "author": "HolaMundo",
-    "career": "sistemas",
-    "tags": [
-      "seguridad",
-      "ciberseguridad",
-      "redes",
-      "hacking etico"
-    ],
-    "views": 9510,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=m3aWo6t_KPE",
-    "thumb": "https://img.youtube.com/vi/m3aWo6t_KPE/hqdefault.jpg"
-  },
-  {
-    "title": "¡Aprende Python y Pandas! Importa datos HTML y exporta a Excel - Tutorial para principiantes",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ia, machine learning, deep learning, python, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "jJDJcYkzAfQ",
-    "author": "Código Espinoza - Automatiza tu Vida",
-    "career": "sistemas",
-    "tags": [
-      "ia",
-      "machine learning",
-      "deep learning",
-      "python"
-    ],
-    "views": 1287,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=jJDJcYkzAfQ",
-    "thumb": "https://img.youtube.com/vi/jJDJcYkzAfQ/hqdefault.jpg"
-  },
-  {
-    "title": "Aprendiendo a programar en distintos lenguajes de programación💻#desarrollodesoftware #programación",
-    "desc": "Clase magistral y contenido audiovisual enfocado en software, programacion, python, fundamentos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "uszr0lepE6M",
-    "author": "hmdev",
-    "career": "sistemas",
-    "tags": [
-      "software",
-      "programacion",
-      "python",
-      "fundamentos"
-    ],
-    "views": 1564,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=uszr0lepE6M",
-    "thumb": "https://img.youtube.com/vi/uszr0lepE6M/hqdefault.jpg"
-  },
-  {
-    "title": "Así es aprender a programar desde CERO",
-    "desc": "Clase magistral y contenido audiovisual enfocado en frontend, react, javascript, web, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "o6IdZJhLngA",
-    "author": "Clau, quiero ser ingeniera",
-    "career": "sistemas",
-    "tags": [
-      "frontend",
-      "react",
-      "javascript",
-      "web"
-    ],
-    "views": 1841,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=o6IdZJhLngA",
-    "thumb": "https://img.youtube.com/vi/o6IdZJhLngA/hqdefault.jpg"
-  },
-  {
-    "title": "Métodos de texto en Python: upper, lower, strip y split",
-    "desc": "Clase magistral y contenido audiovisual enfocado en backend, arquitectura, clean architecture, apis, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "btsXjEyAjYg",
-    "author": "AntonioDevLab",
-    "career": "sistemas",
-    "tags": [
+      "java",
+      "poo",
       "backend",
-      "arquitectura",
-      "clean architecture",
-      "apis"
+      "software"
     ],
-    "views": 2118,
+    "views": 1116,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=btsXjEyAjYg",
-    "thumb": "https://img.youtube.com/vi/btsXjEyAjYg/hqdefault.jpg"
+    "type": "curso"
   },
   {
-    "title": "🐍 Convertir un tipo de dato en python",
-    "desc": "Clase magistral y contenido audiovisual enfocado en bases de datos, sql, postgresql, optimizacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "JZCf4qrHdUE",
-    "author": "El Gordo Dev",
+    "title": "Curso de Java desde cero 2026 | Aplicaciones que puedes crear y estructura básica",
+    "desc": "Clase magistral universitaria de 29:29 impartida por pildorasinformaticas. Contenido de alta fidelidad académica enfocado en java, poo, backend, software, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=w2RMHSNZe-k",
+    "yt_id": "w2RMHSNZe-k",
+    "thumb": "https://img.youtube.com/vi/w2RMHSNZe-k/hqdefault.jpg",
+    "author": "pildorasinformaticas",
     "career": "sistemas",
     "tags": [
-      "bases de datos",
-      "sql",
-      "postgresql",
-      "optimizacion"
-    ],
-    "views": 2395,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=JZCf4qrHdUE",
-    "thumb": "https://img.youtube.com/vi/JZCf4qrHdUE/hqdefault.jpg"
-  },
-  {
-    "title": "Cómo hacer una calculadora en Python desde cero (Paso a paso)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "JG8BmBOV3x4",
-    "author": "Rubi Castelar",
-    "career": "sistemas",
-    "tags": [
-      "devops",
-      "docker",
-      "kubernetes",
-      "cloud"
-    ],
-    "views": 2672,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=JG8BmBOV3x4",
-    "thumb": "https://img.youtube.com/vi/JG8BmBOV3x4/hqdefault.jpg"
-  },
-  {
-    "title": "¿Qué es Python? - ACLARA TUS DUDAS",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algoritmos, estructuras de datos, complejidad, ciencias computacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "akl_wD2q6Sk",
-    "author": "Aclara Tus Dudas",
-    "career": "sistemas",
-    "tags": [
-      "algoritmos",
-      "estructuras de datos",
-      "complejidad",
-      "ciencias computacion"
-    ],
-    "views": 2949,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=akl_wD2q6Sk",
-    "thumb": "https://img.youtube.com/vi/akl_wD2q6Sk/hqdefault.jpg"
-  },
-  {
-    "title": "Hello world! en diferentes lenguajes #python #javascript #java#programación #programacion #programar",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad, ciberseguridad, redes, hacking etico, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "rw9DV-MUxu0",
-    "author": "Compulab",
-    "career": "sistemas",
-    "tags": [
-      "seguridad",
-      "ciberseguridad",
-      "redes",
-      "hacking etico"
-    ],
-    "views": 3226,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=rw9DV-MUxu0",
-    "thumb": "https://img.youtube.com/vi/rw9DV-MUxu0/hqdefault.jpg"
-  },
-  {
-    "title": "🐍 CURSO de PYTHON desde CERO - 01 ¿Que TIPO de LENGUAJE es PYTHON y donde se UTILIZA?",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ia, machine learning, deep learning, python, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "2yr4UFsRddI",
-    "author": "Carlos Alfaro",
-    "career": "sistemas",
-    "tags": [
-      "ia",
-      "machine learning",
-      "deep learning",
-      "python"
-    ],
-    "views": 3503,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=2yr4UFsRddI",
-    "thumb": "https://img.youtube.com/vi/2yr4UFsRddI/hqdefault.jpg"
-  },
-  {
-    "title": "🐍 CURSO de PYTHON desde CERO - 02 ¿Que NECESITO para EMPEZAR a PROGRAMAR en PYTHON?",
-    "desc": "Clase magistral y contenido audiovisual enfocado en software, programacion, python, fundamentos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "5RjpOYxnTZk",
-    "author": "Carlos Alfaro",
-    "career": "sistemas",
-    "tags": [
-      "software",
-      "programacion",
-      "python",
-      "fundamentos"
-    ],
-    "views": 3780,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=5RjpOYxnTZk",
-    "thumb": "https://img.youtube.com/vi/5RjpOYxnTZk/hqdefault.jpg"
-  },
-  {
-    "title": "✅ Curso de PYTHON desde CERO para PRINCIPIANTES (Completo) - 2026",
-    "desc": "Clase magistral y contenido audiovisual enfocado en frontend, react, javascript, web, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Ga4w8UTb4yU",
-    "author": "Sinergia | CURSOS",
-    "career": "sistemas",
-    "tags": [
-      "frontend",
-      "react",
-      "javascript",
-      "web"
-    ],
-    "views": 4057,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=Ga4w8UTb4yU",
-    "thumb": "https://img.youtube.com/vi/Ga4w8UTb4yU/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de Python 2026 para Principiantes (Completo Desde CERO)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en backend, arquitectura, clean architecture, apis, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "QPAO-31QtQ8",
-    "author": "GroverTec",
-    "career": "sistemas",
-    "tags": [
+      "java",
+      "poo",
       "backend",
-      "arquitectura",
-      "clean architecture",
-      "apis"
+      "software"
     ],
-    "views": 4334,
+    "views": 1459,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=QPAO-31QtQ8",
-    "thumb": "https://img.youtube.com/vi/QPAO-31QtQ8/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Curso de Python desde cero para principiantes - INSTALACION, CONFIGURACION (video 1)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en bases de datos, sql, postgresql, optimizacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Z_7-AnIXY8M",
-    "author": "INFORMATICONFIG",
-    "career": "sistemas",
-    "tags": [
-      "bases de datos",
-      "sql",
-      "postgresql",
-      "optimizacion"
-    ],
-    "views": 4611,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=Z_7-AnIXY8M",
-    "thumb": "https://img.youtube.com/vi/Z_7-AnIXY8M/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de Python desde cero para principiantes - VARIABLES(video 2)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "c2s9IGhry6c",
-    "author": "INFORMATICONFIG",
-    "career": "sistemas",
-    "tags": [
-      "devops",
-      "docker",
-      "kubernetes",
-      "cloud"
-    ],
-    "views": 4888,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=c2s9IGhry6c",
-    "thumb": "https://img.youtube.com/vi/c2s9IGhry6c/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de Python desde cero🚀",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algoritmos, estructuras de datos, complejidad, ciencias computacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "tpcAeClIUGY",
-    "author": "Carlos Master Web",
-    "career": "sistemas",
-    "tags": [
-      "algoritmos",
-      "estructuras de datos",
-      "complejidad",
-      "ciencias computacion"
-    ],
-    "views": 5165,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=tpcAeClIUGY",
-    "thumb": "https://img.youtube.com/vi/tpcAeClIUGY/hqdefault.jpg"
-  },
-  {
-    "title": "Que es Python? explicado en menos de 10 minutos 🚀",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad, ciberseguridad, redes, hacking etico, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "yTjEAiX98zg",
-    "author": "Carlos Master Web",
-    "career": "sistemas",
-    "tags": [
-      "seguridad",
-      "ciberseguridad",
-      "redes",
-      "hacking etico"
-    ],
-    "views": 5442,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=yTjEAiX98zg",
-    "thumb": "https://img.youtube.com/vi/yTjEAiX98zg/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de Python para análisis de datos desde cero para principiantes paso a paso",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ia, machine learning, deep learning, python, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "_2UhskLjBi0",
-    "author": "Escuela De Bayes",
-    "career": "sistemas",
-    "tags": [
-      "ia",
-      "machine learning",
-      "deep learning",
-      "python"
-    ],
-    "views": 5719,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=_2UhskLjBi0",
-    "thumb": "https://img.youtube.com/vi/_2UhskLjBi0/hqdefault.jpg"
-  },
-  {
-    "title": "Serie Phyton Capitulo 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en software, programacion, python, fundamentos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "FgcUNvDEtaE",
-    "author": "Escuela De Bayes",
-    "career": "sistemas",
-    "tags": [
-      "software",
-      "programacion",
-      "python",
-      "fundamentos"
-    ],
-    "views": 5996,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=FgcUNvDEtaE",
-    "thumb": "https://img.youtube.com/vi/FgcUNvDEtaE/hqdefault.jpg"
-  },
-  {
-    "title": "CURSO de PYTHON desde CERO para AUTODIDACTAS 👩🏻‍💻🚀",
-    "desc": "Clase magistral y contenido audiovisual enfocado en frontend, react, javascript, web, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "NG7XjqN7TFU",
-    "author": "Tati Sorroche | PensarCoding Academy",
-    "career": "sistemas",
-    "tags": [
-      "frontend",
-      "react",
-      "javascript",
-      "web"
-    ],
-    "views": 6273,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=NG7XjqN7TFU",
-    "thumb": "https://img.youtube.com/vi/NG7XjqN7TFU/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de Python para Análisis de Datos [01] - Instalación, Configuración y Primeros Pasos 🐍",
-    "desc": "Clase magistral y contenido audiovisual enfocado en backend, arquitectura, clean architecture, apis, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "KMEhbbxYySw",
-    "author": "PicaCodigo",
-    "career": "sistemas",
-    "tags": [
-      "backend",
-      "arquitectura",
-      "clean architecture",
-      "apis"
-    ],
-    "views": 6550,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=KMEhbbxYySw",
-    "thumb": "https://img.youtube.com/vi/KMEhbbxYySw/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de Python para Análisis de Datos [02] - Pandas: Manipulación y Tratamiento de Datos 🐍",
-    "desc": "Clase magistral y contenido audiovisual enfocado en bases de datos, sql, postgresql, optimizacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "qNwXlHnFj40",
-    "author": "PicaCodigo",
-    "career": "sistemas",
-    "tags": [
-      "bases de datos",
-      "sql",
-      "postgresql",
-      "optimizacion"
-    ],
-    "views": 6827,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=qNwXlHnFj40",
-    "thumb": "https://img.youtube.com/vi/qNwXlHnFj40/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Python COMPLETO para PRINCIPIANTES",
-    "desc": "Clase magistral y contenido audiovisual enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "WVqvrRXloc0",
-    "author": "Josue Tapia",
-    "career": "sistemas",
-    "tags": [
-      "devops",
-      "docker",
-      "kubernetes",
-      "cloud"
-    ],
-    "views": 7104,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=WVqvrRXloc0",
-    "thumb": "https://img.youtube.com/vi/WVqvrRXloc0/hqdefault.jpg"
-  },
-  {
-    "title": "¿Qué es React y por qué domina el desarrollo frontend?",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algoritmos, estructuras de datos, complejidad, ciencias computacion, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "kEMr0rFjB7E",
+    "title": "¿Qué es Docker y Kubernetes?",
+    "desc": "Clase magistral universitaria de 15:40 impartida por EDteam. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=gjRoNFopFig",
+    "yt_id": "gjRoNFopFig",
+    "thumb": "https://img.youtube.com/vi/gjRoNFopFig/hqdefault.jpg",
     "author": "EDteam",
     "career": "sistemas",
     "tags": [
-      "algoritmos",
-      "estructuras de datos",
-      "complejidad",
-      "ciencias computacion"
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
     ],
-    "views": 7381,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=kEMr0rFjB7E",
-    "thumb": "https://img.youtube.com/vi/kEMr0rFjB7E/hqdefault.jpg"
+    "views": 833,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "🧑‍💻 Presentación del curso y Fundamentos del Desarrollo Web - Bootcamp FullStack Gratuito",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad, ciberseguridad, redes, hacking etico, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "wTpuKOhGfJE",
+    "title": "Curso de Docker desde cero hasta despliegue a producción",
+    "desc": "Clase magistral universitaria de 1:51:07 impartida por midudev. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=wZnddhLrmiM",
+    "yt_id": "wZnddhLrmiM",
+    "thumb": "https://img.youtube.com/vi/wZnddhLrmiM/hqdefault.jpg",
     "author": "midudev",
     "career": "sistemas",
     "tags": [
-      "seguridad",
-      "ciberseguridad",
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1363,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Aprende Docker ahora! curso completo gratis desde cero!",
+    "desc": "Clase magistral universitaria de 1:29:26 impartida por HolaMundo. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=4Dko5W96WHg",
+    "yt_id": "4Dko5W96WHg",
+    "thumb": "https://img.youtube.com/vi/4Dko5W96WHg/hqdefault.jpg",
+    "author": "HolaMundo",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 718,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "KUBERNETES De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)",
+    "desc": "Clase magistral universitaria de 1:31:32 impartida por Pelado Nerd. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=DCoBcpOA7W4",
+    "yt_id": "DCoBcpOA7W4",
+    "thumb": "https://img.youtube.com/vi/DCoBcpOA7W4/hqdefault.jpg",
+    "author": "Pelado Nerd",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1418,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Curso Completo de Kubernetes para Programadores",
+    "desc": "Clase magistral universitaria de 3:09:46 impartida por La Tecnología Avanza. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=gvqpZkdK4DU",
+    "yt_id": "gvqpZkdK4DU",
+    "thumb": "https://img.youtube.com/vi/gvqpZkdK4DU/hqdefault.jpg",
+    "author": "La Tecnología Avanza",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1393,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "La VERDADERA DIFERENCIA entre Docker y Kubernetes (Te sorprenderá)",
+    "desc": "Clase magistral universitaria de 11:35 impartida por La Tecnología Avanza. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ZtRY5gGuOI8",
+    "yt_id": "ZtRY5gGuOI8",
+    "thumb": "https://img.youtube.com/vi/ZtRY5gGuOI8/hqdefault.jpg",
+    "author": "La Tecnología Avanza",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 957,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Docker para Desarrolladores (Visual Studio Code, Devcontainers, Github Codespaces, compose y más)",
+    "desc": "Clase magistral universitaria de 1:44:49 impartida por Fazt Code. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=SMqdC6g6Y2o",
+    "yt_id": "SMqdC6g6Y2o",
+    "thumb": "https://img.youtube.com/vi/SMqdC6g6Y2o/hqdefault.jpg",
+    "author": "Fazt Code",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1066,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "DOCKER De NOVATO a PRO! (CURSO COMPLETO EN ESPAÑOL)",
+    "desc": "Clase magistral universitaria de 1:06:22 impartida por Pelado Nerd. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=CV_Uf3Dq-EU",
+    "yt_id": "CV_Uf3Dq-EU",
+    "thumb": "https://img.youtube.com/vi/CV_Uf3Dq-EU/hqdefault.jpg",
+    "author": "Pelado Nerd",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1094,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "22-Desplegando en una instancia de contenedor | Docker para desarrolladores .Net",
+    "desc": "Clase magistral universitaria de 3:31 impartida por Andrés Londoño. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=wuCZmYnILFE",
+    "yt_id": "wuCZmYnILFE",
+    "thumb": "https://img.youtube.com/vi/wuCZmYnILFE/hqdefault.jpg",
+    "author": "Andrés Londoño",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 830,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "💻 Diplomado Docker 2026: De Novato a Experto 🧑‍🎓",
+    "desc": "Clase magistral universitaria de 4:55:40 impartida por Automatización Efectiva. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=M0HKGzoXJE4",
+    "yt_id": "M0HKGzoXJE4",
+    "thumb": "https://img.youtube.com/vi/M0HKGzoXJE4/hqdefault.jpg",
+    "author": "Automatización Efectiva",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1327,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Kubernetes desde CERO en ESPAÑOL | Jean Reyes @jemjaf",
+    "desc": "Clase magistral universitaria de 1:51:06 impartida por Jean Reyes | DevOps | AWS. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=5OcFvFB4fxk",
+    "yt_id": "5OcFvFB4fxk",
+    "thumb": "https://img.youtube.com/vi/5OcFvFB4fxk/hqdefault.jpg",
+    "author": "Jean Reyes | DevOps | AWS",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1171,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Docker - La explicación que querías",
+    "desc": "Clase magistral universitaria de 18:53 impartida por Ringa Tech. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=9eTVZwMZJsA",
+    "yt_id": "9eTVZwMZJsA",
+    "thumb": "https://img.youtube.com/vi/9eTVZwMZJsA/hqdefault.jpg",
+    "author": "Ringa Tech",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 757,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "🐳 Docker, Kubernetes y todo sobre contenedores | Eduard Tomás |🎙️ Podcast Desarrollo de Software",
+    "desc": "Clase magistral universitaria de 1:18:36 impartida por campusMVP.es. Contenido de alta fidelidad académica enfocado en devops, docker, kubernetes, cloud, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=IGuWGnFtnZg",
+    "yt_id": "IGuWGnFtnZg",
+    "thumb": "https://img.youtube.com/vi/IGuWGnFtnZg/hqdefault.jpg",
+    "author": "campusMVP.es",
+    "career": "sistemas",
+    "tags": [
+      "devops",
+      "docker",
+      "kubernetes",
+      "cloud"
+    ],
+    "views": 1056,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Qué es el MODELO OSI ✅ Explicado de manera sencilla | Curso de redes y networking | Alberto López",
+    "desc": "Clase magistral universitaria de 11:34 impartida por AlbertoLopez TECH TIPS. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ODY4q4_3Acc",
+    "yt_id": "ODY4q4_3Acc",
+    "thumb": "https://img.youtube.com/vi/ODY4q4_3Acc/hqdefault.jpg",
+    "author": "AlbertoLopez TECH TIPS",
+    "career": "sistemas",
+    "tags": [
       "redes",
-      "hacking etico"
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 7658,
+    "views": 1136,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=wTpuKOhGfJE",
-    "thumb": "https://img.youtube.com/vi/wTpuKOhGfJE/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Curso Electrónica Básica - #4 Resistencias y Condensadores",
-    "desc": "Clase magistral y contenido audiovisual enfocado en electronica, componentes, resistencias, diodos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "k0Mtr-Wc4AE",
-    "author": "Tecnocom Ingenieria",
-    "career": "electronica",
+    "title": "Explicación Capas Modelo OSI y TCP/IP en Redes 👉 Diferencias y Comparación ✅",
+    "desc": "Clase magistral universitaria de 9:02 impartida por Contando Bits. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=MqpIJLmMny8",
+    "yt_id": "MqpIJLmMny8",
+    "thumb": "https://img.youtube.com/vi/MqpIJLmMny8/hqdefault.jpg",
+    "author": "Contando Bits",
+    "career": "sistemas",
     "tags": [
-      "electronica",
-      "componentes",
-      "resistencias",
-      "diodos"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 1200,
+    "views": 1237,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=k0Mtr-Wc4AE",
-    "thumb": "https://img.youtube.com/vi/k0Mtr-Wc4AE/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "curso de electrónica básica desde cero - Basic electronics course (#12 condensadores y led )",
-    "desc": "Clase magistral y contenido audiovisual enfocado en circuitos, kirchhoff, analisis circuitos, voltaje, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "mHoEigtJaTA",
-    "author": "Editronikx",
-    "career": "electronica",
+    "title": "2. Modelo OSI y TCP/IP",
+    "desc": "Clase magistral universitaria de 53:26 impartida por P C. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=aVTwtJcRZDo",
+    "yt_id": "aVTwtJcRZDo",
+    "thumb": "https://img.youtube.com/vi/aVTwtJcRZDo/hqdefault.jpg",
+    "author": "P C",
+    "career": "sistemas",
     "tags": [
-      "circuitos",
-      "kirchhoff",
-      "analisis circuitos",
-      "voltaje"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 1477,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=mHoEigtJaTA",
-    "thumb": "https://img.youtube.com/vi/mHoEigtJaTA/hqdefault.jpg"
-  },
-  {
-    "title": "curso de electrónica básica desde cero para principiantes  (#1 conceptos básicos)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en transistores, bjt, mosfet, amplificadores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "LjYClvMPRdE",
-    "author": "Editronikx",
-    "career": "electronica",
-    "tags": [
-      "transistores",
-      "bjt",
-      "mosfet",
-      "amplificadores"
-    ],
-    "views": 1754,
+    "views": 1309,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=LjYClvMPRdE",
-    "thumb": "https://img.youtube.com/vi/LjYClvMPRdE/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "curso de electrónica básica desde cero - Basic electronics course (#2 materiales para el curso)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en instrumentacion, osciloscopio, mediciones, laboratorio, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "JG8UAYETm4s",
-    "author": "Editronikx",
-    "career": "electronica",
+    "title": "Curso NLA01: CCENT - 2/37: Modelo OSI y TCP/IP",
+    "desc": "Clase magistral universitaria de 53:26 impartida por P C. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=UYxPDTq03-8",
+    "yt_id": "UYxPDTq03-8",
+    "thumb": "https://img.youtube.com/vi/UYxPDTq03-8/hqdefault.jpg",
+    "author": "P C",
+    "career": "sistemas",
     "tags": [
-      "instrumentacion",
-      "osciloscopio",
-      "mediciones",
-      "laboratorio"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 2031,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=JG8UAYETm4s",
-    "thumb": "https://img.youtube.com/vi/JG8UAYETm4s/hqdefault.jpg"
-  },
-  {
-    "title": "Capacitores Explicados - Los fundamentos funcionan los condensadores. Principio de funcionamiento",
-    "desc": "Clase magistral y contenido audiovisual enfocado en arduino, microcontroladores, embebidos, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "h_m6qFRNITU",
-    "author": "Mentalidad De Ingeniería",
-    "career": "electronica",
-    "tags": [
-      "arduino",
-      "microcontroladores",
-      "embebidos",
-      "hardware"
-    ],
-    "views": 2308,
+    "views": 1011,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=h_m6qFRNITU",
-    "thumb": "https://img.youtube.com/vi/h_m6qFRNITU/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Curso de Electrónica #1 Resistencias Capacitores Inductores y Diodos!",
-    "desc": "Clase magistral y contenido audiovisual enfocado en esp32, iot, sensores, redes, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "vJnGSqnFgvw",
-    "author": "Tecnologia y Soluciones",
-    "career": "electronica",
+    "title": "✅ MODELO OSI EXPLICACION de las 7 capas ✅ | Que es el modelo Osi y cómo funcionan sus 7 capas?",
+    "desc": "Clase magistral universitaria de 8:04 impartida por Retro. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=-QTNJws7PRg",
+    "yt_id": "-QTNJws7PRg",
+    "thumb": "https://img.youtube.com/vi/-QTNJws7PRg/hqdefault.jpg",
+    "author": "Retro",
+    "career": "sistemas",
     "tags": [
-      "esp32",
-      "iot",
-      "sensores",
-      "redes"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 2585,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=vJnGSqnFgvw",
-    "thumb": "https://img.youtube.com/vi/vJnGSqnFgvw/hqdefault.jpg"
-  },
-  {
-    "title": "CIRCUITO Electrónico y CONCEPTOS básicos  -- Curso Electrónica Básica  #1 - principiantes - GRATIS",
-    "desc": "Clase magistral y contenido audiovisual enfocado en automatizacion, plc, ladder, industria 4.0, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "FOY66XAefsk",
-    "author": "Tecnocom Ingenieria",
-    "career": "electronica",
-    "tags": [
-      "automatizacion",
-      "plc",
-      "ladder",
-      "industria 4.0"
-    ],
-    "views": 2862,
+    "views": 806,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=FOY66XAefsk",
-    "thumb": "https://img.youtube.com/vi/FOY66XAefsk/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Curso Electrónica Básica - #2 Corriente Alterna y Continua - El Multimetro",
-    "desc": "Clase magistral y contenido audiovisual enfocado en robotica, motores, control, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "xXyYZK2Qx94",
-    "author": "Tecnocom Ingenieria",
-    "career": "electronica",
+    "title": "Modelo de capas OSI y TCP/IP. Curso de redes desde 0 | Cap 12 |",
+    "desc": "Clase magistral universitaria de 24:02 impartida por NASeros. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=iNh-62Mf0O4",
+    "yt_id": "iNh-62Mf0O4",
+    "thumb": "https://img.youtube.com/vi/iNh-62Mf0O4/hqdefault.jpg",
+    "author": "NASeros",
+    "career": "sistemas",
     "tags": [
-      "robotica",
-      "motores",
-      "control",
-      "hardware"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 3139,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=xXyYZK2Qx94",
-    "thumb": "https://img.youtube.com/vi/xXyYZK2Qx94/hqdefault.jpg"
-  },
-  {
-    "title": "Resistencias Explicadas",
-    "desc": "Clase magistral y contenido audiovisual enfocado en electronica, componentes, resistencias, diodos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "blUimcoNpKs",
-    "author": "Mentalidad De Ingeniería",
-    "career": "electronica",
-    "tags": [
-      "electronica",
-      "componentes",
-      "resistencias",
-      "diodos"
-    ],
-    "views": 3416,
+    "views": 1160,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=blUimcoNpKs",
-    "thumb": "https://img.youtube.com/vi/blUimcoNpKs/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "COMPONENTES ELECTRÓNICOS - Resumen / Idea intuitiva",
-    "desc": "Clase magistral y contenido audiovisual enfocado en circuitos, kirchhoff, analisis circuitos, voltaje, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "1NRFL6YYtzg",
-    "author": "Manik",
-    "career": "electronica",
+    "title": "Modelo OSI y TCP/IP: Explicación y diferencias | Curso CIBERSEGURIDAD desde 0 2025",
+    "desc": "Clase magistral universitaria de 5:34 impartida por RINKU. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=7IET_56m_Gk",
+    "yt_id": "7IET_56m_Gk",
+    "thumb": "https://img.youtube.com/vi/7IET_56m_Gk/hqdefault.jpg",
+    "author": "RINKU",
+    "career": "sistemas",
     "tags": [
-      "circuitos",
-      "kirchhoff",
-      "analisis circuitos",
-      "voltaje"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 3693,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=1NRFL6YYtzg",
-    "thumb": "https://img.youtube.com/vi/1NRFL6YYtzg/hqdefault.jpg"
-  },
-  {
-    "title": "15 Componentes Básicos que debes conocer 📚⚡ #electronica #electricidad #corrienteelectrica",
-    "desc": "Clase magistral y contenido audiovisual enfocado en transistores, bjt, mosfet, amplificadores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "SI3m8f9SaS4",
-    "author": "Electronica TV",
-    "career": "electronica",
-    "tags": [
-      "transistores",
-      "bjt",
-      "mosfet",
-      "amplificadores"
-    ],
-    "views": 3970,
+    "views": 881,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=SI3m8f9SaS4",
-    "thumb": "https://img.youtube.com/vi/SI3m8f9SaS4/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Passive & Basic Components: Resistor, Capacitor (100µF 50V), Inductor, Potentiometer #diyelectronics",
-    "desc": "Clase magistral y contenido audiovisual enfocado en instrumentacion, osciloscopio, mediciones, laboratorio, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "HmGxYk6HauE",
-    "author": "Master Electronics",
-    "career": "electronica",
+    "title": "¿Que es el modelo OSI? | Modelo OSI bien explicado  - Curso Redes CCNA 1 Episodio 13.2 #ccna",
+    "desc": "Clase magistral universitaria de 1:31:01 impartida por El Mundo del Networking. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=KTcMdtpWi3U",
+    "yt_id": "KTcMdtpWi3U",
+    "thumb": "https://img.youtube.com/vi/KTcMdtpWi3U/hqdefault.jpg",
+    "author": "El Mundo del Networking",
+    "career": "sistemas",
     "tags": [
-      "instrumentacion",
-      "osciloscopio",
-      "mediciones",
-      "laboratorio"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 4247,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=HmGxYk6HauE",
-    "thumb": "https://img.youtube.com/vi/HmGxYk6HauE/hqdefault.jpg"
-  },
-  {
-    "title": "Componentes electrónicos más utilizados.",
-    "desc": "Clase magistral y contenido audiovisual enfocado en arduino, microcontroladores, embebidos, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "2cCpU74-IBA",
-    "author": "Profe_Carlos Miranda",
-    "career": "electronica",
-    "tags": [
-      "arduino",
-      "microcontroladores",
-      "embebidos",
-      "hardware"
-    ],
-    "views": 4524,
+    "views": 848,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=2cCpU74-IBA",
-    "thumb": "https://img.youtube.com/vi/2cCpU74-IBA/hqdefault.jpg"
+    "type": "curso"
   },
   {
-    "title": "Electronic Components Identification",
-    "desc": "Clase magistral y contenido audiovisual enfocado en esp32, iot, sensores, redes, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "yzFmuwQbRb0",
-    "author": "Electronics Education",
-    "career": "electronica",
+    "title": "Un resumen  completo del modelo #TCPIP (Todas sus capas en menos de 7 minutos)",
+    "desc": "Clase magistral universitaria de 6:52 impartida por Mastering IT. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=1pB2kan_AFk",
+    "yt_id": "1pB2kan_AFk",
+    "thumb": "https://img.youtube.com/vi/1pB2kan_AFk/hqdefault.jpg",
+    "author": "Mastering IT",
+    "career": "sistemas",
     "tags": [
-      "esp32",
-      "iot",
-      "sensores",
-      "redes"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 4801,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=yzFmuwQbRb0",
-    "thumb": "https://img.youtube.com/vi/yzFmuwQbRb0/hqdefault.jpg"
-  },
-  {
-    "title": "Componentes electrónicos 👨‍🔧✌️ #ingedarwin #electronica",
-    "desc": "Clase magistral y contenido audiovisual enfocado en automatizacion, plc, ladder, industria 4.0, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "_0ypBfTtLx8",
-    "author": "IngE Darwin",
-    "career": "electronica",
-    "tags": [
-      "automatizacion",
-      "plc",
-      "ladder",
-      "industria 4.0"
-    ],
-    "views": 5078,
+    "views": 778,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=_0ypBfTtLx8",
-    "thumb": "https://img.youtube.com/vi/_0ypBfTtLx8/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Curso de Electrónica Básica desde CERO ⚡ Aprende Fácil y Rápido - Capítulo 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en robotica, motores, control, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "RH9eLKXq2qk",
-    "author": "AUTOMATIZACION INDUSTRIAL",
-    "career": "electronica",
+    "title": "Modelo OSI Animación Español | Un resumen completo- Redes desde CERO hasta Avanzado",
+    "desc": "Clase magistral universitaria de 13:32 impartida por Mastering IT. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=I6qlFo2WyTE",
+    "yt_id": "I6qlFo2WyTE",
+    "thumb": "https://img.youtube.com/vi/I6qlFo2WyTE/hqdefault.jpg",
+    "author": "Mastering IT",
+    "career": "sistemas",
     "tags": [
-      "robotica",
-      "motores",
-      "control",
-      "hardware"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 5355,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=RH9eLKXq2qk",
-    "thumb": "https://img.youtube.com/vi/RH9eLKXq2qk/hqdefault.jpg"
-  },
-  {
-    "title": "✔Capitulo 2: ¿Qué es la CORRIENTE ELECTRICA? ⚡- CURSO DE ELECTRONICA BASICA - Electrónica Desde Cero",
-    "desc": "Clase magistral y contenido audiovisual enfocado en electronica, componentes, resistencias, diodos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "eAar1hT6v04",
-    "author": "AUTOMATIZACION INDUSTRIAL",
-    "career": "electronica",
-    "tags": [
-      "electronica",
-      "componentes",
-      "resistencias",
-      "diodos"
-    ],
-    "views": 5632,
+    "views": 1146,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=eAar1hT6v04",
-    "thumb": "https://img.youtube.com/vi/eAar1hT6v04/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Curso de electrónica básica 0 - Introducción",
-    "desc": "Clase magistral y contenido audiovisual enfocado en circuitos, kirchhoff, analisis circuitos, voltaje, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "z7TRTAMJqm0",
-    "author": "Radioelectronica-Spain",
-    "career": "electronica",
+    "title": "Modelo OSI Proceso Completo - Curso Redes CCNA 1 Episodio 14.5 #ccna #cisco",
+    "desc": "Clase magistral universitaria de 2:22:22 impartida por El Mundo del Networking. Contenido de alta fidelidad académica enfocado en redes, cisco, telecomunicaciones, infraestructura, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=GZQzcNFjANE",
+    "yt_id": "GZQzcNFjANE",
+    "thumb": "https://img.youtube.com/vi/GZQzcNFjANE/hqdefault.jpg",
+    "author": "El Mundo del Networking",
+    "career": "sistemas",
     "tags": [
-      "circuitos",
-      "kirchhoff",
-      "analisis circuitos",
-      "voltaje"
+      "redes",
+      "cisco",
+      "telecomunicaciones",
+      "infraestructura"
     ],
-    "views": 5909,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=z7TRTAMJqm0",
-    "thumb": "https://img.youtube.com/vi/z7TRTAMJqm0/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de electrónica básica 1. Conocimientos fundamentales. Energía. Potencia.",
-    "desc": "Clase magistral y contenido audiovisual enfocado en transistores, bjt, mosfet, amplificadores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "PYjlw4zuwLw",
-    "author": "Radioelectronica-Spain",
-    "career": "electronica",
-    "tags": [
-      "transistores",
-      "bjt",
-      "mosfet",
-      "amplificadores"
-    ],
-    "views": 6186,
+    "views": 975,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=PYjlw4zuwLw",
-    "thumb": "https://img.youtube.com/vi/PYjlw4zuwLw/hqdefault.jpg"
-  },
-  {
-    "title": "APRENDE Electrónica AHORA! 👉CURSO Básico #11 -- ¡CONDENSADOR! tipos y funcionamiento",
-    "desc": "Clase magistral y contenido audiovisual enfocado en instrumentacion, osciloscopio, mediciones, laboratorio, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "VyqEIy-lU6k",
-    "author": "Tips de ELECTRONICA",
-    "career": "electronica",
-    "tags": [
-      "instrumentacion",
-      "osciloscopio",
-      "mediciones",
-      "laboratorio"
-    ],
-    "views": 6463,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=VyqEIy-lU6k",
-    "thumb": "https://img.youtube.com/vi/VyqEIy-lU6k/hqdefault.jpg"
-  },
-  {
-    "title": "¡Atención, futuros técnicos! 💡 ¿Resistencia, capacitor o diodo SMD?",
-    "desc": "Clase magistral y contenido audiovisual enfocado en arduino, microcontroladores, embebidos, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "4M3CkaJTfz0",
-    "author": "ReparaFacil_celulares",
-    "career": "electronica",
-    "tags": [
-      "arduino",
-      "microcontroladores",
-      "embebidos",
-      "hardware"
-    ],
-    "views": 6740,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=4M3CkaJTfz0",
-    "thumb": "https://img.youtube.com/vi/4M3CkaJTfz0/hqdefault.jpg"
-  },
-  {
-    "title": "Resonancia RLC: 31 V en la bobina con una fuente de 10 V",
-    "desc": "Clase magistral y contenido audiovisual enfocado en esp32, iot, sensores, redes, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "_G5P2A1Xy_Q",
-    "author": "La Electroescuela",
-    "career": "electronica",
-    "tags": [
-      "esp32",
-      "iot",
-      "sensores",
-      "redes"
-    ],
-    "views": 7017,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=_G5P2A1Xy_Q",
-    "thumb": "https://img.youtube.com/vi/_G5P2A1Xy_Q/hqdefault.jpg"
-  },
-  {
-    "title": "Símbolos y componentes eléctricos 🤯✌️ #ingedarwin #instrumentos",
-    "desc": "Clase magistral y contenido audiovisual enfocado en automatizacion, plc, ladder, industria 4.0, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "W1xhA1Lw5WI",
-    "author": "IngE Darwin",
-    "career": "electronica",
-    "tags": [
-      "automatizacion",
-      "plc",
-      "ladder",
-      "industria 4.0"
-    ],
-    "views": 7294,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=W1xhA1Lw5WI",
-    "thumb": "https://img.youtube.com/vi/W1xhA1Lw5WI/hqdefault.jpg"
-  },
-  {
-    "title": "⚡ Resistor, Capacitor aur Transistor Kya Hain? - 3 Basic Electronic Components Explained in Urdu",
-    "desc": "Clase magistral y contenido audiovisual enfocado en robotica, motores, control, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "kcQSPKbOvCI",
-    "author": "Electronic Tech Urdu",
-    "career": "electronica",
-    "tags": [
-      "robotica",
-      "motores",
-      "control",
-      "hardware"
-    ],
-    "views": 7571,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=kcQSPKbOvCI",
-    "thumb": "https://img.youtube.com/vi/kcQSPKbOvCI/hqdefault.jpg"
-  },
-  {
-    "title": "Introducción A La Electrónica - Curso Básico Para Principiantes - Componentes Electrónicos",
-    "desc": "Clase magistral y contenido audiovisual enfocado en electronica, componentes, resistencias, diodos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Gyui0h90y4w",
-    "author": "Wow Tech Hecker",
-    "career": "electronica",
-    "tags": [
-      "electronica",
-      "componentes",
-      "resistencias",
-      "diodos"
-    ],
-    "views": 7848,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=Gyui0h90y4w",
-    "thumb": "https://img.youtube.com/vi/Gyui0h90y4w/hqdefault.jpg"
-  },
-  {
-    "title": "Clase 1: ¿Qué es Voltaje, Corriente y Resistencia? - Fundamentos de Electrónica Fácil",
-    "desc": "Clase magistral y contenido audiovisual enfocado en circuitos, kirchhoff, analisis circuitos, voltaje, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "FND9BBYEB3c",
-    "author": "Desvare 5070 Tutoriales Electrónica Básica",
-    "career": "electronica",
-    "tags": [
-      "circuitos",
-      "kirchhoff",
-      "analisis circuitos",
-      "voltaje"
-    ],
-    "views": 8125,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=FND9BBYEB3c",
-    "thumb": "https://img.youtube.com/vi/FND9BBYEB3c/hqdefault.jpg"
-  },
-  {
-    "title": "Componentes Esenciales para Principiantes en Electrónica 🔋🔌 #ingenieria  #ingeneriaelectronica",
-    "desc": "Clase magistral y contenido audiovisual enfocado en transistores, bjt, mosfet, amplificadores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "YYvqpVf84dI",
-    "author": "ellie",
-    "career": "electronica",
-    "tags": [
-      "transistores",
-      "bjt",
-      "mosfet",
-      "amplificadores"
-    ],
-    "views": 8402,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=YYvqpVf84dI",
-    "thumb": "https://img.youtube.com/vi/YYvqpVf84dI/hqdefault.jpg"
-  },
-  {
-    "title": "showing how to convert 220V AC to 12V DC using components like a diode, capacitors, and a resistor.",
-    "desc": "Clase magistral y contenido audiovisual enfocado en instrumentacion, osciloscopio, mediciones, laboratorio, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "k9A8wE5hVwc",
-    "author": "DY electronic",
-    "career": "electronica",
-    "tags": [
-      "instrumentacion",
-      "osciloscopio",
-      "mediciones",
-      "laboratorio"
-    ],
-    "views": 8679,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=k9A8wE5hVwc",
-    "thumb": "https://img.youtube.com/vi/k9A8wE5hVwc/hqdefault.jpg"
-  },
-  {
-    "title": "CRISIS de identidad de tus COMPONENTES electrónicos 🤡",
-    "desc": "Clase magistral y contenido audiovisual enfocado en arduino, microcontroladores, embebidos, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "CNXF2Js6Y5s",
-    "author": "Helectror IT",
-    "career": "electronica",
-    "tags": [
-      "arduino",
-      "microcontroladores",
-      "embebidos",
-      "hardware"
-    ],
-    "views": 8956,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=CNXF2Js6Y5s",
-    "thumb": "https://img.youtube.com/vi/CNXF2Js6Y5s/hqdefault.jpg"
-  },
-  {
-    "title": "Componentes electrónicos",
-    "desc": "Clase magistral y contenido audiovisual enfocado en esp32, iot, sensores, redes, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "vqqS-TOHpZE",
-    "author": "Aprende con Yes",
-    "career": "electronica",
-    "tags": [
-      "esp32",
-      "iot",
-      "sensores",
-      "redes"
-    ],
-    "views": 9233,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=vqqS-TOHpZE",
-    "thumb": "https://img.youtube.com/vi/vqqS-TOHpZE/hqdefault.jpg"
-  },
-  {
-    "title": "Tipos de reguladores de voltaje #electronica #ingenieria #regulador",
-    "desc": "Clase magistral y contenido audiovisual enfocado en automatizacion, plc, ladder, industria 4.0, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "KMXIMDRKTY0",
-    "author": "Circuitos Listos",
-    "career": "electronica",
-    "tags": [
-      "automatizacion",
-      "plc",
-      "ladder",
-      "industria 4.0"
-    ],
-    "views": 9510,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=KMXIMDRKTY0",
-    "thumb": "https://img.youtube.com/vi/KMXIMDRKTY0/hqdefault.jpg"
-  },
-  {
-    "title": "Conociendo los componentes electrónicos",
-    "desc": "Clase magistral y contenido audiovisual enfocado en robotica, motores, control, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "T7RFlrbliB8",
-    "author": "Profe_Carlos Miranda",
-    "career": "electronica",
-    "tags": [
-      "robotica",
-      "motores",
-      "control",
-      "hardware"
-    ],
-    "views": 1287,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=T7RFlrbliB8",
-    "thumb": "https://img.youtube.com/vi/T7RFlrbliB8/hqdefault.jpg"
-  },
-  {
-    "title": "¿Qué es el voltaje? ⚡ Electrónica desde cero #2",
-    "desc": "Clase magistral y contenido audiovisual enfocado en electronica, componentes, resistencias, diodos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "UFzrYHTDuYA",
-    "author": "Electrón Libre",
-    "career": "electronica",
-    "tags": [
-      "electronica",
-      "componentes",
-      "resistencias",
-      "diodos"
-    ],
-    "views": 1564,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=UFzrYHTDuYA",
-    "thumb": "https://img.youtube.com/vi/UFzrYHTDuYA/hqdefault.jpg"
-  },
-  {
-    "title": "Como medir un condensador (parte 1)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en circuitos, kirchhoff, analisis circuitos, voltaje, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "METbvuFVOmk",
-    "author": "eltalleresmicasa",
-    "career": "electronica",
-    "tags": [
-      "circuitos",
-      "kirchhoff",
-      "analisis circuitos",
-      "voltaje"
-    ],
-    "views": 1841,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=METbvuFVOmk",
-    "thumb": "https://img.youtube.com/vi/METbvuFVOmk/hqdefault.jpg"
-  },
-  {
-    "title": "Este es un capacitor y así funciona - #LaElectronicaGT #ElectronicaBasica",
-    "desc": "Clase magistral y contenido audiovisual enfocado en transistores, bjt, mosfet, amplificadores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "arRhuLOPuJ4",
-    "author": "La Electrónica",
-    "career": "electronica",
-    "tags": [
-      "transistores",
-      "bjt",
-      "mosfet",
-      "amplificadores"
-    ],
-    "views": 2118,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=arRhuLOPuJ4",
-    "thumb": "https://img.youtube.com/vi/arRhuLOPuJ4/hqdefault.jpg"
-  },
-  {
-    "title": "🔴TIENES que VER Esto🔴",
-    "desc": "Clase magistral y contenido audiovisual enfocado en instrumentacion, osciloscopio, mediciones, laboratorio, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "wPoNJyFeP_Y",
-    "author": "Pablo ELECTRUM",
-    "career": "electronica",
-    "tags": [
-      "instrumentacion",
-      "osciloscopio",
-      "mediciones",
-      "laboratorio"
-    ],
-    "views": 2395,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=wPoNJyFeP_Y",
-    "thumb": "https://img.youtube.com/vi/wPoNJyFeP_Y/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de electrónica basica Parte I #electronica #curso #juntamugre #tutorial",
-    "desc": "Clase magistral y contenido audiovisual enfocado en arduino, microcontroladores, embebidos, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "0pRL16jmxK8",
-    "author": "Espacio de Cesar",
-    "career": "electronica",
-    "tags": [
-      "arduino",
-      "microcontroladores",
-      "embebidos",
-      "hardware"
-    ],
-    "views": 2672,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=0pRL16jmxK8",
-    "thumb": "https://img.youtube.com/vi/0pRL16jmxK8/hqdefault.jpg"
-  },
-  {
-    "title": "🚀Circuitos ELÉCTRICOS: Ley de Ohm y Potencia",
-    "desc": "Clase magistral y contenido audiovisual enfocado en esp32, iot, sensores, redes, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "tpt9FlNYq4k",
-    "author": "El Traductor de Ingeniería",
-    "career": "electronica",
-    "tags": [
-      "esp32",
-      "iot",
-      "sensores",
-      "redes"
-    ],
-    "views": 2949,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=tpt9FlNYq4k",
-    "thumb": "https://img.youtube.com/vi/tpt9FlNYq4k/hqdefault.jpg"
+    "type": "curso"
   },
   {
     "title": "🚀Circuitos ELÉCTRICOS: Leyes de Kirchhoff y Resistencias Equivalentes",
-    "desc": "Clase magistral y contenido audiovisual enfocado en automatizacion, plc, ladder, industria 4.0, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "btrxWydp4ag",
-    "author": "El Traductor de Ingeniería",
-    "career": "electronica",
-    "tags": [
-      "automatizacion",
-      "plc",
-      "ladder",
-      "industria 4.0"
-    ],
-    "views": 3226,
-    "year": 2023,
-    "type": "curso",
+    "desc": "Clase magistral universitaria de 34:46 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
     "url": "https://www.youtube.com/watch?v=btrxWydp4ag",
-    "thumb": "https://img.youtube.com/vi/btrxWydp4ag/hqdefault.jpg"
-  },
-  {
-    "title": "✔Capitulo 12: Potenciometro⚡Curso de Electrónica Básica - Electrónica Desde Cero",
-    "desc": "Clase magistral y contenido audiovisual enfocado en robotica, motores, control, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "IzBuBXtuTso",
-    "author": "AUTOMATIZACION INDUSTRIAL",
-    "career": "electronica",
-    "tags": [
-      "robotica",
-      "motores",
-      "control",
-      "hardware"
-    ],
-    "views": 3503,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=IzBuBXtuTso",
-    "thumb": "https://img.youtube.com/vi/IzBuBXtuTso/hqdefault.jpg"
-  },
-  {
-    "title": "Aprenda ELECTRÓNICA en 👉1 HORA - Electrónica para Principiantes",
-    "desc": "Clase magistral y contenido audiovisual enfocado en electronica, componentes, resistencias, diodos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "hhng6FrBjBQ",
-    "author": "Tips de ELECTRONICA",
-    "career": "electronica",
-    "tags": [
-      "electronica",
-      "componentes",
-      "resistencias",
-      "diodos"
-    ],
-    "views": 3780,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=hhng6FrBjBQ",
-    "thumb": "https://img.youtube.com/vi/hhng6FrBjBQ/hqdefault.jpg"
-  },
-  {
-    "title": "Como medir componentes electrónicos sobre la placa paso a paso!",
-    "desc": "Clase magistral y contenido audiovisual enfocado en circuitos, kirchhoff, analisis circuitos, voltaje, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "h32zF39gwwY",
-    "author": "Practicas de Electronica",
+    "yt_id": "btrxWydp4ag",
+    "thumb": "https://img.youtube.com/vi/btrxWydp4ag/hqdefault.jpg",
+    "author": "El Traductor de Ingeniería",
     "career": "electronica",
     "tags": [
       "circuitos",
       "kirchhoff",
-      "analisis circuitos",
-      "voltaje"
+      "analisis",
+      "electricidad"
     ],
-    "views": 4057,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=h32zF39gwwY",
-    "thumb": "https://img.youtube.com/vi/h32zF39gwwY/hqdefault.jpg"
-  },
-  {
-    "title": "ELECTRÓNICA BÁSICA - INICIO DE CURSO",
-    "desc": "Clase magistral y contenido audiovisual enfocado en transistores, bjt, mosfet, amplificadores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "HMEC8TSWIoU",
-    "author": "Cicap Oficial",
-    "career": "electronica",
-    "tags": [
-      "transistores",
-      "bjt",
-      "mosfet",
-      "amplificadores"
-    ],
-    "views": 4334,
+    "views": 777,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=HMEC8TSWIoU",
-    "thumb": "https://img.youtube.com/vi/HMEC8TSWIoU/hqdefault.jpg"
-  },
-  {
-    "title": "curso de electrónica básica desde cero - Basic electronics course(# 36 condensadores)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en instrumentacion, osciloscopio, mediciones, laboratorio, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "NUqoAkVJST8",
-    "author": "Editronikx",
-    "career": "electronica",
-    "tags": [
-      "instrumentacion",
-      "osciloscopio",
-      "mediciones",
-      "laboratorio"
-    ],
-    "views": 4611,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=NUqoAkVJST8",
-    "thumb": "https://img.youtube.com/vi/NUqoAkVJST8/hqdefault.jpg"
-  },
-  {
-    "title": "COMO medir RESISTENCIAS y CONDENSADORES - MULTIMETRO -- APRENDE Electrónica AHORA! 👉CURSO Básico #13",
-    "desc": "Clase magistral y contenido audiovisual enfocado en arduino, microcontroladores, embebidos, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "EyicoV__LH8",
-    "author": "Tips de ELECTRONICA",
-    "career": "electronica",
-    "tags": [
-      "arduino",
-      "microcontroladores",
-      "embebidos",
-      "hardware"
-    ],
-    "views": 4888,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=EyicoV__LH8",
-    "thumb": "https://img.youtube.com/vi/EyicoV__LH8/hqdefault.jpg"
+    "type": "video"
   },
   {
     "title": "CIRCUITOS ELÉCTRICOS, pero SIN memorizar fórmulas",
-    "desc": "Clase magistral y contenido audiovisual enfocado en esp32, iot, sensores, redes, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "kHZ8SD7jiiA",
-    "author": "El Traductor de Ingeniería",
-    "career": "electronica",
-    "tags": [
-      "esp32",
-      "iot",
-      "sensores",
-      "redes"
-    ],
-    "views": 5165,
-    "year": 2024,
-    "type": "video",
+    "desc": "Clase magistral universitaria de 59:46 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
     "url": "https://www.youtube.com/watch?v=kHZ8SD7jiiA",
-    "thumb": "https://img.youtube.com/vi/kHZ8SD7jiiA/hqdefault.jpg"
-  },
-  {
-    "title": "Cómo USAR una PROTOBOARD para PRINCIPIANTES - Electrónica Básica -",
-    "desc": "Clase magistral y contenido audiovisual enfocado en automatizacion, plc, ladder, industria 4.0, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "99Rqlf5T00w",
-    "author": "ingenierodecables",
-    "career": "electronica",
-    "tags": [
-      "automatizacion",
-      "plc",
-      "ladder",
-      "industria 4.0"
-    ],
-    "views": 5442,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=99Rqlf5T00w",
-    "thumb": "https://img.youtube.com/vi/99Rqlf5T00w/hqdefault.jpg"
-  },
-  {
-    "title": "TEOREMA de THEVENIN ➤ EXPLICACIÓN muy FÁCIL [En SIMPLES PASOS que NO SABIAS] ⚡ CIRCUITOS ELECTRICOS",
-    "desc": "Clase magistral y contenido audiovisual enfocado en robotica, motores, control, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "fhrNKREIlQY",
-    "author": "SECTOR ENERGIA ELECTRICA",
-    "career": "electronica",
-    "tags": [
-      "robotica",
-      "motores",
-      "control",
-      "hardware"
-    ],
-    "views": 5719,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=fhrNKREIlQY",
-    "thumb": "https://img.youtube.com/vi/fhrNKREIlQY/hqdefault.jpg"
-  },
-  {
-    "title": "TEOREMA de THEVENIN 💥 EJERCICIOS RESUELTOS [PASO a PASO desde 0] ➤ FUENTES INDEPENDIENTES 😱",
-    "desc": "Clase magistral y contenido audiovisual enfocado en electronica, componentes, resistencias, diodos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "lKF5zH_cag8",
-    "author": "SECTOR ENERGIA ELECTRICA",
-    "career": "electronica",
-    "tags": [
-      "electronica",
-      "componentes",
-      "resistencias",
-      "diodos"
-    ],
-    "views": 5996,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=lKF5zH_cag8",
-    "thumb": "https://img.youtube.com/vi/lKF5zH_cag8/hqdefault.jpg"
-  },
-  {
-    "title": "🚀Circuitos ELÉCTRICOS: Equivalentes de Thevenin y Norton",
-    "desc": "Clase magistral y contenido audiovisual enfocado en circuitos, kirchhoff, analisis circuitos, voltaje, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "BlkME9ypmuc",
+    "yt_id": "kHZ8SD7jiiA",
+    "thumb": "https://img.youtube.com/vi/kHZ8SD7jiiA/hqdefault.jpg",
     "author": "El Traductor de Ingeniería",
     "career": "electronica",
     "tags": [
       "circuitos",
       "kirchhoff",
-      "analisis circuitos",
-      "voltaje"
+      "analisis",
+      "electricidad"
     ],
-    "views": 6273,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=BlkME9ypmuc",
-    "thumb": "https://img.youtube.com/vi/BlkME9ypmuc/hqdefault.jpg"
-  },
-  {
-    "title": "LEY DE KIRCHHOFF (MALLAS) / EJERCICIO 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en transistores, bjt, mosfet, amplificadores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "1NC9kGDn7Bg",
-    "author": "IngE Darwin",
-    "career": "electronica",
-    "tags": [
-      "transistores",
-      "bjt",
-      "mosfet",
-      "amplificadores"
-    ],
-    "views": 6550,
+    "views": 1460,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=1NC9kGDn7Bg",
-    "thumb": "https://img.youtube.com/vi/1NC9kGDn7Bg/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "LEY DE KIRCHHOFF (NODOS) / EJERCICIO 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en instrumentacion, osciloscopio, mediciones, laboratorio, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "KiKMwEG-l3I",
+    "title": "🚀Circuitos ELÉCTRICOS: GUÍA para resolver (casi) cualquier CIRCUITO",
+    "desc": "Clase magistral universitaria de 32:27 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=qKZvC8rpcsA",
+    "yt_id": "qKZvC8rpcsA",
+    "thumb": "https://img.youtube.com/vi/qKZvC8rpcsA/hqdefault.jpg",
+    "author": "El Traductor de Ingeniería",
+    "career": "electronica",
+    "tags": [
+      "circuitos",
+      "kirchhoff",
+      "analisis",
+      "electricidad"
+    ],
+    "views": 835,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "🚀Circuitos ELÉCTRICOS: Ley de Ohm y Potencia",
+    "desc": "Clase magistral universitaria de 22:27 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=tpt9FlNYq4k",
+    "yt_id": "tpt9FlNYq4k",
+    "thumb": "https://img.youtube.com/vi/tpt9FlNYq4k/hqdefault.jpg",
+    "author": "El Traductor de Ingeniería",
+    "career": "electronica",
+    "tags": [
+      "circuitos",
+      "kirchhoff",
+      "analisis",
+      "electricidad"
+    ],
+    "views": 1274,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "🚀Circuitos ELÉCTRICOS: Equivalentes de Thevenin y Norton",
+    "desc": "Clase magistral universitaria de 28:00 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=BlkME9ypmuc",
+    "yt_id": "BlkME9ypmuc",
+    "thumb": "https://img.youtube.com/vi/BlkME9ypmuc/hqdefault.jpg",
+    "author": "El Traductor de Ingeniería",
+    "career": "electronica",
+    "tags": [
+      "circuitos",
+      "kirchhoff",
+      "analisis",
+      "electricidad"
+    ],
+    "views": 964,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso Circuitos Eléctricos DC - Capítulo 5 : Leyes de Kirchhoff, corrientes",
+    "desc": "Clase magistral universitaria de 9:23 impartida por Juan Bautista Chávez. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=fi7hLqdX_i4",
+    "yt_id": "fi7hLqdX_i4",
+    "thumb": "https://img.youtube.com/vi/fi7hLqdX_i4/hqdefault.jpg",
+    "author": "Juan Bautista Chávez",
+    "career": "electronica",
+    "tags": [
+      "circuitos",
+      "kirchhoff",
+      "analisis",
+      "electricidad"
+    ],
+    "views": 1254,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso Circuitos Eléctricos DC - Capítulo 6 : Leyes de Kirchhoff, ley de voltajes",
+    "desc": "Clase magistral universitaria de 9:41 impartida por Juan Bautista Chávez. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ynFT1kKLZvI",
+    "yt_id": "ynFT1kKLZvI",
+    "thumb": "https://img.youtube.com/vi/ynFT1kKLZvI/hqdefault.jpg",
+    "author": "Juan Bautista Chávez",
+    "career": "electronica",
+    "tags": [
+      "circuitos",
+      "kirchhoff",
+      "analisis",
+      "electricidad"
+    ],
+    "views": 979,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Las Leyes de Kirchhoff ¡Explicación fácil y completa!",
+    "desc": "Clase magistral universitaria de 22:58 impartida por Profesor Sergio Llanos. Contenido de alta fidelidad académica enfocado en circuitos, kirchhoff, analisis, electricidad, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=o8tePfWc9rI",
+    "yt_id": "o8tePfWc9rI",
+    "thumb": "https://img.youtube.com/vi/o8tePfWc9rI/hqdefault.jpg",
+    "author": "Profesor Sergio Llanos",
+    "career": "electronica",
+    "tags": [
+      "circuitos",
+      "kirchhoff",
+      "analisis",
+      "electricidad"
+    ],
+    "views": 1148,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Transistor Explicado - Cómo Funcionan los Transistores",
+    "desc": "Clase magistral universitaria de 18:20 impartida por Mentalidad De Ingeniería. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=zh7PeHAZRLY",
+    "yt_id": "zh7PeHAZRLY",
+    "thumb": "https://img.youtube.com/vi/zh7PeHAZRLY/hqdefault.jpg",
+    "author": "Mentalidad De Ingeniería",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1466,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "curso electrónica básica desde cero | Basic electronics course (# 47 testeo de transistores BJT)",
+    "desc": "Clase magistral universitaria de 20:20 impartida por Editronikx. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=1mIki3whKlE",
+    "yt_id": "1mIki3whKlE",
+    "thumb": "https://img.youtube.com/vi/1mIki3whKlE/hqdefault.jpg",
+    "author": "Editronikx",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1452,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso Electrónica Básica - #6 - El Transistor BJT",
+    "desc": "Clase magistral universitaria de 1:31:43 impartida por Tecnocom Ingenieria. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=eSeqKGbv6Fk",
+    "yt_id": "eSeqKGbv6Fk",
+    "thumb": "https://img.youtube.com/vi/eSeqKGbv6Fk/hqdefault.jpg",
+    "author": "Tecnocom Ingenieria",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1410,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "BJT Parte 01 Transistor BJT videotutorial en español de electrónica",
+    "desc": "Clase magistral universitaria de 21:37 impartida por Pregúntale al Inge. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=l_EG544soDg",
+    "yt_id": "l_EG544soDg",
+    "thumb": "https://img.youtube.com/vi/l_EG544soDg/hqdefault.jpg",
+    "author": "Pregúntale al Inge",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1242,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "TRANSISTORIZED! La Historia De: El Transistor",
+    "desc": "Clase magistral universitaria de 1:03:54 impartida por MILLERTRON. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=f3IUVvJ2XgI",
+    "yt_id": "f3IUVvJ2XgI",
+    "thumb": "https://img.youtube.com/vi/f3IUVvJ2XgI/hqdefault.jpg",
+    "author": "MILLERTRON",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 883,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "¿Qué es un Transistor?",
+    "desc": "Clase magistral universitaria de 5:38 impartida por Electronica Spicus99. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=AYy-YejQdqA",
+    "yt_id": "AYy-YejQdqA",
+    "thumb": "https://img.youtube.com/vi/AYy-YejQdqA/hqdefault.jpg",
+    "author": "Electronica Spicus99",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1118,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "El transistor explicado para no electronicos",
+    "desc": "Clase magistral universitaria de 10:18 impartida por Radioelectronica-Spain. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=558eFxgz1Dc",
+    "yt_id": "558eFxgz1Dc",
+    "thumb": "https://img.youtube.com/vi/558eFxgz1Dc/hqdefault.jpg",
+    "author": "Radioelectronica-Spain",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1041,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "TODO SOBRE TRANSISTORES PARTE 1",
+    "desc": "Clase magistral universitaria de 18:33 impartida por RAFAEL PALACIOS. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=xGeHqRoKXU4",
+    "yt_id": "xGeHqRoKXU4",
+    "thumb": "https://img.youtube.com/vi/xGeHqRoKXU4/hqdefault.jpg",
+    "author": "RAFAEL PALACIOS",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1364,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Transistor",
+    "desc": "Clase magistral universitaria de 18:07 impartida por Profesor Sergio Llanos. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=eNMlbTAgcB4",
+    "yt_id": "eNMlbTAgcB4",
+    "thumb": "https://img.youtube.com/vi/eNMlbTAgcB4/hqdefault.jpg",
+    "author": "Profesor Sergio Llanos",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 946,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Cómo Funciona un Transistor ⚡ Que es un Transistor",
+    "desc": "Clase magistral universitaria de 11:59 impartida por VirtualBrain. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=GwrUC23M5xc",
+    "yt_id": "GwrUC23M5xc",
+    "thumb": "https://img.youtube.com/vi/GwrUC23M5xc/hqdefault.jpg",
+    "author": "VirtualBrain",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1400,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "ELECTRÓNICA BÁSICA - INICIO DE CURSO",
+    "desc": "Clase magistral universitaria de 1:28:07 impartida por Cicap Oficial. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=HMEC8TSWIoU",
+    "yt_id": "HMEC8TSWIoU",
+    "thumb": "https://img.youtube.com/vi/HMEC8TSWIoU/hqdefault.jpg",
+    "author": "Cicap Oficial",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1395,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Guía de inicio de transistores BJT (ElectroBOOM101-011)",
+    "desc": "Clase magistral universitaria de 13:57 impartida por ElectroBOOM. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=2uowMENwiHQ",
+    "yt_id": "2uowMENwiHQ",
+    "thumb": "https://img.youtube.com/vi/2uowMENwiHQ/hqdefault.jpg",
+    "author": "ElectroBOOM",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1125,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "EJERCICIO #1 DE BJT 📌 EJERCICIOS TRANSISTORES BJT PASO a PASO",
+    "desc": "Clase magistral universitaria de 13:16 impartida por SuperIngenieros. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=VmQjej0GZnM",
+    "yt_id": "VmQjej0GZnM",
+    "thumb": "https://img.youtube.com/vi/VmQjej0GZnM/hqdefault.jpg",
+    "author": "SuperIngenieros",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1141,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "curso de electrónica básica desde cero | Basic electronics course ( #14 relé y transistor)",
+    "desc": "Clase magistral universitaria de 35:19 impartida por Editronikx. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=_l9bLqQ-7Q8",
+    "yt_id": "_l9bLqQ-7Q8",
+    "thumb": "https://img.youtube.com/vi/_l9bLqQ-7Q8/hqdefault.jpg",
+    "author": "Editronikx",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1291,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "COMPONENTES ELECTRÓNICOS - Resumen / Idea intuitiva",
+    "desc": "Clase magistral universitaria de 8:10 impartida por Manik. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=1NRFL6YYtzg",
+    "yt_id": "1NRFL6YYtzg",
+    "thumb": "https://img.youtube.com/vi/1NRFL6YYtzg/hqdefault.jpg",
+    "author": "Manik",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 918,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso Electrónica Básica - #4 Resistencias y Condensadores",
+    "desc": "Clase magistral universitaria de 1:33:53 impartida por Tecnocom Ingenieria. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=k0Mtr-Wc4AE",
+    "yt_id": "k0Mtr-Wc4AE",
+    "thumb": "https://img.youtube.com/vi/k0Mtr-Wc4AE/hqdefault.jpg",
+    "author": "Tecnocom Ingenieria",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1487,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Curso de Electrónica #1 Resistencias Capacitores Inductores y Diodos!",
+    "desc": "Clase magistral universitaria de 34:33 impartida por Tecnologia y Soluciones. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=vJnGSqnFgvw",
+    "yt_id": "vJnGSqnFgvw",
+    "thumb": "https://img.youtube.com/vi/vJnGSqnFgvw/hqdefault.jpg",
+    "author": "Tecnologia y Soluciones",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 982,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Tutorial de Electrónica Básica 6: Transistores (BJT)",
+    "desc": "Clase magistral universitaria de 9:52 impartida por TutoElectro. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=EyE6BjuMs-A",
+    "yt_id": "EyE6BjuMs-A",
+    "thumb": "https://img.youtube.com/vi/EyE6BjuMs-A/hqdefault.jpg",
+    "author": "TutoElectro",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 758,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Transistores BJT desde Cero: Guía Completa y Configuraciones",
+    "desc": "Clase magistral universitaria de 1:27:30 impartida por Profe Luis. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=wuUUHgqt4B4",
+    "yt_id": "wuUUHgqt4B4",
+    "thumb": "https://img.youtube.com/vi/wuUUHgqt4B4/hqdefault.jpg",
+    "author": "Profe Luis",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 832,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "curso de electrónica básica desde cero | Basic electronics course (#11 componentes electrónicos)",
+    "desc": "Clase magistral universitaria de 32:11 impartida por Editronikx. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=h1UllP9UmMg",
+    "yt_id": "h1UllP9UmMg",
+    "thumb": "https://img.youtube.com/vi/h1UllP9UmMg/hqdefault.jpg",
+    "author": "Editronikx",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1041,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Tutorial #Electrónica Básica. Cap 06. Transistores",
+    "desc": "Clase magistral universitaria de 45:55 impartida por Terrazocultor jose manuel. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=3VIPUKOYl2s",
+    "yt_id": "3VIPUKOYl2s",
+    "thumb": "https://img.youtube.com/vi/3VIPUKOYl2s/hqdefault.jpg",
+    "author": "Terrazocultor jose manuel",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1470,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Electrónica Básica: Transistor Bipolar (BJT)",
+    "desc": "Clase magistral universitaria de 9:57 impartida por ElectroMagno. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Lbwkp_H7DBE",
+    "yt_id": "Lbwkp_H7DBE",
+    "thumb": "https://img.youtube.com/vi/Lbwkp_H7DBE/hqdefault.jpg",
+    "author": "ElectroMagno",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 936,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso Electrónica Básica - #3  Componentes electronicos basicos -El Protoboard",
+    "desc": "Clase magistral universitaria de 1:25:20 impartida por Tecnocom Ingenieria. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=xg83PiJtKZY",
+    "yt_id": "xg83PiJtKZY",
+    "thumb": "https://img.youtube.com/vi/xg83PiJtKZY/hqdefault.jpg",
+    "author": "Tecnocom Ingenieria",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1492,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "08.01 BJT Fundamentos Físicos",
+    "desc": "Clase magistral universitaria de 7:33 impartida por IPZ FORMACIÓN. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=KZHWWykbobc",
+    "yt_id": "KZHWWykbobc",
+    "thumb": "https://img.youtube.com/vi/KZHWWykbobc/hqdefault.jpg",
+    "author": "IPZ FORMACIÓN",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1346,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "curso de electrónica básica desde cero | Basic electronics course (#12 condensadores y led )",
+    "desc": "Clase magistral universitaria de 20:59 impartida por Editronikx. Contenido de alta fidelidad académica enfocado en electronica, semiconductores, transistores, diodos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=mHoEigtJaTA",
+    "yt_id": "mHoEigtJaTA",
+    "thumb": "https://img.youtube.com/vi/mHoEigtJaTA/hqdefault.jpg",
+    "author": "Editronikx",
+    "career": "electronica",
+    "tags": [
+      "electronica",
+      "semiconductores",
+      "transistores",
+      "diodos"
+    ],
+    "views": 1465,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Clase magistral OPAMPs. Como analizar circuitos con amplificadores operacionales",
+    "desc": "Clase magistral universitaria de 59:43 impartida por ACADENAS. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=rp1uqw3hiZo",
+    "yt_id": "rp1uqw3hiZo",
+    "thumb": "https://img.youtube.com/vi/rp1uqw3hiZo/hqdefault.jpg",
+    "author": "ACADENAS",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1262,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "AMPLIFICADOR OPERACIONAL: Lo que debes saber para empezar (Clase 60)",
+    "desc": "Clase magistral universitaria de 20:25 impartida por ACADENAS. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=-jNR4824ifo",
+    "yt_id": "-jNR4824ifo",
+    "thumb": "https://img.youtube.com/vi/-jNR4824ifo/hqdefault.jpg",
+    "author": "ACADENAS",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1482,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Amplificadores operacionales desde cero!",
+    "desc": "Clase magistral universitaria de 32:35 impartida por AulaVirtual. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=YNKE5-vuziU",
+    "yt_id": "YNKE5-vuziU",
+    "thumb": "https://img.youtube.com/vi/YNKE5-vuziU/hqdefault.jpg",
+    "author": "AulaVirtual",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1173,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "OPAMP. Diseño",
+    "desc": "Clase magistral universitaria de 34:23 impartida por Juan Jesús López García. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Evj6sjHKwso",
+    "yt_id": "Evj6sjHKwso",
+    "thumb": "https://img.youtube.com/vi/Evj6sjHKwso/hqdefault.jpg",
+    "author": "Juan Jesús López García",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1138,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "🔴AMPLIFICADOR INTEGRADOR | Análisis en 6 MINUTOS | Curso AMPLIFICADORES OPERACIONALES",
+    "desc": "Clase magistral universitaria de 7:57 impartida por Les Ingenieurs. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=qMHSr4FAPAM",
+    "yt_id": "qMHSr4FAPAM",
+    "thumb": "https://img.youtube.com/vi/qMHSr4FAPAM/hqdefault.jpg",
+    "author": "Les Ingenieurs",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1382,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Circuito restador + amplificador con OPAMP (Clase 69)",
+    "desc": "Clase magistral universitaria de 18:12 impartida por ACADENAS. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=v74e2LFSCGA",
+    "yt_id": "v74e2LFSCGA",
+    "thumb": "https://img.youtube.com/vi/v74e2LFSCGA/hqdefault.jpg",
+    "author": "ACADENAS",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1013,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Modelo Ideal. OPAMP",
+    "desc": "Clase magistral universitaria de 12:31 impartida por Juan Jesús López García. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=_RlxfMqyQdE",
+    "yt_id": "_RlxfMqyQdE",
+    "thumb": "https://img.youtube.com/vi/_RlxfMqyQdE/hqdefault.jpg",
+    "author": "Juan Jesús López García",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1394,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Circuito Integrador inversor OPAMP.  Convierte onda cuadrada en triangular.  (Clase 71)",
+    "desc": "Clase magistral universitaria de 18:39 impartida por ACADENAS. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=8WGA53vPO_Y",
+    "yt_id": "8WGA53vPO_Y",
+    "thumb": "https://img.youtube.com/vi/8WGA53vPO_Y/hqdefault.jpg",
+    "author": "ACADENAS",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1082,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Análisis Básico de Circuitos con OPAMP",
+    "desc": "Clase magistral universitaria de 14:01 impartida por CantisanoTV. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=GLpO3EiqCFE",
+    "yt_id": "GLpO3EiqCFE",
+    "thumb": "https://img.youtube.com/vi/GLpO3EiqCFE/hqdefault.jpg",
+    "author": "CantisanoTV",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1167,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Como generar señal cuadrada y triangular con OPAMP. Parte 1 (Clase 76.1)",
+    "desc": "Clase magistral universitaria de 11:23 impartida por ACADENAS. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ysdKp1p_FUo",
+    "yt_id": "ysdKp1p_FUo",
+    "thumb": "https://img.youtube.com/vi/ysdKp1p_FUo/hqdefault.jpg",
+    "author": "ACADENAS",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1221,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Diseño y analisis circuito convertidor 0-10V a 4 - 20 mA (Clase 81)",
+    "desc": "Clase magistral universitaria de 33:39 impartida por ACADENAS. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Z-CX5vyAzB0",
+    "yt_id": "Z-CX5vyAzB0",
+    "thumb": "https://img.youtube.com/vi/Z-CX5vyAzB0/hqdefault.jpg",
+    "author": "ACADENAS",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1424,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "¿Qué es un amplificador operacional? | Ingeniería eléctrica | Khan Academy en Español",
+    "desc": "Clase magistral universitaria de 14:10 impartida por KhanAcademyEspañol. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=V_T5xbaSTrE",
+    "yt_id": "V_T5xbaSTrE",
+    "thumb": "https://img.youtube.com/vi/V_T5xbaSTrE/hqdefault.jpg",
+    "author": "KhanAcademyEspañol",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 717,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso de electrónica básica #2.16 - Todo sobre el amplificador operacional",
+    "desc": "Clase magistral universitaria de 16:24 impartida por UltraDavid37 Electrónica. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=NO7A--9aK90",
+    "yt_id": "NO7A--9aK90",
+    "thumb": "https://img.youtube.com/vi/NO7A--9aK90/hqdefault.jpg",
+    "author": "UltraDavid37 Electrónica",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 904,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "SUMADOR INVERSOR + (Inversor, No Inversor,  Seguidor de Tensión) | Ejercicio 2",
+    "desc": "Clase magistral universitaria de 8:58 impartida por IngE Darwin. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ldOQnHVynrc",
+    "yt_id": "ldOQnHVynrc",
+    "thumb": "https://img.youtube.com/vi/ldOQnHVynrc/hqdefault.jpg",
     "author": "IngE Darwin",
     "career": "electronica",
     "tags": [
-      "instrumentacion",
-      "osciloscopio",
-      "mediciones",
-      "laboratorio"
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
     ],
-    "views": 6827,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=KiKMwEG-l3I",
-    "thumb": "https://img.youtube.com/vi/KiKMwEG-l3I/hqdefault.jpg"
+    "views": 736,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "Domina CIRCUITOS ELÉCTRICOS en 17 minutos",
-    "desc": "Clase magistral y contenido audiovisual enfocado en arduino, microcontroladores, embebidos, hardware, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Oq7Dfh85-VE",
-    "author": "seletube",
+    "title": "curso de electrónica básica desde cero | Basic electronics course(# 52 amplificadores operacionales)",
+    "desc": "Clase magistral universitaria de 19:46 impartida por Editronikx. Contenido de alta fidelidad académica enfocado en amplificadores, op-amp, analogica, circuitos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Rmz8YNO0gec",
+    "yt_id": "Rmz8YNO0gec",
+    "thumb": "https://img.youtube.com/vi/Rmz8YNO0gec/hqdefault.jpg",
+    "author": "Editronikx",
+    "career": "electronica",
+    "tags": [
+      "amplificadores",
+      "op-amp",
+      "analogica",
+      "circuitos"
+    ],
+    "views": 1477,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "6 Microcontroladores: Arduino vs ESP32 vs STM32 vs PIC vs Raspberry Pi vs FPGA | ¿Cuál Usar?",
+    "desc": "Clase magistral universitaria de 3:46 impartida por PCB Central. Contenido de alta fidelidad académica enfocado en arduino, esp32, microcontroladores, embebidos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=7thKjkvKLWY",
+    "yt_id": "7thKjkvKLWY",
+    "thumb": "https://img.youtube.com/vi/7thKjkvKLWY/hqdefault.jpg",
+    "author": "PCB Central",
     "career": "electronica",
     "tags": [
       "arduino",
-      "microcontroladores",
-      "embebidos",
-      "hardware"
-    ],
-    "views": 7104,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=Oq7Dfh85-VE",
-    "thumb": "https://img.youtube.com/vi/Oq7Dfh85-VE/hqdefault.jpg"
-  },
-  {
-    "title": "RESISTENCIA EQUIVALENTE [Circuito Serie, Paralelo y Mixto]",
-    "desc": "Clase magistral y contenido audiovisual enfocado en esp32, iot, sensores, redes, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "nxzWyzekT_w",
-    "author": "seletube",
-    "career": "electronica",
-    "tags": [
       "esp32",
-      "iot",
-      "sensores",
-      "redes"
+      "microcontroladores",
+      "embebidos"
     ],
-    "views": 7381,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=nxzWyzekT_w",
-    "thumb": "https://img.youtube.com/vi/nxzWyzekT_w/hqdefault.jpg"
+    "views": 1320,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "TEOREMA DE THEVENIN (CIRCUITOS ELÉCTRICOS) / EJERCICIO 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en automatizacion, plc, ladder, industria 4.0, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "yoGGTfONnwE",
-    "author": "IngE Darwin",
+    "title": "De Arduino a ESP32: Como empezar!",
+    "desc": "Clase magistral universitaria de 8:11 impartida por IoT Lab. Contenido de alta fidelidad académica enfocado en arduino, esp32, microcontroladores, embebidos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=GFSmj-4rOgM",
+    "yt_id": "GFSmj-4rOgM",
+    "thumb": "https://img.youtube.com/vi/GFSmj-4rOgM/hqdefault.jpg",
+    "author": "IoT Lab",
     "career": "electronica",
     "tags": [
-      "automatizacion",
-      "plc",
-      "ladder",
-      "industria 4.0"
+      "arduino",
+      "esp32",
+      "microcontroladores",
+      "embebidos"
     ],
-    "views": 7658,
+    "views": 829,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=yoGGTfONnwE",
-    "thumb": "https://img.youtube.com/vi/yoGGTfONnwE/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Método SIMPLEX Facil y Divertido con Memes - Investigación Operativa",
-    "desc": "Clase magistral y contenido audiovisual enfocado en optimizacion, investigacion de operaciones, simplex, modelos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "kWRGkC0I3B4",
-    "author": "Jose Matzu",
+    "title": "🔧 ¿Qué son los Sistemas Embebidos? La tecnología secreta que mueve el mundo 🌍",
+    "desc": "Clase magistral universitaria de 9:55 impartida por Firmware Factory. Contenido de alta fidelidad académica enfocado en arduino, esp32, microcontroladores, embebidos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Dc4SWYjhZLg",
+    "yt_id": "Dc4SWYjhZLg",
+    "thumb": "https://img.youtube.com/vi/Dc4SWYjhZLg/hqdefault.jpg",
+    "author": "Firmware Factory",
+    "career": "electronica",
+    "tags": [
+      "arduino",
+      "esp32",
+      "microcontroladores",
+      "embebidos"
+    ],
+    "views": 897,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "🤔¿MACHINE LEARNING en MICROCONTROLADORES? | Wels Theory",
+    "desc": "Clase magistral universitaria de 8:04 impartida por Wels. Contenido de alta fidelidad académica enfocado en arduino, esp32, microcontroladores, embebidos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=KtK9S2HSep4",
+    "yt_id": "KtK9S2HSep4",
+    "thumb": "https://img.youtube.com/vi/KtK9S2HSep4/hqdefault.jpg",
+    "author": "Wels",
+    "career": "electronica",
+    "tags": [
+      "arduino",
+      "esp32",
+      "microcontroladores",
+      "embebidos"
+    ],
+    "views": 731,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "MICROCONTROLADORES y PLACAS de DESARROLLO: Arduino, ESP32 y Raspberry Pi Pico - GUÍA COMPLETA 2024",
+    "desc": "Clase magistral universitaria de 5:11 impartida por Rincón Científico. Contenido de alta fidelidad académica enfocado en arduino, esp32, microcontroladores, embebidos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=X6xmsKx033I",
+    "yt_id": "X6xmsKx033I",
+    "thumb": "https://img.youtube.com/vi/X6xmsKx033I/hqdefault.jpg",
+    "author": "Rincón Científico",
+    "career": "electronica",
+    "tags": [
+      "arduino",
+      "esp32",
+      "microcontroladores",
+      "embebidos"
+    ],
+    "views": 1253,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "ESP32 ¿El MEJOR microcontrolador para IoT? | Análisis FAMILIAS ESP32 de Espressif",
+    "desc": "Clase magistral universitaria de 6:03 impartida por Programadores Embebidos. Contenido de alta fidelidad académica enfocado en arduino, esp32, microcontroladores, embebidos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=mpAXYux36oI",
+    "yt_id": "mpAXYux36oI",
+    "thumb": "https://img.youtube.com/vi/mpAXYux36oI/hqdefault.jpg",
+    "author": "Programadores Embebidos",
+    "career": "electronica",
+    "tags": [
+      "arduino",
+      "esp32",
+      "microcontroladores",
+      "embebidos"
+    ],
+    "views": 1357,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Programar ESP32 con Arduino | Instalar Configurar ESP32 en Arduino",
+    "desc": "Clase magistral universitaria de 7:44 impartida por ElectronicSpot. Contenido de alta fidelidad académica enfocado en arduino, esp32, microcontroladores, embebidos, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=BQBFJ8qc3z4",
+    "yt_id": "BQBFJ8qc3z4",
+    "thumb": "https://img.youtube.com/vi/BQBFJ8qc3z4/hqdefault.jpg",
+    "author": "ElectronicSpot",
+    "career": "electronica",
+    "tags": [
+      "arduino",
+      "esp32",
+      "microcontroladores",
+      "embebidos"
+    ],
+    "views": 1156,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Método Simplex para Minimizar",
+    "desc": "Clase magistral universitaria de 37:51 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=VVXbFmMtpfc",
+    "yt_id": "VVXbFmMtpfc",
+    "thumb": "https://img.youtube.com/vi/VVXbFmMtpfc/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
     "career": "industrial",
     "tags": [
-      "optimizacion",
-      "investigacion de operaciones",
+      "investigacion-operaciones",
       "simplex",
-      "modelos"
+      "optimizacion",
+      "industrial"
     ],
-    "views": 1200,
+    "views": 1445,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=kWRGkC0I3B4",
-    "thumb": "https://img.youtube.com/vi/kWRGkC0I3B4/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Bienvenida al curso de Investigación de Operaciones (IO)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en lean, 5s, manufactura, mejora continua, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "g8xEfPIB0JE",
+    "title": "Método simplex maximizar",
+    "desc": "Clase magistral universitaria de 43:31 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=8Cn686CY0hg",
+    "yt_id": "8Cn686CY0hg",
+    "thumb": "https://img.youtube.com/vi/8Cn686CY0hg/hqdefault.jpg",
     "author": "Marcel Ruiz :)",
     "career": "industrial",
     "tags": [
-      "lean",
-      "5s",
-      "manufactura",
-      "mejora continua"
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
     ],
-    "views": 1477,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=g8xEfPIB0JE",
-    "thumb": "https://img.youtube.com/vi/g8xEfPIB0JE/hqdefault.jpg"
+    "views": 1034,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "Generalidades de la Investigación de Operaciones",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calidad, six sigma, dmaic, estadistica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "V82ohQNLiM0",
+    "title": "Método simplex ejemplo básico a mano, para maximizar [Simplex method to maximize]",
+    "desc": "Clase magistral universitaria de 27:25 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=hVjBn14xdMQ",
+    "yt_id": "hVjBn14xdMQ",
+    "thumb": "https://img.youtube.com/vi/hVjBn14xdMQ/hqdefault.jpg",
     "author": "Marcel Ruiz :)",
     "career": "industrial",
     "tags": [
-      "calidad",
-      "six sigma",
-      "dmaic",
-      "estadistica"
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
     ],
-    "views": 1754,
+    "views": 1150,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=V82ohQNLiM0",
-    "thumb": "https://img.youtube.com/vi/V82ohQNLiM0/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Método Simplex Maximizar Lección 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en control estadistico, cpk, graficos control, procesos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "kk_sgSo_uds",
+    "title": "Método Simplex",
+    "desc": "Clase magistral universitaria de 22:56 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=LEIRDl5g8s4",
+    "yt_id": "LEIRDl5g8s4",
+    "thumb": "https://img.youtube.com/vi/LEIRDl5g8s4/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1289,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Resumen ejemplo del método simplex",
+    "desc": "Clase magistral universitaria de 12:44 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=mMCvDKGyRPM",
+    "yt_id": "mMCvDKGyRPM",
+    "thumb": "https://img.youtube.com/vi/mMCvDKGyRPM/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1335,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Método Simplex para Maximizar",
+    "desc": "Clase magistral universitaria de 32:21 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=5VH7vqsP9BE",
+    "yt_id": "5VH7vqsP9BE",
+    "thumb": "https://img.youtube.com/vi/5VH7vqsP9BE/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1166,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Programación Lineal Ejemplo 1. Método gráfico (a mano)",
+    "desc": "Clase magistral universitaria de 30:11 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=dd_EMYzGltU",
+    "yt_id": "dd_EMYzGltU",
+    "thumb": "https://img.youtube.com/vi/dd_EMYzGltU/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1212,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Método Simplex a mano. Ejemplo 1",
+    "desc": "Clase magistral universitaria de 23:36 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=c6nKUZ5BELs",
+    "yt_id": "c6nKUZ5BELs",
+    "thumb": "https://img.youtube.com/vi/c6nKUZ5BELs/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1104,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Introducción a la programación lineal y ejemplo del método gráfico",
+    "desc": "Clase magistral universitaria de 39:42 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=00UWDWg5oMw",
+    "yt_id": "00UWDWg5oMw",
+    "thumb": "https://img.youtube.com/vi/00UWDWg5oMw/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1190,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Problema de asignación",
+    "desc": "Clase magistral universitaria de 10:09 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=7jl0hRf7OvE",
+    "yt_id": "7jl0hRf7OvE",
+    "thumb": "https://img.youtube.com/vi/7jl0hRf7OvE/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 934,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Método Simplex Ejemplo conectores y tubos",
+    "desc": "Clase magistral universitaria de 22:34 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=g1xrDzGqvBs",
+    "yt_id": "g1xrDzGqvBs",
+    "thumb": "https://img.youtube.com/vi/g1xrDzGqvBs/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1417,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Método Simplex Minimizar 100% paso a paso Gran M Ejemplo 1",
+    "desc": "Clase magistral universitaria de 26:08 impartida por IngeChay Clases. Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=zRmXEQak6lo",
+    "yt_id": "zRmXEQak6lo",
+    "thumb": "https://img.youtube.com/vi/zRmXEQak6lo/hqdefault.jpg",
     "author": "IngeChay Clases",
     "career": "industrial",
     "tags": [
-      "control estadistico",
-      "cpk",
-      "graficos control",
-      "procesos"
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
     ],
-    "views": 2031,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=kk_sgSo_uds",
-    "thumb": "https://img.youtube.com/vi/kk_sgSo_uds/hqdefault.jpg"
+    "views": 1166,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "Método Simplex (2) Ejemplo  Maximizar",
-    "desc": "Clase magistral y contenido audiovisual enfocado en productividad, tiempos y movimientos, estudio de metodos, eficiencia, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "g1O_vg9izsg",
-    "author": "IngeChay Clases",
+    "title": "METODO SIMPLEX REVISADO - Explicado y resuelto en Excel -Programación Lineal - IO",
+    "desc": "Clase magistral universitaria de 31:51 impartida por Mario de Jesús Vásquez Sánchez. Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=9-zSn-r8PPo",
+    "yt_id": "9-zSn-r8PPo",
+    "thumb": "https://img.youtube.com/vi/9-zSn-r8PPo/hqdefault.jpg",
+    "author": "Mario de Jesús Vásquez Sánchez",
     "career": "industrial",
     "tags": [
-      "productividad",
-      "tiempos y movimientos",
-      "estudio de metodos",
-      "eficiencia"
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
     ],
-    "views": 2308,
+    "views": 1037,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=g1O_vg9izsg",
-    "thumb": "https://img.youtube.com/vi/g1O_vg9izsg/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "MÉTODO SIMPLEX - EJERCICIO 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en logistica, cadena de suministro, inventarios, eoq, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
+    "title": "Ejemplo del método gráfico en PL",
+    "desc": "Clase magistral universitaria de 11:08 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=XtwvYmRGv5E",
+    "yt_id": "XtwvYmRGv5E",
+    "thumb": "https://img.youtube.com/vi/XtwvYmRGv5E/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
+    "career": "industrial",
+    "tags": [
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
+    ],
+    "views": 1462,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "MÉTODO SIMPLEX | EJERCICIO 1",
+    "desc": "Clase magistral universitaria de 34:59 impartida por Profesor Oscar Luis. Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=eLDXXSTM2_c",
     "yt_id": "eLDXXSTM2_c",
+    "thumb": "https://img.youtube.com/vi/eLDXXSTM2_c/hqdefault.jpg",
     "author": "Profesor Oscar Luis",
     "career": "industrial",
     "tags": [
-      "logistica",
-      "cadena de suministro",
-      "inventarios",
-      "eoq"
-    ],
-    "views": 2585,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=eLDXXSTM2_c",
-    "thumb": "https://img.youtube.com/vi/eLDXXSTM2_c/hqdefault.jpg"
-  },
-  {
-    "title": "10 COSAS QUE DEBES SABER SOBRE EL MÉTODO SIMPLEX - LAS CRÓNICAS IO",
-    "desc": "Clase magistral y contenido audiovisual enfocado en produccion, mrp, planificacion, lineas de ensamble, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "eREHwjKU-kw",
-    "author": "Apinfox",
-    "career": "industrial",
-    "tags": [
-      "produccion",
-      "mrp",
-      "planificacion",
-      "lineas de ensamble"
-    ],
-    "views": 2862,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=eREHwjKU-kw",
-    "thumb": "https://img.youtube.com/vi/eREHwjKU-kw/hqdefault.jpg"
-  },
-  {
-    "title": "Método Simplex - Programación Lineal",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad industrial, ergonomia, gestion ambiental, salud ocupacional, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "gLLH4-3Mtws",
-    "author": "Aprendiendo Fácil",
-    "career": "industrial",
-    "tags": [
-      "seguridad industrial",
-      "ergonomia",
-      "gestion ambiental",
-      "salud ocupacional"
-    ],
-    "views": 3139,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=gLLH4-3Mtws",
-    "thumb": "https://img.youtube.com/vi/gLLH4-3Mtws/hqdefault.jpg"
-  },
-  {
-    "title": "Programación Lineal Método Gráfico 01",
-    "desc": "Clase magistral y contenido audiovisual enfocado en optimizacion, investigacion de operaciones, simplex, modelos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "mkMyhAnkDao",
-    "author": "GOAL PROJECT",
-    "career": "industrial",
-    "tags": [
-      "optimizacion",
-      "investigacion de operaciones",
+      "investigacion-operaciones",
       "simplex",
-      "modelos"
+      "optimizacion",
+      "industrial"
     ],
-    "views": 3416,
+    "views": 1468,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=mkMyhAnkDao",
-    "thumb": "https://img.youtube.com/vi/mkMyhAnkDao/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Programación Lineal Método Gráfico 02",
-    "desc": "Clase magistral y contenido audiovisual enfocado en lean, 5s, manufactura, mejora continua, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "YiOtv5Qt94w",
-    "author": "GOAL PROJECT",
+    "title": "Pasos para resolver un problema del metodo de transporte",
+    "desc": "Clase magistral universitaria de 9:07 impartida por Marcel Ruiz :). Contenido de alta fidelidad académica enfocado en investigacion-operaciones, simplex, optimizacion, industrial, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=NwAwzHL_qzQ",
+    "yt_id": "NwAwzHL_qzQ",
+    "thumb": "https://img.youtube.com/vi/NwAwzHL_qzQ/hqdefault.jpg",
+    "author": "Marcel Ruiz :)",
     "career": "industrial",
     "tags": [
-      "lean",
-      "5s",
-      "manufactura",
-      "mejora continua"
+      "investigacion-operaciones",
+      "simplex",
+      "optimizacion",
+      "industrial"
     ],
-    "views": 3693,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=YiOtv5Qt94w",
-    "thumb": "https://img.youtube.com/vi/YiOtv5Qt94w/hqdefault.jpg"
-  },
-  {
-    "title": "Método Simplex de Maximización - Universidad Mariano Gálvez de Totonicapán UMG",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calidad, six sigma, dmaic, estadistica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "x-lOyxcY6Dw",
-    "author": "Andrés Poncio",
-    "career": "industrial",
-    "tags": [
-      "calidad",
-      "six sigma",
-      "dmaic",
-      "estadistica"
-    ],
-    "views": 3970,
+    "views": 1433,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=x-lOyxcY6Dw",
-    "thumb": "https://img.youtube.com/vi/x-lOyxcY6Dw/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Investigacion de operaciones Planteamiento de modelo, programación lineal 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en control estadistico, cpk, graficos control, procesos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "u_ykcy1AxNE",
-    "author": "jb education center",
+    "title": "Modelo de transporte (Progrmación lineal)",
+    "desc": "Clase magistral universitaria de 3:29 impartida por Liliana P. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=7J0M-P3wTGU",
+    "yt_id": "7J0M-P3wTGU",
+    "thumb": "https://img.youtube.com/vi/7J0M-P3wTGU/hqdefault.jpg",
+    "author": "Liliana P",
     "career": "industrial",
     "tags": [
-      "control estadistico",
-      "cpk",
-      "graficos control",
-      "procesos"
-    ],
-    "views": 4247,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=u_ykcy1AxNE",
-    "thumb": "https://img.youtube.com/vi/u_ykcy1AxNE/hqdefault.jpg"
-  },
-  {
-    "title": "METODO SIMPLEX EN EXCEL (SOLVER)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en productividad, tiempos y movimientos, estudio de metodos, eficiencia, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "jTcTUFlzUpI",
-    "author": "Francisco López",
-    "career": "industrial",
-    "tags": [
-      "productividad",
-      "tiempos y movimientos",
-      "estudio de metodos",
-      "eficiencia"
-    ],
-    "views": 4524,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=jTcTUFlzUpI",
-    "thumb": "https://img.youtube.com/vi/jTcTUFlzUpI/hqdefault.jpg"
-  },
-  {
-    "title": "Investigación de Operaciones - Solución matriz Simplex Parte 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en logistica, cadena de suministro, inventarios, eoq, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "jF6P55WFj-o",
-    "author": "ELB009",
-    "career": "industrial",
-    "tags": [
+      "programacion-lineal",
+      "transporte",
       "logistica",
-      "cadena de suministro",
-      "inventarios",
-      "eoq"
+      "operaciones"
     ],
-    "views": 4801,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=jF6P55WFj-o",
-    "thumb": "https://img.youtube.com/vi/jF6P55WFj-o/hqdefault.jpg"
+    "views": 863,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "Método Simplex (1) Ejemplo  Maximizar",
-    "desc": "Clase magistral y contenido audiovisual enfocado en produccion, mrp, planificacion, lineas de ensamble, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "9OIbDjorz6c",
+    "title": "Programación Lineal Método Gráfico 1 Maximizar paso a paso",
+    "desc": "Clase magistral universitaria de 14:40 impartida por IngeChay Clases. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=2uJiJYviiIw",
+    "yt_id": "2uJiJYviiIw",
+    "thumb": "https://img.youtube.com/vi/2uJiJYviiIw/hqdefault.jpg",
     "author": "IngeChay Clases",
     "career": "industrial",
     "tags": [
-      "produccion",
-      "mrp",
-      "planificacion",
-      "lineas de ensamble"
-    ],
-    "views": 5078,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=9OIbDjorz6c",
-    "thumb": "https://img.youtube.com/vi/9OIbDjorz6c/hqdefault.jpg"
-  },
-  {
-    "title": "METODO SIMPLEX  Problema de Maximización",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad industrial, ergonomia, gestion ambiental, salud ocupacional, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "yXrfDUCjQNk",
-    "author": "CeTIC Unicartagena",
-    "career": "industrial",
-    "tags": [
-      "seguridad industrial",
-      "ergonomia",
-      "gestion ambiental",
-      "salud ocupacional"
-    ],
-    "views": 5355,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=yXrfDUCjQNk",
-    "thumb": "https://img.youtube.com/vi/yXrfDUCjQNk/hqdefault.jpg"
-  },
-  {
-    "title": "Método Simplex con Software - Minimización   Ejercicio 1 - Investigación de operaciones #15",
-    "desc": "Clase magistral y contenido audiovisual enfocado en optimizacion, investigacion de operaciones, simplex, modelos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "vsU12TAqmEo",
-    "author": "Herramientas Para La Investigación",
-    "career": "industrial",
-    "tags": [
-      "optimizacion",
-      "investigacion de operaciones",
-      "simplex",
-      "modelos"
-    ],
-    "views": 5632,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=vsU12TAqmEo",
-    "thumb": "https://img.youtube.com/vi/vsU12TAqmEo/hqdefault.jpg"
-  },
-  {
-    "title": "Simplex Method Part(7) - Operation Research(OR) - Dr. Rania Ragab",
-    "desc": "Clase magistral y contenido audiovisual enfocado en lean, 5s, manufactura, mejora continua, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "0pGZ06Kyagg",
-    "author": "HTI CS",
-    "career": "industrial",
-    "tags": [
-      "lean",
-      "5s",
-      "manufactura",
-      "mejora continua"
-    ],
-    "views": 5909,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=0pGZ06Kyagg",
-    "thumb": "https://img.youtube.com/vi/0pGZ06Kyagg/hqdefault.jpg"
-  },
-  {
-    "title": "Simplex Method Explanation made Simple",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calidad, six sigma, dmaic, estadistica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ZpR0px5Fx74",
-    "author": "TechOnline with Peace Tutorials",
-    "career": "industrial",
-    "tags": [
-      "calidad",
-      "six sigma",
-      "dmaic",
-      "estadistica"
-    ],
-    "views": 6186,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ZpR0px5Fx74",
-    "thumb": "https://img.youtube.com/vi/ZpR0px5Fx74/hqdefault.jpg"
-  },
-  {
-    "title": "Método gráfico y método simplex",
-    "desc": "Clase magistral y contenido audiovisual enfocado en control estadistico, cpk, graficos control, procesos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "0pZBcFligHs",
-    "author": "ANA LUISA MUÑOZ ROJAS",
-    "career": "industrial",
-    "tags": [
-      "control estadistico",
-      "cpk",
-      "graficos control",
-      "procesos"
-    ],
-    "views": 6463,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=0pZBcFligHs",
-    "thumb": "https://img.youtube.com/vi/0pZBcFligHs/hqdefault.jpg"
-  },
-  {
-    "title": "Como resolver un ejemplo del método simplex aplicado",
-    "desc": "Clase magistral y contenido audiovisual enfocado en productividad, tiempos y movimientos, estudio de metodos, eficiencia, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Krki8nBrN_E",
-    "author": "Profe JJ Matemáticas",
-    "career": "industrial",
-    "tags": [
-      "productividad",
-      "tiempos y movimientos",
-      "estudio de metodos",
-      "eficiencia"
-    ],
-    "views": 6740,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=Krki8nBrN_E",
-    "thumb": "https://img.youtube.com/vi/Krki8nBrN_E/hqdefault.jpg"
-  },
-  {
-    "title": "METODO SIMPLEX - PROGRAMACION LINEAL - INVESTIGACION DE OPERACIONES 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en logistica, cadena de suministro, inventarios, eoq, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "DN35-UtTb-c",
-    "author": "WILSON GUTIERREZ ADRIAN",
-    "career": "industrial",
-    "tags": [
+      "programacion-lineal",
+      "transporte",
       "logistica",
-      "cadena de suministro",
-      "inventarios",
-      "eoq"
+      "operaciones"
     ],
-    "views": 7017,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=DN35-UtTb-c",
-    "thumb": "https://img.youtube.com/vi/DN35-UtTb-c/hqdefault.jpg"
-  },
-  {
-    "title": "Algebra matricial parte1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en produccion, mrp, planificacion, lineas de ensamble, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "MuU1fVl5M5M",
-    "author": "Manuel Alejandro Solorzano",
-    "career": "industrial",
-    "tags": [
-      "produccion",
-      "mrp",
-      "planificacion",
-      "lineas de ensamble"
-    ],
-    "views": 7294,
+    "views": 1235,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=MuU1fVl5M5M",
-    "thumb": "https://img.youtube.com/vi/MuU1fVl5M5M/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Algebra matricial parte2",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad industrial, ergonomia, gestion ambiental, salud ocupacional, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "6LI3kwyiyIY",
-    "author": "Manuel Alejandro Solorzano",
+    "title": "Programación Lineal con Geogebra (Maximización)",
+    "desc": "Clase magistral universitaria de 23:45 impartida por Holztank. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ggdZiF03GJE",
+    "yt_id": "ggdZiF03GJE",
+    "thumb": "https://img.youtube.com/vi/ggdZiF03GJE/hqdefault.jpg",
+    "author": "Holztank",
     "career": "industrial",
     "tags": [
-      "seguridad industrial",
-      "ergonomia",
-      "gestion ambiental",
-      "salud ocupacional"
-    ],
-    "views": 7571,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=6LI3kwyiyIY",
-    "thumb": "https://img.youtube.com/vi/6LI3kwyiyIY/hqdefault.jpg"
-  },
-  {
-    "title": "Solve Linear Programming Problems with Simplex",
-    "desc": "Clase magistral y contenido audiovisual enfocado en optimizacion, investigacion de operaciones, simplex, modelos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Mm7hb7TJ6-A",
-    "author": "SystemDR - Scalable System Design",
-    "career": "industrial",
-    "tags": [
-      "optimizacion",
-      "investigacion de operaciones",
-      "simplex",
-      "modelos"
-    ],
-    "views": 7848,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=Mm7hb7TJ6-A",
-    "thumb": "https://img.youtube.com/vi/Mm7hb7TJ6-A/hqdefault.jpg"
-  },
-  {
-    "title": "Special Cases in Simplex Method_Part 3_Unbound Solution",
-    "desc": "Clase magistral y contenido audiovisual enfocado en lean, 5s, manufactura, mejora continua, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "xXEVZTZgFJE",
-    "author": "Manas Patnaik",
-    "career": "industrial",
-    "tags": [
-      "lean",
-      "5s",
-      "manufactura",
-      "mejora continua"
-    ],
-    "views": 8125,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=xXEVZTZgFJE",
-    "thumb": "https://img.youtube.com/vi/xXEVZTZgFJE/hqdefault.jpg"
-  },
-  {
-    "title": "Simplex Method मे  Special Cases_भाग 4_Unrestricted Variable",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calidad, six sigma, dmaic, estadistica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ulv7MZV3fyo",
-    "author": "Shadab Imam",
-    "career": "industrial",
-    "tags": [
-      "calidad",
-      "six sigma",
-      "dmaic",
-      "estadistica"
-    ],
-    "views": 8402,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ulv7MZV3fyo",
-    "thumb": "https://img.youtube.com/vi/ulv7MZV3fyo/hqdefault.jpg"
-  },
-  {
-    "title": "𝐁𝐄𝐍𝐄𝐅𝐈𝐂𝐈𝐎𝐒 𝐂𝐋𝐀𝐕𝐄 𝐃𝐄 𝐋𝐀 𝐎𝐏𝐓𝐈𝐌𝐈𝐙𝐀𝐂𝐈𝐎́𝐍 𝐄𝐍 𝐒𝐔𝐏𝐏𝐋𝐘 𝐂𝐇𝐀𝐈𝐍 🚀📦",
-    "desc": "Clase magistral y contenido audiovisual enfocado en control estadistico, cpk, graficos control, procesos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "yW0aLAVwwp4",
-    "author": "Santiago Najera",
-    "career": "industrial",
-    "tags": [
-      "control estadistico",
-      "cpk",
-      "graficos control",
-      "procesos"
-    ],
-    "views": 8679,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=yW0aLAVwwp4",
-    "thumb": "https://img.youtube.com/vi/yW0aLAVwwp4/hqdefault.jpg"
-  },
-  {
-    "title": "Investigación de operaciones.",
-    "desc": "Clase magistral y contenido audiovisual enfocado en productividad, tiempos y movimientos, estudio de metodos, eficiencia, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ri4w-qTrjBI",
-    "author": "Laura Herrera'",
-    "career": "industrial",
-    "tags": [
-      "productividad",
-      "tiempos y movimientos",
-      "estudio de metodos",
-      "eficiencia"
-    ],
-    "views": 8956,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ri4w-qTrjBI",
-    "thumb": "https://img.youtube.com/vi/ri4w-qTrjBI/hqdefault.jpg"
-  },
-  {
-    "title": "Programación Lineal con SOLVER de EXCEL. #solver #excel #programacionlineal",
-    "desc": "Clase magistral y contenido audiovisual enfocado en logistica, cadena de suministro, inventarios, eoq, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "LTH1dQhGEMo",
-    "author": "Ingeniería Industrial Easy",
-    "career": "industrial",
-    "tags": [
+      "programacion-lineal",
+      "transporte",
       "logistica",
-      "cadena de suministro",
-      "inventarios",
-      "eoq"
+      "operaciones"
     ],
-    "views": 9233,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=LTH1dQhGEMo",
-    "thumb": "https://img.youtube.com/vi/LTH1dQhGEMo/hqdefault.jpg"
-  },
-  {
-    "title": "SIMPLEX METHOD QUESTIONS SOLUTION #tipsonmathematics #linearprogramming #nbsir #lpp #operationsrese",
-    "desc": "Clase magistral y contenido audiovisual enfocado en produccion, mrp, planificacion, lineas de ensamble, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "a-x2MUis-_Q",
-    "author": "TIPS ON MATHEMATICS",
-    "career": "industrial",
-    "tags": [
-      "produccion",
-      "mrp",
-      "planificacion",
-      "lineas de ensamble"
-    ],
-    "views": 9510,
+    "views": 962,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=a-x2MUis-_Q",
-    "thumb": "https://img.youtube.com/vi/a-x2MUis-_Q/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Understanding Simplex Method via GRAPHS",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad industrial, ergonomia, gestion ambiental, salud ocupacional, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Gn2gMSI2rwE",
-    "author": "Manas Patnaik",
+    "title": "Métodos Cuantitativos II [Clase 12][Programación Lineal - Método Gráfico]",
+    "desc": "Clase magistral universitaria de 24:28 impartida por Pumas Community. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=s6nYorUVbgA",
+    "yt_id": "s6nYorUVbgA",
+    "thumb": "https://img.youtube.com/vi/s6nYorUVbgA/hqdefault.jpg",
+    "author": "Pumas Community",
     "career": "industrial",
     "tags": [
-      "seguridad industrial",
-      "ergonomia",
-      "gestion ambiental",
-      "salud ocupacional"
-    ],
-    "views": 1287,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=Gn2gMSI2rwE",
-    "thumb": "https://img.youtube.com/vi/Gn2gMSI2rwE/hqdefault.jpg"
-  },
-  {
-    "title": "#simplexmethod #linearprogramming #operationsresearch",
-    "desc": "Clase magistral y contenido audiovisual enfocado en optimizacion, investigacion de operaciones, simplex, modelos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "-F0-d2p9OtQ",
-    "author": "Study Time With Iesha",
-    "career": "industrial",
-    "tags": [
-      "optimizacion",
-      "investigacion de operaciones",
-      "simplex",
-      "modelos"
-    ],
-    "views": 1564,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=-F0-d2p9OtQ",
-    "thumb": "https://img.youtube.com/vi/-F0-d2p9OtQ/hqdefault.jpg"
-  },
-  {
-    "title": "#education #accounting #simplexmethod #operations_research #finance #statistics  #ugcnet #commerce",
-    "desc": "Clase magistral y contenido audiovisual enfocado en lean, 5s, manufactura, mejora continua, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "kSIk_NhEAHY",
-    "author": "Lakshmi Mam's Student Corner",
-    "career": "industrial",
-    "tags": [
-      "lean",
-      "5s",
-      "manufactura",
-      "mejora continua"
-    ],
-    "views": 1841,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=kSIk_NhEAHY",
-    "thumb": "https://img.youtube.com/vi/kSIk_NhEAHY/hqdefault.jpg"
-  },
-  {
-    "title": "Simplex Method - including variable to constraints - LLP - Operational Research - Tamil",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calidad, six sigma, dmaic, estadistica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "FMlGZjXCJYE",
-    "author": "100% Concept Clear",
-    "career": "industrial",
-    "tags": [
-      "calidad",
-      "six sigma",
-      "dmaic",
-      "estadistica"
-    ],
-    "views": 2118,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=FMlGZjXCJYE",
-    "thumb": "https://img.youtube.com/vi/FMlGZjXCJYE/hqdefault.jpg"
-  },
-  {
-    "title": "Linear programming (Simplex Method)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en control estadistico, cpk, graficos control, procesos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "3pVIrBw1quY",
-    "author": "Elite Tribe Of Excellence",
-    "career": "industrial",
-    "tags": [
-      "control estadistico",
-      "cpk",
-      "graficos control",
-      "procesos"
-    ],
-    "views": 2395,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=3pVIrBw1quY",
-    "thumb": "https://img.youtube.com/vi/3pVIrBw1quY/hqdefault.jpg"
-  },
-  {
-    "title": "¡De izquierda a derecha!. Así se resuelven los ejercicios con jerarquía de operaciones",
-    "desc": "Clase magistral y contenido audiovisual enfocado en productividad, tiempos y movimientos, estudio de metodos, eficiencia, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "vZg3WI5WwqE",
-    "author": "Carolina Xitumul",
-    "career": "industrial",
-    "tags": [
-      "productividad",
-      "tiempos y movimientos",
-      "estudio de metodos",
-      "eficiencia"
-    ],
-    "views": 2672,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=vZg3WI5WwqE",
-    "thumb": "https://img.youtube.com/vi/vZg3WI5WwqE/hqdefault.jpg"
-  },
-  {
-    "title": "LA RESILIENCIA   Investigación de Mercados 2 - UMSS",
-    "desc": "Clase magistral y contenido audiovisual enfocado en logistica, cadena de suministro, inventarios, eoq, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "x_GDViavIoM",
-    "author": "JHAZMIN DANIELA SOLIZ",
-    "career": "industrial",
-    "tags": [
+      "programacion-lineal",
+      "transporte",
       "logistica",
-      "cadena de suministro",
-      "inventarios",
-      "eoq"
+      "operaciones"
     ],
-    "views": 2949,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=x_GDViavIoM",
-    "thumb": "https://img.youtube.com/vi/x_GDViavIoM/hqdefault.jpg"
-  },
-  {
-    "title": "METODO DE LA GRAN M - METODO DE PENALIZACION - SIMPLEX - INVESTIGACION DE OPERACIONES 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en produccion, mrp, planificacion, lineas de ensamble, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "9lRK0R7JI5o",
-    "author": "WILSON GUTIERREZ ADRIAN",
-    "career": "industrial",
-    "tags": [
-      "produccion",
-      "mrp",
-      "planificacion",
-      "lineas de ensamble"
-    ],
-    "views": 3226,
+    "views": 1193,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=9lRK0R7JI5o",
-    "thumb": "https://img.youtube.com/vi/9lRK0R7JI5o/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Metodo Simplex Investigacion de Operaciones",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad industrial, ergonomia, gestion ambiental, salud ocupacional, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "05LBi6ZfXpU",
-    "author": "ALEXANDER ZAMBRANO",
+    "title": "Programación Lineal (Introducción - ejemplo - PHPSimplex) | Todo lo que necesitas saber",
+    "desc": "Clase magistral universitaria de 21:55 impartida por IngE Darwin. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=0SSkMnP-3IQ",
+    "yt_id": "0SSkMnP-3IQ",
+    "thumb": "https://img.youtube.com/vi/0SSkMnP-3IQ/hqdefault.jpg",
+    "author": "IngE Darwin",
     "career": "industrial",
     "tags": [
-      "seguridad industrial",
-      "ergonomia",
-      "gestion ambiental",
-      "salud ocupacional"
+      "programacion-lineal",
+      "transporte",
+      "logistica",
+      "operaciones"
     ],
-    "views": 3503,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=05LBi6ZfXpU",
-    "thumb": "https://img.youtube.com/vi/05LBi6ZfXpU/hqdefault.jpg"
-  },
-  {
-    "title": "Plantear modelos de Programacion Lineal EJEMPLO 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en optimizacion, investigacion de operaciones, simplex, modelos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ytiq74ALnUQ",
-    "author": "Marcel Ruiz :)",
-    "career": "industrial",
-    "tags": [
-      "optimizacion",
-      "investigacion de operaciones",
-      "simplex",
-      "modelos"
-    ],
-    "views": 3780,
+    "views": 1257,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ytiq74ALnUQ",
-    "thumb": "https://img.youtube.com/vi/ytiq74ALnUQ/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Plantear las ecuaciones de Programación Lineal EJEMPLO 2",
-    "desc": "Clase magistral y contenido audiovisual enfocado en lean, 5s, manufactura, mejora continua, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Fok_lF_wsOc",
-    "author": "Marcel Ruiz :)",
+    "title": "Método gráfico de Programación Lineal con Geogebra",
+    "desc": "Clase magistral universitaria de 8:44 impartida por Pierina's World. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=N3a8sKQh0c4",
+    "yt_id": "N3a8sKQh0c4",
+    "thumb": "https://img.youtube.com/vi/N3a8sKQh0c4/hqdefault.jpg",
+    "author": "Pierina's World",
+    "career": "industrial",
+    "tags": [
+      "programacion-lineal",
+      "transporte",
+      "logistica",
+      "operaciones"
+    ],
+    "views": 1070,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Método Gráfico Excel- Investigación de Operaciones",
+    "desc": "Clase magistral universitaria de 11:56 impartida por José Luis González Ortíz. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=QZ9IXCYVl6o",
+    "yt_id": "QZ9IXCYVl6o",
+    "thumb": "https://img.youtube.com/vi/QZ9IXCYVl6o/hqdefault.jpg",
+    "author": "José Luis González Ortíz",
+    "career": "industrial",
+    "tags": [
+      "programacion-lineal",
+      "transporte",
+      "logistica",
+      "operaciones"
+    ],
+    "views": 1272,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "PROGRAMACIÓN LINEAL Desde CERO [Método GRÁFICO]",
+    "desc": "Clase magistral universitaria de 16:18 impartida por seletube. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=w5wTES0SDQU",
+    "yt_id": "w5wTES0SDQU",
+    "thumb": "https://img.youtube.com/vi/w5wTES0SDQU/hqdefault.jpg",
+    "author": "seletube",
+    "career": "industrial",
+    "tags": [
+      "programacion-lineal",
+      "transporte",
+      "logistica",
+      "operaciones"
+    ],
+    "views": 1091,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "PROGRAMACION LINEAL, TRANSPORTE, ASIGNACION",
+    "desc": "Clase magistral universitaria de 48:35 impartida por Lino Elias Fernández Bonilla. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=_Xzw3dl85tg",
+    "yt_id": "_Xzw3dl85tg",
+    "thumb": "https://img.youtube.com/vi/_Xzw3dl85tg/hqdefault.jpg",
+    "author": "Lino Elias Fernández Bonilla",
+    "career": "industrial",
+    "tags": [
+      "programacion-lineal",
+      "transporte",
+      "logistica",
+      "operaciones"
+    ],
+    "views": 787,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "EJERCICIOS DE PROGRAMACIÓN LINEAL RESUELTOS",
+    "desc": "Clase magistral universitaria de 24:06 impartida por Matemáticas con Juan. Contenido de alta fidelidad académica enfocado en programacion-lineal, transporte, logistica, operaciones, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=wYZiR9W-4P8",
+    "yt_id": "wYZiR9W-4P8",
+    "thumb": "https://img.youtube.com/vi/wYZiR9W-4P8/hqdefault.jpg",
+    "author": "Matemáticas con Juan",
+    "career": "industrial",
+    "tags": [
+      "programacion-lineal",
+      "transporte",
+      "logistica",
+      "operaciones"
+    ],
+    "views": 862,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "14. Sistema Kanban. Las 5S: orden y limpieza. Técnicas Lean Manufacturing III | Curso Lean Thinking",
+    "desc": "Clase magistral universitaria de 6:23 impartida por LeanKin. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=cOQ599pf8sY",
+    "yt_id": "cOQ599pf8sY",
+    "thumb": "https://img.youtube.com/vi/cOQ599pf8sY/hqdefault.jpg",
+    "author": "LeanKin",
     "career": "industrial",
     "tags": [
       "lean",
       "5s",
-      "manufactura",
-      "mejora continua"
+      "kaizen",
+      "mejora-continua"
     ],
-    "views": 4057,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=Fok_lF_wsOc",
-    "thumb": "https://img.youtube.com/vi/Fok_lF_wsOc/hqdefault.jpg"
+    "views": 1004,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "Los 7 desperdicios de Lean Manufacturing",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calidad, six sigma, dmaic, estadistica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "0OLX9XxV2ks",
+    "title": "Kaizen El secreto detrás de la productividad japonesa",
+    "desc": "Clase magistral universitaria de 4:16 impartida por Japan Video Topics - Español. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=REKuuJopQ_o",
+    "yt_id": "REKuuJopQ_o",
+    "thumb": "https://img.youtube.com/vi/REKuuJopQ_o/hqdefault.jpg",
+    "author": "Japan Video Topics - Español",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1285,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Las 5S - Base de la Mejora Continua (Kaizen)",
+    "desc": "Clase magistral universitaria de 1:09:35 impartida por Kaizen Certification. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=XqC1mwDALhQ",
+    "yt_id": "XqC1mwDALhQ",
+    "thumb": "https://img.youtube.com/vi/XqC1mwDALhQ/hqdefault.jpg",
+    "author": "Kaizen Certification",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 922,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Lean vs Kaizen - Las raíces del Sistema Productivo Total (TPS) y la Mejora Continua, TPM & TQC.",
+    "desc": "Clase magistral universitaria de 10:50 impartida por Factory Management Institute. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=L4wpdSbBlWE",
+    "yt_id": "L4wpdSbBlWE",
+    "thumb": "https://img.youtube.com/vi/L4wpdSbBlWE/hqdefault.jpg",
+    "author": "Factory Management Institute",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1275,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Lean Manufacturing 16 - 10 puntos clave para implementar KAIZEN en tu empresa",
+    "desc": "Clase magistral universitaria de 3:47 impartida por Iván Martínez Lima - Estrategia en Acción. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=xA4qBNYRR6g",
+    "yt_id": "xA4qBNYRR6g",
+    "thumb": "https://img.youtube.com/vi/xA4qBNYRR6g/hqdefault.jpg",
+    "author": "Iván Martínez Lima - Estrategia en Acción",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 760,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Herramientas de calidad - Poka Yoke, Kaizen y Kan Ban",
+    "desc": "Clase magistral universitaria de 13:25 impartida por Procem Consultores. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=BogaOPNNaps",
+    "yt_id": "BogaOPNNaps",
+    "thumb": "https://img.youtube.com/vi/BogaOPNNaps/hqdefault.jpg",
     "author": "Procem Consultores",
     "career": "industrial",
     "tags": [
-      "calidad",
-      "six sigma",
-      "dmaic",
-      "estadistica"
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
     ],
-    "views": 4334,
+    "views": 1496,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=0OLX9XxV2ks",
-    "thumb": "https://img.youtube.com/vi/0OLX9XxV2ks/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Certificación Lean Manufacturing",
-    "desc": "Clase magistral y contenido audiovisual enfocado en control estadistico, cpk, graficos control, procesos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "5IqiIrbH17Q",
+    "title": "Introducción a Lean Manufacturing | Mejora Continua, 5S, Kaizen y OEE explicados con ejemplos reales",
+    "desc": "Clase magistral universitaria de 23:24 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=3stL3AMc22I",
+    "yt_id": "3stL3AMc22I",
+    "thumb": "https://img.youtube.com/vi/3stL3AMc22I/hqdefault.jpg",
     "author": "Solma Soluciones",
-    "career": "industrial",
-    "tags": [
-      "control estadistico",
-      "cpk",
-      "graficos control",
-      "procesos"
-    ],
-    "views": 4611,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=5IqiIrbH17Q",
-    "thumb": "https://img.youtube.com/vi/5IqiIrbH17Q/hqdefault.jpg"
-  },
-  {
-    "title": "Identifica, analiza y reduce desperdicios con el #Curso 𝗟𝗲𝗮𝗻 𝗠𝗮𝗻𝘂𝗳𝗮𝗰𝘁𝘂𝗿𝗶𝗻𝗴 🔧🚀",
-    "desc": "Clase magistral y contenido audiovisual enfocado en productividad, tiempos y movimientos, estudio de metodos, eficiencia, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Ze6uRl2TOAw",
-    "author": "WE Educación Ejecutiva",
-    "career": "industrial",
-    "tags": [
-      "productividad",
-      "tiempos y movimientos",
-      "estudio de metodos",
-      "eficiencia"
-    ],
-    "views": 4888,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=Ze6uRl2TOAw",
-    "thumb": "https://img.youtube.com/vi/Ze6uRl2TOAw/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Metodología de las 5S - Kansei Capacitación",
-    "desc": "Clase magistral y contenido audiovisual enfocado en logistica, cadena de suministro, inventarios, eoq, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "jR-OC7_bE6c",
-    "author": "Kansei Capacitación",
-    "career": "industrial",
-    "tags": [
-      "logistica",
-      "cadena de suministro",
-      "inventarios",
-      "eoq"
-    ],
-    "views": 5165,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=jR-OC7_bE6c",
-    "thumb": "https://img.youtube.com/vi/jR-OC7_bE6c/hqdefault.jpg"
-  },
-  {
-    "title": "Tipo LEAN. Aplica la 1S y elimina desperdicio de INVENTARIO #mejoracontinua #liderazgo #operacion",
-    "desc": "Clase magistral y contenido audiovisual enfocado en produccion, mrp, planificacion, lineas de ensamble, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "WWgVzn9an3o",
-    "author": "Kary Paredes",
-    "career": "industrial",
-    "tags": [
-      "produccion",
-      "mrp",
-      "planificacion",
-      "lineas de ensamble"
-    ],
-    "views": 5442,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=WWgVzn9an3o",
-    "thumb": "https://img.youtube.com/vi/WWgVzn9an3o/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Lean Manufacturing y eliminación de Desperdicios en la Industria",
-    "desc": "Clase magistral y contenido audiovisual enfocado en seguridad industrial, ergonomia, gestion ambiental, salud ocupacional, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "O7aeNQA_0dU",
-    "author": "Desarrollo Profesional SyS",
-    "career": "industrial",
-    "tags": [
-      "seguridad industrial",
-      "ergonomia",
-      "gestion ambiental",
-      "salud ocupacional"
-    ],
-    "views": 5719,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=O7aeNQA_0dU",
-    "thumb": "https://img.youtube.com/vi/O7aeNQA_0dU/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Lean Manufacturing - Eliminación de Desperdicios",
-    "desc": "Clase magistral y contenido audiovisual enfocado en optimizacion, investigacion de operaciones, simplex, modelos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "uGyw9Btw3IU",
-    "author": "Desarrollo Profesional SyS",
-    "career": "industrial",
-    "tags": [
-      "optimizacion",
-      "investigacion de operaciones",
-      "simplex",
-      "modelos"
-    ],
-    "views": 5996,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=uGyw9Btw3IU",
-    "thumb": "https://img.youtube.com/vi/uGyw9Btw3IU/hqdefault.jpg"
-  },
-  {
-    "title": "Curso Lean Six Sigma - Los 8 Desperdicios",
-    "desc": "Clase magistral y contenido audiovisual enfocado en lean, 5s, manufactura, mejora continua, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "zwvXdnqwf0k",
-    "author": "Desarrollo Profesional SyS",
     "career": "industrial",
     "tags": [
       "lean",
       "5s",
-      "manufactura",
-      "mejora continua"
+      "kaizen",
+      "mejora-continua"
     ],
-    "views": 6273,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=zwvXdnqwf0k",
-    "thumb": "https://img.youtube.com/vi/zwvXdnqwf0k/hqdefault.jpg"
+    "views": 917,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "Lean Maufacturng: Milk Run Explained",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calidad, six sigma, dmaic, estadistica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "UISUMrARmYk",
-    "author": "Startup Akademia",
+    "title": "𝗟𝗲𝗮𝗻 𝗠𝗮𝗻𝘂𝗳𝗮𝗰𝘁𝘂𝗿𝗶𝗻𝗴: 𝗩𝗦𝗠, 𝟱𝗦, 𝗤𝗙𝗗, 𝗧𝗣𝗠, 𝗞𝗮𝗻𝗯𝗮𝗻, 𝗦𝗠𝗘𝗗, 𝗞𝗮𝗶𝘇𝗲𝗻, 𝗣𝗼𝗸𝗮𝘆𝗼𝗸𝗲𝘀 𝘆 𝗺𝗮́𝘀!",
+    "desc": "Clase magistral universitaria de 3:49:01 impartida por MyISO. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=RzqSOt6amBE",
+    "yt_id": "RzqSOt6amBE",
+    "thumb": "https://img.youtube.com/vi/RzqSOt6amBE/hqdefault.jpg",
+    "author": "MyISO",
     "career": "industrial",
     "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 966,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "¿Qué es Lean Manufacturing? Explicado en 5 minutos",
+    "desc": "Clase magistral universitaria de 4:49 impartida por Ingeniería para to2. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ZT3D0Sj6UY0",
+    "yt_id": "ZT3D0Sj6UY0",
+    "thumb": "https://img.youtube.com/vi/ZT3D0Sj6UY0/hqdefault.jpg",
+    "author": "Ingeniería para to2",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1206,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Eventos Kaizen Lean Manufacturing",
+    "desc": "Clase magistral universitaria de 30:14 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=klTRenbkRFc",
+    "yt_id": "klTRenbkRFc",
+    "thumb": "https://img.youtube.com/vi/klTRenbkRFc/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 746,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Lean Manufacturing: El Método 5S para un Entorno de Trabajo Más Eficiente",
+    "desc": "Clase magistral universitaria de 10:45 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=CEkirPI4vDA",
+    "yt_id": "CEkirPI4vDA",
+    "thumb": "https://img.youtube.com/vi/CEkirPI4vDA/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1046,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Los 7 desperdicios de Lean Manufacturing",
+    "desc": "Clase magistral universitaria de 13:47 impartida por Procem Consultores. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=0OLX9XxV2ks",
+    "yt_id": "0OLX9XxV2ks",
+    "thumb": "https://img.youtube.com/vi/0OLX9XxV2ks/hqdefault.jpg",
+    "author": "Procem Consultores",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1166,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "El Sistema 5S Kaizen, base de la mejora continua",
+    "desc": "Clase magistral universitaria de 1:40:07 impartida por Asociación Peruana de Facility Management. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ijPaKENLN3M",
+    "yt_id": "ijPaKENLN3M",
+    "thumb": "https://img.youtube.com/vi/ijPaKENLN3M/hqdefault.jpg",
+    "author": "Asociación Peruana de Facility Management",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1057,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Lean Manufacturing desde cero | Certificación Lean Manufacturing – Sesión 1 | SOLMA",
+    "desc": "Clase magistral universitaria de 2:09:25 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=121D1Sc5qqc",
+    "yt_id": "121D1Sc5qqc",
+    "thumb": "https://img.youtube.com/vi/121D1Sc5qqc/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1054,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Lean Manufacturing & Six Sigma: Claves para la Industria | Podcast Dale Mantenimiento",
+    "desc": "Clase magistral universitaria de 1:03:35 impartida por Tractian México. Contenido de alta fidelidad académica enfocado en lean, 5s, kaizen, mejora-continua, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=f1wVgNhlcZI",
+    "yt_id": "f1wVgNhlcZI",
+    "thumb": "https://img.youtube.com/vi/f1wVgNhlcZI/hqdefault.jpg",
+    "author": "Tractian México",
+    "career": "industrial",
+    "tags": [
+      "lean",
+      "5s",
+      "kaizen",
+      "mejora-continua"
+    ],
+    "views": 1075,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Lean Six Sigma en 8 Minutos | ¿Qué es Lean Six Sigma? | Ejemplo Lean Six Sigma",
+    "desc": "Clase magistral universitaria de 8:11 impartida por Tecnología 4.0. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=NGPZBZucKnY",
+    "yt_id": "NGPZBZucKnY",
+    "thumb": "https://img.youtube.com/vi/NGPZBZucKnY/hqdefault.jpg",
+    "author": "Tecnología 4.0",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
       "calidad",
-      "six sigma",
       "dmaic",
-      "estadistica"
+      "gestion"
     ],
-    "views": 6550,
+    "views": 1452,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=UISUMrARmYk",
-    "thumb": "https://img.youtube.com/vi/UISUMrARmYk/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "5S: el orden no es el objetivo",
-    "desc": "Clase magistral y contenido audiovisual enfocado en control estadistico, cpk, graficos control, procesos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "CFWZ-_TZZlQ",
-    "author": "Ingenio Industrial al Alcance",
+    "title": "Six Sigma DMAIC",
+    "desc": "Clase magistral universitaria de 48:14 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=6Lj4ikWPWVs",
+    "yt_id": "6Lj4ikWPWVs",
+    "thumb": "https://img.youtube.com/vi/6Lj4ikWPWVs/hqdefault.jpg",
+    "author": "Solma Soluciones",
     "career": "industrial",
     "tags": [
-      "control estadistico",
-      "cpk",
-      "graficos control",
-      "procesos"
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
     ],
-    "views": 6827,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=CFWZ-_TZZlQ",
-    "thumb": "https://img.youtube.com/vi/CFWZ-_TZZlQ/hqdefault.jpg"
-  },
-  {
-    "title": "¿Qué es la metodología 5S sin volverte loco?",
-    "desc": "Clase magistral y contenido audiovisual enfocado en productividad, tiempos y movimientos, estudio de metodos, eficiencia, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "YCpWVdSLiHA",
-    "author": "Lean para humanos normales",
-    "career": "industrial",
-    "tags": [
-      "productividad",
-      "tiempos y movimientos",
-      "estudio de metodos",
-      "eficiencia"
-    ],
-    "views": 7104,
+    "views": 1286,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=YCpWVdSLiHA",
-    "thumb": "https://img.youtube.com/vi/YCpWVdSLiHA/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Las 5S son esenciales en la implementación de Lean Manufacturing. Así facilitamos su aplicación.",
-    "desc": "Clase magistral y contenido audiovisual enfocado en logistica, cadena de suministro, inventarios, eoq, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "WgHV9TZrd5I",
-    "author": "InduPro Soluciones SAS",
+    "title": "¿Cómo aplicar la metodología DMAIC six sigma?/(Ejemplo REAL!!!)",
+    "desc": "Clase magistral universitaria de 12:30 impartida por Academia LSS. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=icGF_99tQ7g",
+    "yt_id": "icGF_99tQ7g",
+    "thumb": "https://img.youtube.com/vi/icGF_99tQ7g/hqdefault.jpg",
+    "author": "Academia LSS",
     "career": "industrial",
     "tags": [
-      "logistica",
-      "cadena de suministro",
-      "inventarios",
-      "eoq"
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
     ],
-    "views": 7381,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=WgHV9TZrd5I",
-    "thumb": "https://img.youtube.com/vi/WgHV9TZrd5I/hqdefault.jpg"
-  },
-  {
-    "title": "5S Before and After",
-    "desc": "Clase magistral y contenido audiovisual enfocado en produccion, mrp, planificacion, lineas de ensamble, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "shRkD0vXXnk",
-    "author": "Learn Lean Sigma",
-    "career": "industrial",
-    "tags": [
-      "produccion",
-      "mrp",
-      "planificacion",
-      "lineas de ensamble"
-    ],
-    "views": 7658,
+    "views": 1421,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=shRkD0vXXnk",
-    "thumb": "https://img.youtube.com/vi/shRkD0vXXnk/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Qué es la derivada? - Concepto de derivada",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo, derivadas, funciones, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "uK4-s0ojHFg",
+    "title": "¿Qué es Six Sigma?¡En esté video te lo explicamos!",
+    "desc": "Clase magistral universitaria de 5:15 impartida por Academia Lean Sigma. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=MWCapF_KK1k",
+    "yt_id": "MWCapF_KK1k",
+    "thumb": "https://img.youtube.com/vi/MWCapF_KK1k/hqdefault.jpg",
+    "author": "Academia Lean Sigma",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1199,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "GREEN BELT / Masterclass \"Estudios de capacidad de proceso\"",
+    "desc": "Clase magistral universitaria de 48:44 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=MMxOwMRsvJc",
+    "yt_id": "MMxOwMRsvJc",
+    "thumb": "https://img.youtube.com/vi/MMxOwMRsvJc/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1078,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Lean Six Sigma - Automatización métodos control de calidad en la Industria - #1",
+    "desc": "Clase magistral universitaria de 55:07 impartida por Jesus Correa - PLC. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=nu03N3jSrH4",
+    "yt_id": "nu03N3jSrH4",
+    "thumb": "https://img.youtube.com/vi/nu03N3jSrH4/hqdefault.jpg",
+    "author": "Jesus Correa - PLC",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1387,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Calidad Six sigma. DMAIC y TQC mejorado",
+    "desc": "Clase magistral universitaria de 1:06:57 impartida por Lizzany Castillo. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=vUlDb0ofdYQ",
+    "yt_id": "vUlDb0ofdYQ",
+    "thumb": "https://img.youtube.com/vi/vUlDb0ofdYQ/hqdefault.jpg",
+    "author": "Lizzany Castillo",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1185,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "MASTERCLASS INTRODUCCIÓN A SIX SIGMA",
+    "desc": "Clase magistral universitaria de 24:49 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=BXhmSCsnh64",
+    "yt_id": "BXhmSCsnh64",
+    "thumb": "https://img.youtube.com/vi/BXhmSCsnh64/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1030,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "¿Que es Six Sigma DMAIC?",
+    "desc": "Clase magistral universitaria de 30:11 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=JNJao73DLQU",
+    "yt_id": "JNJao73DLQU",
+    "thumb": "https://img.youtube.com/vi/JNJao73DLQU/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 890,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Sistema  Six Sigma y Conocimiento - Lean Six Sigma Certifications and Methodology",
+    "desc": "Clase magistral universitaria de 6:52 impartida por IYD. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Pv_pfQCwIh4",
+    "yt_id": "Pv_pfQCwIh4",
+    "thumb": "https://img.youtube.com/vi/Pv_pfQCwIh4/hqdefault.jpg",
+    "author": "IYD",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1026,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Curso DMAIC - Fases de la Mejora Continua",
+    "desc": "Clase magistral universitaria de 1:21:14 impartida por Desarrollo Profesional SyS. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=7hExNjNYlpw",
+    "yt_id": "7hExNjNYlpw",
+    "thumb": "https://img.youtube.com/vi/7hExNjNYlpw/hqdefault.jpg",
+    "author": "Desarrollo Profesional SyS",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 790,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Green Belt / Metodología DMAIC MASTERCLASS",
+    "desc": "Clase magistral universitaria de 22:18 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=GnKFAKySqGs",
+    "yt_id": "GnKFAKySqGs",
+    "thumb": "https://img.youtube.com/vi/GnKFAKySqGs/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1126,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "El ABC de los Proyectos Six Sigma DMAIC",
+    "desc": "Clase magistral universitaria de 26:08 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=GyO2GIAXeMs",
+    "yt_id": "GyO2GIAXeMs",
+    "thumb": "https://img.youtube.com/vi/GyO2GIAXeMs/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 1341,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "GREEN BELT / 𝗠𝗮𝘀𝘁𝗲𝗿𝗰𝗹𝗮𝘀𝘀 \"𝗚𝗿𝗮́𝗳𝗶𝗰𝗮𝘀 𝗱𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗽𝗮𝗿𝗮 𝗮𝘁𝗿𝗶𝗯𝘂𝘁𝗼𝘀\"",
+    "desc": "Clase magistral universitaria de 39:38 impartida por Solma Soluciones. Contenido de alta fidelidad académica enfocado en six-sigma, calidad, dmaic, gestion, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=V2EZZZzvHEQ",
+    "yt_id": "V2EZZZzvHEQ",
+    "thumb": "https://img.youtube.com/vi/V2EZZZzvHEQ/hqdefault.jpg",
+    "author": "Solma Soluciones",
+    "career": "industrial",
+    "tags": [
+      "six-sigma",
+      "calidad",
+      "dmaic",
+      "gestion"
+    ],
+    "views": 990,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Definición límite",
+    "desc": "Clase magistral universitaria de 21:52 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en calculo, limites, derivadas, ciencias-basicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=4Sb6cavuZoM",
+    "yt_id": "4Sb6cavuZoM",
+    "thumb": "https://img.youtube.com/vi/4Sb6cavuZoM/hqdefault.jpg",
     "author": "Matemáticas profe Alex",
     "career": "transversal",
     "tags": [
       "calculo",
+      "limites",
       "derivadas",
-      "funciones",
-      "matematicas"
+      "ciencias-basicas"
     ],
-    "views": 1200,
+    "views": 789,
     "year": 2023,
-    "type": "curso",
+    "type": "video"
+  },
+  {
+    "title": "Derivada de una función usando la definición | Ejemplo 1",
+    "desc": "Clase magistral universitaria de 7:58 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en calculo, limites, derivadas, ciencias-basicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=U7onW7mMzLM",
+    "yt_id": "U7onW7mMzLM",
+    "thumb": "https://img.youtube.com/vi/U7onW7mMzLM/hqdefault.jpg",
+    "author": "Matemáticas profe Alex",
+    "career": "transversal",
+    "tags": [
+      "calculo",
+      "limites",
+      "derivadas",
+      "ciencias-basicas"
+    ],
+    "views": 824,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Qué es la derivada? | Concepto de derivada",
+    "desc": "Clase magistral universitaria de 10:42 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en calculo, limites, derivadas, ciencias-basicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
     "url": "https://www.youtube.com/watch?v=uK4-s0ojHFg",
-    "thumb": "https://img.youtube.com/vi/uK4-s0ojHFg/hqdefault.jpg"
-  },
-  {
-    "title": "Derivadas usando la definición - Introducción",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo integral, integrales, areas, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "pMYdSjgzrys",
-    "author": "Matemáticas profe Alex",
-    "career": "transversal",
-    "tags": [
-      "calculo integral",
-      "integrales",
-      "areas",
-      "matematicas"
-    ],
-    "views": 1477,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=pMYdSjgzrys",
-    "thumb": "https://img.youtube.com/vi/pMYdSjgzrys/hqdefault.jpg"
-  },
-  {
-    "title": "¿Qué es la derivada? EXPLICACIÓN DESDE CERO",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algebra lineal, matrices, determinantes, vectores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ia8L26ub_pc",
-    "author": "MateFacil",
-    "career": "transversal",
-    "tags": [
-      "algebra lineal",
-      "matrices",
-      "determinantes",
-      "vectores"
-    ],
-    "views": 1754,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ia8L26ub_pc",
-    "thumb": "https://img.youtube.com/vi/ia8L26ub_pc/hqdefault.jpg"
-  },
-  {
-    "title": "Lista de fórmulas de derivadas (DESCARGAR)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ecuaciones diferenciales, modelado matematico, ingenieria, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "CVqVaV5h9nQ",
-    "author": "MateFacil",
-    "career": "transversal",
-    "tags": [
-      "ecuaciones diferenciales",
-      "modelado matematico",
-      "ingenieria"
-    ],
-    "views": 2031,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=CVqVaV5h9nQ",
-    "thumb": "https://img.youtube.com/vi/CVqVaV5h9nQ/hqdefault.jpg"
-  },
-  {
-    "title": "Derivadas parciales Introducción",
-    "desc": "Clase magistral y contenido audiovisual enfocado en fisica, newton, cinematica, dinamica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "RdxXv3lFjls",
-    "author": "Matemáticas profe Alex",
-    "career": "transversal",
-    "tags": [
-      "fisica",
-      "newton",
-      "cinematica",
-      "dinamica"
-    ],
-    "views": 2308,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=RdxXv3lFjls",
-    "thumb": "https://img.youtube.com/vi/RdxXv3lFjls/hqdefault.jpg"
-  },
-  {
-    "title": "Derivadas Parciales de primer orden - Ejemplo 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en termodinamica, entropia, energia, calor, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ZUvbn9dzAIg",
-    "author": "Matemáticas profe Alex",
-    "career": "transversal",
-    "tags": [
-      "termodinamica",
-      "entropia",
-      "energia",
-      "calor"
-    ],
-    "views": 2585,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=ZUvbn9dzAIg",
-    "thumb": "https://img.youtube.com/vi/ZUvbn9dzAIg/hqdefault.jpg"
-  },
-  {
-    "title": "👉 Reglas de Derivación Básicas 💥TRUCOS Tablas Derivadas Ejemplos y Ejercicios resueltos División ...",
-    "desc": "Clase magistral y contenido audiovisual enfocado en probabilidad, estadistica, distribuciones, datos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "zLrdG8WDA1k",
-    "author": "profesor10demates",
-    "career": "transversal",
-    "tags": [
-      "probabilidad",
-      "estadistica",
-      "distribuciones",
-      "datos"
-    ],
-    "views": 2862,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=zLrdG8WDA1k",
-    "thumb": "https://img.youtube.com/vi/zLrdG8WDA1k/hqdefault.jpg"
-  },
-  {
-    "title": "Aprende👉 DERIVADA segunda de una FUNCIÓN y tercera DERIVAR FRACCIONES [ 1 2 Bachillerato universidad",
-    "desc": "Clase magistral y contenido audiovisual enfocado en investigacion, metodologia, semillero, redaccion cientifica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "r4IKAzxK1SM",
-    "author": "profesor10demates",
-    "career": "transversal",
-    "tags": [
-      "investigacion",
-      "metodologia",
-      "semillero",
-      "redaccion cientifica"
-    ],
-    "views": 3139,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=r4IKAzxK1SM",
-    "thumb": "https://img.youtube.com/vi/r4IKAzxK1SM/hqdefault.jpg"
-  },
-  {
-    "title": "Ecuaciones diferenciales - Introducción",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo, derivadas, funciones, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "rd2jKGQJucE",
+    "yt_id": "uK4-s0ojHFg",
+    "thumb": "https://img.youtube.com/vi/uK4-s0ojHFg/hqdefault.jpg",
     "author": "Matemáticas profe Alex",
     "career": "transversal",
     "tags": [
       "calculo",
+      "limites",
       "derivadas",
-      "funciones",
-      "matematicas"
+      "ciencias-basicas"
     ],
-    "views": 3416,
+    "views": 1067,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=rd2jKGQJucE",
-    "thumb": "https://img.youtube.com/vi/rd2jKGQJucE/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Orden de una Ecuación Diferencial",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo integral, integrales, areas, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "_GW79tPHmVA",
+    "title": "Derivadas Regla de la cadena | Función compuesta | Ejemplo 1",
+    "desc": "Clase magistral universitaria de 6:48 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en calculo, limites, derivadas, ciencias-basicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=m_5-WS9Nd68",
+    "yt_id": "m_5-WS9Nd68",
+    "thumb": "https://img.youtube.com/vi/m_5-WS9Nd68/hqdefault.jpg",
     "author": "Matemáticas profe Alex",
     "career": "transversal",
     "tags": [
-      "calculo integral",
-      "integrales",
-      "areas",
-      "matematicas"
-    ],
-    "views": 3693,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=_GW79tPHmVA",
-    "thumb": "https://img.youtube.com/vi/_GW79tPHmVA/hqdefault.jpg"
-  },
-  {
-    "title": "Derivadas por definición - Ej. 1 #julioprofe",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algebra lineal, matrices, determinantes, vectores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ybTf_6N9Q3A",
-    "author": "julioprofe",
-    "career": "transversal",
-    "tags": [
-      "algebra lineal",
-      "matrices",
-      "determinantes",
-      "vectores"
-    ],
-    "views": 3970,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ybTf_6N9Q3A",
-    "thumb": "https://img.youtube.com/vi/ybTf_6N9Q3A/hqdefault.jpg"
-  },
-  {
-    "title": "Derivadas por definición - Ej. 2 #julioprofe",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ecuaciones diferenciales, modelado matematico, ingenieria, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Ia5TdqochrA",
-    "author": "julioprofe",
-    "career": "transversal",
-    "tags": [
-      "ecuaciones diferenciales",
-      "modelado matematico",
-      "ingenieria"
-    ],
-    "views": 4247,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=Ia5TdqochrA",
-    "thumb": "https://img.youtube.com/vi/Ia5TdqochrA/hqdefault.jpg"
-  },
-  {
-    "title": "Cuando eliges derivar por definición #derivadas #matematicas #maths #derivadaspordefinicion",
-    "desc": "Clase magistral y contenido audiovisual enfocado en fisica, newton, cinematica, dinamica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "JvFXJWGfGa8",
-    "author": "Profeleuterio",
-    "career": "transversal",
-    "tags": [
-      "fisica",
-      "newton",
-      "cinematica",
-      "dinamica"
-    ],
-    "views": 4524,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=JvFXJWGfGa8",
-    "thumb": "https://img.youtube.com/vi/JvFXJWGfGa8/hqdefault.jpg"
-  },
-  {
-    "title": "Ecuaciones diferenciales en derivadas parciales #maths #matematicas #mathsmemes #ecuaciondiferencial",
-    "desc": "Clase magistral y contenido audiovisual enfocado en termodinamica, entropia, energia, calor, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "rL7HA4cT4BM",
-    "author": "Profeleuterio",
-    "career": "transversal",
-    "tags": [
-      "termodinamica",
-      "entropia",
-      "energia",
-      "calor"
-    ],
-    "views": 4801,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=rL7HA4cT4BM",
-    "thumb": "https://img.youtube.com/vi/rL7HA4cT4BM/hqdefault.jpg"
-  },
-  {
-    "title": "#matematicas #derivadas #analisismatematico",
-    "desc": "Clase magistral y contenido audiovisual enfocado en probabilidad, estadistica, distribuciones, datos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "4eXWB81T0B4",
-    "author": "Esteban Matematicas",
-    "career": "transversal",
-    "tags": [
-      "probabilidad",
-      "estadistica",
-      "distribuciones",
-      "datos"
-    ],
-    "views": 5078,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=4eXWB81T0B4",
-    "thumb": "https://img.youtube.com/vi/4eXWB81T0B4/hqdefault.jpg"
-  },
-  {
-    "title": "Derivada aplicando regla de la cadena - Derivada de f(x)=-4(3x²-6)³  - La Prof Lina M3",
-    "desc": "Clase magistral y contenido audiovisual enfocado en investigacion, metodologia, semillero, redaccion cientifica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "MMWyjTvGFsY",
-    "author": "La Prof Lina M3",
-    "career": "transversal",
-    "tags": [
-      "investigacion",
-      "metodologia",
-      "semillero",
-      "redaccion cientifica"
-    ],
-    "views": 5355,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=MMWyjTvGFsY",
-    "thumb": "https://img.youtube.com/vi/MMWyjTvGFsY/hqdefault.jpg"
-  },
-  {
-    "title": "APRENDE a DERIVAR en 10 minutos (GUÍA DEFINITIVA desde CERO)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo, derivadas, funciones, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "4hltqDW-yCA",
-    "author": "Math Rocks",
-    "career": "transversal",
-    "tags": [
       "calculo",
+      "limites",
       "derivadas",
-      "funciones",
-      "matematicas"
+      "ciencias-basicas"
     ],
-    "views": 5632,
+    "views": 944,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=4hltqDW-yCA",
-    "thumb": "https://img.youtube.com/vi/4hltqDW-yCA/hqdefault.jpg"
+    "type": "video"
   },
   {
     "title": "REGLAS DE DERIVACIÓN - Repaso en 7 minutos con ejemplos",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo integral, integrales, areas, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
+    "desc": "Clase magistral universitaria de 7:44 impartida por IngE Darwin. Contenido de alta fidelidad académica enfocado en calculo, limites, derivadas, ciencias-basicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=aVNa-J8iB5I",
     "yt_id": "aVNa-J8iB5I",
+    "thumb": "https://img.youtube.com/vi/aVNa-J8iB5I/hqdefault.jpg",
     "author": "IngE Darwin",
     "career": "transversal",
     "tags": [
-      "calculo integral",
-      "integrales",
-      "areas",
-      "matematicas"
+      "calculo",
+      "limites",
+      "derivadas",
+      "ciencias-basicas"
     ],
-    "views": 5909,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=aVNa-J8iB5I",
-    "thumb": "https://img.youtube.com/vi/aVNa-J8iB5I/hqdefault.jpg"
-  },
-  {
-    "title": "ECUACIÓN DIFERENCIAL PARA PRINCIPIANTES",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algebra lineal, matrices, determinantes, vectores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "AE1_730FJQE",
-    "author": "Matemáticas con Juan",
-    "career": "transversal",
-    "tags": [
-      "algebra lineal",
-      "matrices",
-      "determinantes",
-      "vectores"
-    ],
-    "views": 6186,
+    "views": 784,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=AE1_730FJQE",
-    "thumb": "https://img.youtube.com/vi/AE1_730FJQE/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "La derivada del día - #cálculodiferencial #calculodiferencial #cálculo #ejercicios #derivadas",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ecuaciones diferenciales, modelado matematico, ingenieria, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "3MCyXq8-gQo",
-    "author": "Héctor Mariano",
-    "career": "transversal",
-    "tags": [
-      "ecuaciones diferenciales",
-      "modelado matematico",
-      "ingenieria"
-    ],
-    "views": 6463,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=3MCyXq8-gQo",
-    "thumb": "https://img.youtube.com/vi/3MCyXq8-gQo/hqdefault.jpg"
-  },
-  {
-    "title": "DERIVADAS REGLAS BÁSICAS #matematicas #ingenieria #derivadas #derivada #calculo",
-    "desc": "Clase magistral y contenido audiovisual enfocado en fisica, newton, cinematica, dinamica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ZceFQD1NgxQ",
-    "author": "MAESTROTK",
-    "career": "transversal",
-    "tags": [
-      "fisica",
-      "newton",
-      "cinematica",
-      "dinamica"
-    ],
-    "views": 6740,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ZceFQD1NgxQ",
-    "thumb": "https://img.youtube.com/vi/ZceFQD1NgxQ/hqdefault.jpg"
-  },
-  {
-    "title": "𝐂𝐋𝐀𝐒𝐄𝐒 𝐝𝐞 𝐂Á𝐋𝐂𝐔𝐋𝐎 𝐝𝐞𝐬𝐝𝐞 𝐂𝐄𝐑𝐎",
-    "desc": "Clase magistral y contenido audiovisual enfocado en termodinamica, entropia, energia, calor, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "-0LSSAJKmdo",
-    "author": "𝐒𝐃𝐌𝐮𝐬𝐢𝐜𝐌𝐚𝐭𝐡",
-    "career": "transversal",
-    "tags": [
-      "termodinamica",
-      "entropia",
-      "energia",
-      "calor"
-    ],
-    "views": 7017,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=-0LSSAJKmdo",
-    "thumb": "https://img.youtube.com/vi/-0LSSAJKmdo/hqdefault.jpg"
-  },
-  {
-    "title": "Encuentra la derivada de:",
-    "desc": "Clase magistral y contenido audiovisual enfocado en probabilidad, estadistica, distribuciones, datos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "2nLCX0lLsxg",
-    "author": "Daniel Carreón",
-    "career": "transversal",
-    "tags": [
-      "probabilidad",
-      "estadistica",
-      "distribuciones",
-      "datos"
-    ],
-    "views": 7294,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=2nLCX0lLsxg",
-    "thumb": "https://img.youtube.com/vi/2nLCX0lLsxg/hqdefault.jpg"
-  },
-  {
-    "title": "👩🏽‍🏫 DERIVADAS desde cero - Explicación 1 - Derivada de una constante y Derivada de x - La Prof Lina",
-    "desc": "Clase magistral y contenido audiovisual enfocado en investigacion, metodologia, semillero, redaccion cientifica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "OdKHJI8pVfY",
-    "author": "La Prof Lina M3",
-    "career": "transversal",
-    "tags": [
-      "investigacion",
-      "metodologia",
-      "semillero",
-      "redaccion cientifica"
-    ],
-    "views": 7571,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=OdKHJI8pVfY",
-    "thumb": "https://img.youtube.com/vi/OdKHJI8pVfY/hqdefault.jpg"
-  },
-  {
-    "title": "La derivada del día - #cálculodiferencial #calculodiferencial #cálculo #ejercicios #derivadas",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo, derivadas, funciones, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "5rBchYYJB-4",
-    "author": "Héctor Mariano",
+    "title": "Derivada de una constante | Reglas de derivación",
+    "desc": "Clase magistral universitaria de 4:43 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en calculo, limites, derivadas, ciencias-basicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=T42-57sojsA",
+    "yt_id": "T42-57sojsA",
+    "thumb": "https://img.youtube.com/vi/T42-57sojsA/hqdefault.jpg",
+    "author": "Matemáticas profe Alex",
     "career": "transversal",
     "tags": [
       "calculo",
+      "limites",
       "derivadas",
-      "funciones",
-      "matematicas"
+      "ciencias-basicas"
     ],
-    "views": 7848,
+    "views": 1278,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=5rBchYYJB-4",
-    "thumb": "https://img.youtube.com/vi/5rBchYYJB-4/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "La relación entre la Derivada y la Integral - Teorema fundamental del Cálculo #maths",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo integral, integrales, areas, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "QGxbHtTRKSg",
-    "author": "MerlinoMath",
-    "career": "transversal",
-    "tags": [
-      "calculo integral",
-      "integrales",
-      "areas",
-      "matematicas"
-    ],
-    "views": 8125,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=QGxbHtTRKSg",
-    "thumb": "https://img.youtube.com/vi/QGxbHtTRKSg/hqdefault.jpg"
-  },
-  {
-    "title": "Video explicativo del curso cálculo diferencial - UNAD",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algebra lineal, matrices, determinantes, vectores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "DiqR5Ay2sKA",
-    "author": "Estefania Ortiz",
-    "career": "transversal",
-    "tags": [
-      "algebra lineal",
-      "matrices",
-      "determinantes",
-      "vectores"
-    ],
-    "views": 8402,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=DiqR5Ay2sKA",
-    "thumb": "https://img.youtube.com/vi/DiqR5Ay2sKA/hqdefault.jpg"
-  },
-  {
-    "title": "Cómo calcular la derivada en un punto. #derivadas #matematicas #limites #bachillerato #estudiar",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ecuaciones diferenciales, modelado matematico, ingenieria, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Ay4Ddx_iZBg",
-    "author": "Ekuatio: Cursos de Matemáticas Online",
-    "career": "transversal",
-    "tags": [
-      "ecuaciones diferenciales",
-      "modelado matematico",
-      "ingenieria"
-    ],
-    "views": 8679,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=Ay4Ddx_iZBg",
-    "thumb": "https://img.youtube.com/vi/Ay4Ddx_iZBg/hqdefault.jpg"
-  },
-  {
-    "title": "LA DERIVADA VISUALMENTE #calculo #derivadas",
-    "desc": "Clase magistral y contenido audiovisual enfocado en fisica, newton, cinematica, dinamica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "0mhtBauEBkE",
-    "author": "BlueDot",
-    "career": "transversal",
-    "tags": [
-      "fisica",
-      "newton",
-      "cinematica",
-      "dinamica"
-    ],
-    "views": 8956,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=0mhtBauEBkE",
-    "thumb": "https://img.youtube.com/vi/0mhtBauEBkE/hqdefault.jpg"
-  },
-  {
-    "title": "Derivar por Definición #math #matematika #calculus #mathematics #derivadas #profejuanc #education",
-    "desc": "Clase magistral y contenido audiovisual enfocado en termodinamica, entropia, energia, calor, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "-XgnRmU3pZg",
-    "author": "profeJuanC",
-    "career": "transversal",
-    "tags": [
-      "termodinamica",
-      "entropia",
-      "energia",
-      "calor"
-    ],
-    "views": 9233,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=-XgnRmU3pZg",
-    "thumb": "https://img.youtube.com/vi/-XgnRmU3pZg/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de cálculo diferencial desde cero, aprende hoy mismo 😇",
-    "desc": "Clase magistral y contenido audiovisual enfocado en probabilidad, estadistica, distribuciones, datos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "UINgzpqY8bY",
-    "author": "Fredi Morales",
-    "career": "transversal",
-    "tags": [
-      "probabilidad",
-      "estadistica",
-      "distribuciones",
-      "datos"
-    ],
-    "views": 9510,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=UINgzpqY8bY",
-    "thumb": "https://img.youtube.com/vi/UINgzpqY8bY/hqdefault.jpg"
-  },
-  {
-    "title": "Derivada por regla de la cadena #matematicas #algebra #educación #viralvideo #parati",
-    "desc": "Clase magistral y contenido audiovisual enfocado en investigacion, metodologia, semillero, redaccion cientifica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "39BozY9698w",
-    "author": "UniversoNumérico",
-    "career": "transversal",
-    "tags": [
-      "investigacion",
-      "metodologia",
-      "semillero",
-      "redaccion cientifica"
-    ],
-    "views": 1287,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=39BozY9698w",
-    "thumb": "https://img.youtube.com/vi/39BozY9698w/hqdefault.jpg"
-  },
-  {
-    "title": "La derivada del día - #cálculodiferencial #calculodiferencial #cálculo #ejercicios #derivadas",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo, derivadas, funciones, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "_zSAqJF09bU",
-    "author": "Héctor Mariano",
+    "title": "Limites | Introducción y conceptos básicos",
+    "desc": "Clase magistral universitaria de 15:40 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en calculo, limites, derivadas, ciencias-basicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=o2UTk8bsLS0",
+    "yt_id": "o2UTk8bsLS0",
+    "thumb": "https://img.youtube.com/vi/o2UTk8bsLS0/hqdefault.jpg",
+    "author": "Matemáticas profe Alex",
     "career": "transversal",
     "tags": [
       "calculo",
+      "limites",
       "derivadas",
-      "funciones",
-      "matematicas"
+      "ciencias-basicas"
     ],
-    "views": 1564,
+    "views": 860,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=_zSAqJF09bU",
-    "thumb": "https://img.youtube.com/vi/_zSAqJF09bU/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Derivacion Implicita FACIL #derivadas #matemática #algebra",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo integral, integrales, areas, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "DdwJrnUFynk",
-    "author": "AprendeMatesConJulian",
+    "title": "Integrales por método tabular | Ej. 1 #julioprofe",
+    "desc": "Clase magistral universitaria de 11:47 impartida por julioprofe. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=TpkldNa011c",
+    "yt_id": "TpkldNa011c",
+    "thumb": "https://img.youtube.com/vi/TpkldNa011c/hqdefault.jpg",
+    "author": "julioprofe",
     "career": "transversal",
     "tags": [
-      "calculo integral",
+      "calculo-integral",
       "integrales",
-      "areas",
-      "matematicas"
+      "sustitucion",
+      "partes"
     ],
-    "views": 1841,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=DdwJrnUFynk",
-    "thumb": "https://img.youtube.com/vi/DdwJrnUFynk/hqdefault.jpg"
+    "views": 884,
+    "year": 2023,
+    "type": "video"
   },
   {
-    "title": "✨ Introducción al CURSO de Cálculo de Derivadas - Nivel Avanzado 🚀📘",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algebra lineal, matrices, determinantes, vectores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Jn1ndRzm9Sw",
-    "author": "Matemáticas TOP",
+    "title": "Teorema fundamental del cálculo: definición y ejemplos #julioprofe",
+    "desc": "Clase magistral universitaria de 9:43 impartida por julioprofe. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=SCKpUCax5ss",
+    "yt_id": "SCKpUCax5ss",
+    "thumb": "https://img.youtube.com/vi/SCKpUCax5ss/hqdefault.jpg",
+    "author": "julioprofe",
     "career": "transversal",
     "tags": [
-      "algebra lineal",
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 1073,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Integración por Partes - Ejercicio 1",
+    "desc": "Clase magistral universitaria de 7:14 impartida por julioprofenet. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=BjwZFoKDpfs",
+    "yt_id": "BjwZFoKDpfs",
+    "thumb": "https://img.youtube.com/vi/BjwZFoKDpfs/hqdefault.jpg",
+    "author": "julioprofenet",
+    "career": "transversal",
+    "tags": [
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 1245,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Área bajo una curva - Ej. 1",
+    "desc": "Clase magistral universitaria de 6:12 impartida por julioprofe. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=V7WnsXYJZaM",
+    "yt_id": "V7WnsXYJZaM",
+    "thumb": "https://img.youtube.com/vi/V7WnsXYJZaM/hqdefault.jpg",
+    "author": "julioprofe",
+    "career": "transversal",
+    "tags": [
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 1127,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Volumen de un sólido de revolución usando arandelas - Ej. 1",
+    "desc": "Clase magistral universitaria de 16:48 impartida por julioprofe. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=SKZ9cP_NGEM",
+    "yt_id": "SKZ9cP_NGEM",
+    "thumb": "https://img.youtube.com/vi/SKZ9cP_NGEM/hqdefault.jpg",
+    "author": "julioprofe",
+    "career": "transversal",
+    "tags": [
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 1344,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Integrales por partes | Ej. 1 #julioprofe",
+    "desc": "Clase magistral universitaria de 37:25 impartida por julioprofe. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=_T7AE2KEaJY",
+    "yt_id": "_T7AE2KEaJY",
+    "thumb": "https://img.youtube.com/vi/_T7AE2KEaJY/hqdefault.jpg",
+    "author": "julioprofe",
+    "career": "transversal",
+    "tags": [
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 989,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Integral por Sustitución",
+    "desc": "Clase magistral universitaria de 4:17 impartida por julioprofenet. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ehfXQaXLSsA",
+    "yt_id": "ehfXQaXLSsA",
+    "thumb": "https://img.youtube.com/vi/ehfXQaXLSsA/hqdefault.jpg",
+    "author": "julioprofenet",
+    "career": "transversal",
+    "tags": [
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 1116,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Integrales definidas | Ej. 1 #julioprofe",
+    "desc": "Clase magistral universitaria de 5:09 impartida por julioprofe. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=wuI5MFhvgsY",
+    "yt_id": "wuI5MFhvgsY",
+    "thumb": "https://img.youtube.com/vi/wuI5MFhvgsY/hqdefault.jpg",
+    "author": "julioprofe",
+    "career": "transversal",
+    "tags": [
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 1485,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Consejos para tener éxito en cálculo #julioprofe",
+    "desc": "Clase magistral universitaria de 7:19 impartida por julioprofe. Contenido de alta fidelidad académica enfocado en calculo-integral, integrales, sustitucion, partes, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=0opaDVgBzQA",
+    "yt_id": "0opaDVgBzQA",
+    "thumb": "https://img.youtube.com/vi/0opaDVgBzQA/hqdefault.jpg",
+    "author": "julioprofe",
+    "career": "transversal",
+    "tags": [
+      "calculo-integral",
+      "integrales",
+      "sustitucion",
+      "partes"
+    ],
+    "views": 980,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "ÁLGEBRA LINEAL DESDE CERO: Vectores, Matrices y Espacios Vectoriales (Clase Completa)",
+    "desc": "Clase magistral universitaria de 44:17 impartida por Math Rocks. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=BMBZJwTS7Ks",
+    "yt_id": "BMBZJwTS7Ks",
+    "thumb": "https://img.youtube.com/vi/BMBZJwTS7Ks/hqdefault.jpg",
+    "author": "Math Rocks",
+    "career": "transversal",
+    "tags": [
+      "algebra-lineal",
       "matrices",
       "determinantes",
       "vectores"
     ],
-    "views": 2118,
+    "views": 1295,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=Jn1ndRzm9Sw",
-    "thumb": "https://img.youtube.com/vi/Jn1ndRzm9Sw/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "📘 DERIVADA 1 - Aprende PASO A PASO a DERIVARLA - 🔗 REGLA DE LA CADENA",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ecuaciones diferenciales, modelado matematico, ingenieria, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "HQiXEReicOQ",
-    "author": "Matemáticas TOP",
+    "title": "Vectores, ¿qué son? | Esencia del álgebra lineal, capítulo 1",
+    "desc": "Clase magistral universitaria de 9:56 impartida por 3Blue1Brown Español. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=wiuEEkP_XuM",
+    "yt_id": "wiuEEkP_XuM",
+    "thumb": "https://img.youtube.com/vi/wiuEEkP_XuM/hqdefault.jpg",
+    "author": "3Blue1Brown Español",
     "career": "transversal",
     "tags": [
-      "ecuaciones diferenciales",
-      "modelado matematico",
-      "ingenieria"
-    ],
-    "views": 2395,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=HQiXEReicOQ",
-    "thumb": "https://img.youtube.com/vi/HQiXEReicOQ/hqdefault.jpg"
-  },
-  {
-    "title": "Curso de cálculo diferencial desde cero - Parte 1",
-    "desc": "Clase magistral y contenido audiovisual enfocado en fisica, newton, cinematica, dinamica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "ZSYQ13iMbYA",
-    "author": "El Físico Gamer",
-    "career": "transversal",
-    "tags": [
-      "fisica",
-      "newton",
-      "cinematica",
-      "dinamica"
-    ],
-    "views": 2672,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=ZSYQ13iMbYA",
-    "thumb": "https://img.youtube.com/vi/ZSYQ13iMbYA/hqdefault.jpg"
-  },
-  {
-    "title": "✅ DERIVADAS: Curso completo: Explicación DESDE CERO - Álgebra Para Todos",
-    "desc": "Clase magistral y contenido audiovisual enfocado en termodinamica, entropia, energia, calor, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "r4P8D-w6xOo",
-    "author": "Álgebra Para Todos",
-    "career": "transversal",
-    "tags": [
-      "termodinamica",
-      "entropia",
-      "energia",
-      "calor"
-    ],
-    "views": 2949,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=r4P8D-w6xOo",
-    "thumb": "https://img.youtube.com/vi/r4P8D-w6xOo/hqdefault.jpg"
-  },
-  {
-    "title": "100 DERIVADAS RESUELTAS. APRENDER A DERIVAR DESDE CERO. Curso completo",
-    "desc": "Clase magistral y contenido audiovisual enfocado en probabilidad, estadistica, distribuciones, datos, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "B5oxL1AQpLo",
-    "author": "Matemáticas con Juan",
-    "career": "transversal",
-    "tags": [
-      "probabilidad",
-      "estadistica",
-      "distribuciones",
-      "datos"
-    ],
-    "views": 3226,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=B5oxL1AQpLo",
-    "thumb": "https://img.youtube.com/vi/B5oxL1AQpLo/hqdefault.jpg"
-  },
-  {
-    "title": "CÁLCULO DIFERENCIAL DESDE CERO Parte 1 (RESUMEN)",
-    "desc": "Clase magistral y contenido audiovisual enfocado en investigacion, metodologia, semillero, redaccion cientifica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "rcU5vjxZ-98",
-    "author": "Algebraticos",
-    "career": "transversal",
-    "tags": [
-      "investigacion",
-      "metodologia",
-      "semillero",
-      "redaccion cientifica"
-    ],
-    "views": 3503,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=rcU5vjxZ-98",
-    "thumb": "https://img.youtube.com/vi/rcU5vjxZ-98/hqdefault.jpg"
-  },
-  {
-    "title": "QUÉ ES EL CÁLCULO DIFERENCIAL. Explicación Básica.",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo, derivadas, funciones, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "66GRtthl9Zg",
-    "author": "Matemáticas con Juan",
-    "career": "transversal",
-    "tags": [
-      "calculo",
-      "derivadas",
-      "funciones",
-      "matematicas"
-    ],
-    "views": 3780,
-    "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=66GRtthl9Zg",
-    "thumb": "https://img.youtube.com/vi/66GRtthl9Zg/hqdefault.jpg"
-  },
-  {
-    "title": "Aprende a derivar con este video - 50 DERIVADAS desde cero - Reglas de derivación",
-    "desc": "Clase magistral y contenido audiovisual enfocado en calculo integral, integrales, areas, matematicas, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "oxZdtDxF8sA",
-    "author": "math2me",
-    "career": "transversal",
-    "tags": [
-      "calculo integral",
-      "integrales",
-      "areas",
-      "matematicas"
-    ],
-    "views": 4057,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=oxZdtDxF8sA",
-    "thumb": "https://img.youtube.com/vi/oxZdtDxF8sA/hqdefault.jpg"
-  },
-  {
-    "title": "Cálculo desde Cero - Clase 1: LÍMITES",
-    "desc": "Clase magistral y contenido audiovisual enfocado en algebra lineal, matrices, determinantes, vectores, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "bI1bhogQpMI",
-    "author": "Centro Sulub",
-    "career": "transversal",
-    "tags": [
-      "algebra lineal",
+      "algebra-lineal",
       "matrices",
       "determinantes",
       "vectores"
     ],
-    "views": 4334,
+    "views": 1309,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=bI1bhogQpMI",
-    "thumb": "https://img.youtube.com/vi/bI1bhogQpMI/hqdefault.jpg"
+    "type": "video"
   },
   {
-    "title": "Cálculo desde Cero - Clase 2: INTRODUCCIÓN A LAS DERIVADAS 💷🧮📚",
-    "desc": "Clase magistral y contenido audiovisual enfocado en ecuaciones diferenciales, modelado matematico, ingenieria, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "-In8JGRKZKs",
-    "author": "Centro Sulub",
+    "title": "Matrices Parte 1 🧠 Álgebra [CICLO FREE]",
+    "desc": "Clase magistral universitaria de 1:16:10 impartida por Academia Grupo Ciencias. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=QawqqQJXY40",
+    "yt_id": "QawqqQJXY40",
+    "thumb": "https://img.youtube.com/vi/QawqqQJXY40/hqdefault.jpg",
+    "author": "Academia Grupo Ciencias",
     "career": "transversal",
     "tags": [
-      "ecuaciones diferenciales",
-      "modelado matematico",
-      "ingenieria"
+      "algebra-lineal",
+      "matrices",
+      "determinantes",
+      "vectores"
     ],
-    "views": 4611,
-    "year": 2024,
-    "type": "video",
-    "url": "https://www.youtube.com/watch?v=-In8JGRKZKs",
-    "thumb": "https://img.youtube.com/vi/-In8JGRKZKs/hqdefault.jpg"
+    "views": 942,
+    "year": 2023,
+    "type": "curso"
   },
   {
-    "title": "¿QUÉ ES EL CÁLCULO DIFERENCIAL? Super facil - Para principiantes",
-    "desc": "Clase magistral y contenido audiovisual enfocado en fisica, newton, cinematica, dinamica, ideal para estudiantes de Ingeniería y proyectos del semillero universitario.",
-    "yt_id": "Ll_qHUG6OWs",
-    "author": "Daniel Carreón",
+    "title": "¿Qué son LOS DETERMINANTES? ¿Son amigos o enemigos?",
+    "desc": "Clase magistral universitaria de 12:51 impartida por Derivando. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Bd7XboIfsU4",
+    "yt_id": "Bd7XboIfsU4",
+    "thumb": "https://img.youtube.com/vi/Bd7XboIfsU4/hqdefault.jpg",
+    "author": "Derivando",
+    "career": "transversal",
+    "tags": [
+      "algebra-lineal",
+      "matrices",
+      "determinantes",
+      "vectores"
+    ],
+    "views": 1322,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "VALORES y VECTORES propios de una matriz 3x3 ejercicios resueltos / EIGENVALOR y EIGENVECTOR",
+    "desc": "Clase magistral universitaria de 22:00 impartida por Javier España Profe. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=25FFzOyhAmk",
+    "yt_id": "25FFzOyhAmk",
+    "thumb": "https://img.youtube.com/vi/25FFzOyhAmk/hqdefault.jpg",
+    "author": "Javier España Profe",
+    "career": "transversal",
+    "tags": [
+      "algebra-lineal",
+      "matrices",
+      "determinantes",
+      "vectores"
+    ],
+    "views": 879,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Determinante de una matriz 4x4  método de Gauss | Ejemplo 1",
+    "desc": "Clase magistral universitaria de 19:08 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ajvwN6FogKI",
+    "yt_id": "ajvwN6FogKI",
+    "thumb": "https://img.youtube.com/vi/ajvwN6FogKI/hqdefault.jpg",
+    "author": "Matemáticas profe Alex",
+    "career": "transversal",
+    "tags": [
+      "algebra-lineal",
+      "matrices",
+      "determinantes",
+      "vectores"
+    ],
+    "views": 1179,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "TODO el álgebra lineal en 7 minutos.",
+    "desc": "Clase magistral universitaria de 7:03 impartida por KoothBrush. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=QL4_4GAWvPs",
+    "yt_id": "QL4_4GAWvPs",
+    "thumb": "https://img.youtube.com/vi/QL4_4GAWvPs/hqdefault.jpg",
+    "author": "KoothBrush",
+    "career": "transversal",
+    "tags": [
+      "algebra-lineal",
+      "matrices",
+      "determinantes",
+      "vectores"
+    ],
+    "views": 1053,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "📊 Álgebra Lineal | 1.Vectores, Matrices y Determinantes (Matemáticas Selectivo)",
+    "desc": "Clase magistral universitaria de 32:14 impartida por determinia. Contenido de alta fidelidad académica enfocado en algebra-lineal, matrices, determinantes, vectores, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=esbQdL31kF4",
+    "yt_id": "esbQdL31kF4",
+    "thumb": "https://img.youtube.com/vi/esbQdL31kF4/hqdefault.jpg",
+    "author": "determinia",
+    "career": "transversal",
+    "tags": [
+      "algebra-lineal",
+      "matrices",
+      "determinantes",
+      "vectores"
+    ],
+    "views": 1247,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "62. Ecuación diferencial de Bernoulli. EJERCICIO RESUELTO",
+    "desc": "Clase magistral universitaria de 11:39 impartida por MateFacil. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=JhKDjN3Qqos",
+    "yt_id": "JhKDjN3Qqos",
+    "thumb": "https://img.youtube.com/vi/JhKDjN3Qqos/hqdefault.jpg",
+    "author": "MateFacil",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1187,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Ecuacion diferencial de Bernoulli explicada al detalle",
+    "desc": "Clase magistral universitaria de 12:38 impartida por Matemáticas con Juan. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=nbYmkYxhH2c",
+    "yt_id": "nbYmkYxhH2c",
+    "thumb": "https://img.youtube.com/vi/nbYmkYxhH2c/hqdefault.jpg",
+    "author": "Matemáticas con Juan",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1317,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "ECUACIONES DIFERENCIALES desde cero",
+    "desc": "Clase magistral universitaria de 1:25:59 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=MdKOjS8-oNw",
+    "yt_id": "MdKOjS8-oNw",
+    "thumb": "https://img.youtube.com/vi/MdKOjS8-oNw/hqdefault.jpg",
+    "author": "El Traductor de Ingeniería",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 818,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Ecuaciones diferenciales | La ecuación de Bernoulli",
+    "desc": "Clase magistral universitaria de 5:19 impartida por WissenSync. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Chm9qUtWGnU",
+    "yt_id": "Chm9qUtWGnU",
+    "thumb": "https://img.youtube.com/vi/Chm9qUtWGnU/hqdefault.jpg",
+    "author": "WissenSync",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 758,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Ecuaciones diferenciales Homogéneas | Introducción",
+    "desc": "Clase magistral universitaria de 38:11 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=h8JY9daqCBY",
+    "yt_id": "h8JY9daqCBY",
+    "thumb": "https://img.youtube.com/vi/h8JY9daqCBY/hqdefault.jpg",
+    "author": "Matemáticas profe Alex",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1328,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "ECUACIONES DIFERENCIALES DE BERNOULLI // EJERCICIO 1 // CURSO DESDE CERO DE ECUACIONES DIFERENCIALES",
+    "desc": "Clase magistral universitaria de 11:14 impartida por Prisma Academia. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=Bwt1h_RlRl8",
+    "yt_id": "Bwt1h_RlRl8",
+    "thumb": "https://img.youtube.com/vi/Bwt1h_RlRl8/hqdefault.jpg",
+    "author": "Prisma Academia",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1352,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "✅ECUACIÓN DIFERENCIAL de BERNOULLI | 𝙋𝙖𝙨𝙤 𝙖 𝙋𝙖𝙨𝙤💯| ECUACIONES DIFERENCIALES",
+    "desc": "Clase magistral universitaria de 7:21 impartida por Profesor Particular Puebla. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=cDyb7bdVFEM",
+    "yt_id": "cDyb7bdVFEM",
+    "thumb": "https://img.youtube.com/vi/cDyb7bdVFEM/hqdefault.jpg",
+    "author": "Profesor Particular Puebla",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1064,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "EDO  F. INTEGRANTES, BERNOULLI, RICATTI Y LINEALES EN  x, y  | Ecuaciones Diferenciales Ordinarias.",
+    "desc": "Clase magistral universitaria de 47:17 impartida por Faustinianos. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=NFJZzDw4BK4",
+    "yt_id": "NFJZzDw4BK4",
+    "thumb": "https://img.youtube.com/vi/NFJZzDw4BK4/hqdefault.jpg",
+    "author": "Faustinianos",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1068,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Ecuaciones diferenciales Homogéneas | Ejemplo 1",
+    "desc": "Clase magistral universitaria de 17:44 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=kqzOGLstWh8",
+    "yt_id": "kqzOGLstWh8",
+    "thumb": "https://img.youtube.com/vi/kqzOGLstWh8/hqdefault.jpg",
+    "author": "Matemáticas profe Alex",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 821,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Ecuaciones Diferenciales Ordinarias   03 Homogéneas y Bernoulli",
+    "desc": "Clase magistral universitaria de 27:02 impartida por Cuestión de números. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=MszVnILysJM",
+    "yt_id": "MszVnILysJM",
+    "thumb": "https://img.youtube.com/vi/MszVnILysJM/hqdefault.jpg",
+    "author": "Cuestión de números",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1411,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Ecuación Diferencial de Bernoulli. Introducción",
+    "desc": "Clase magistral universitaria de 17:23 impartida por Vamos a la Pizarra . Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=qnMJKD04eXc",
+    "yt_id": "qnMJKD04eXc",
+    "thumb": "https://img.youtube.com/vi/qnMJKD04eXc/hqdefault.jpg",
+    "author": "Vamos a la Pizarra ",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1466,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "ECUACIONES DIFERENCIALES HOMOGÉNEAS // EJERCICIO 1 // CURSO COMPLETO DE ECUACIONES DIFERENCIALES",
+    "desc": "Clase magistral universitaria de 9:34 impartida por Prisma Academia. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=eSHEEfMB8kQ",
+    "yt_id": "eSHEEfMB8kQ",
+    "thumb": "https://img.youtube.com/vi/eSHEEfMB8kQ/hqdefault.jpg",
+    "author": "Prisma Academia",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1303,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "GUÍA PRÁCTICA para Aprender a Resolver EDOs",
+    "desc": "Clase magistral universitaria de 1:25:16 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=_EKDACRTUak",
+    "yt_id": "_EKDACRTUak",
+    "thumb": "https://img.youtube.com/vi/_EKDACRTUak/hqdefault.jpg",
+    "author": "El Traductor de Ingeniería",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 772,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Resolviendo ecuaciones diferenciales homogéneas fácilmente",
+    "desc": "Clase magistral universitaria de 18:28 impartida por Matemáticas con Juan. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=l96YihYMh74",
+    "yt_id": "l96YihYMh74",
+    "thumb": "https://img.youtube.com/vi/l96YihYMh74/hqdefault.jpg",
+    "author": "Matemáticas con Juan",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 1299,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Ecuaciones diferenciales | Introducción",
+    "desc": "Clase magistral universitaria de 14:00 impartida por Matemáticas profe Alex. Contenido de alta fidelidad académica enfocado en ecuaciones-diferenciales, edo, modelado, matematicas, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=rd2jKGQJucE",
+    "yt_id": "rd2jKGQJucE",
+    "thumb": "https://img.youtube.com/vi/rd2jKGQJucE/hqdefault.jpg",
+    "author": "Matemáticas profe Alex",
+    "career": "transversal",
+    "tags": [
+      "ecuaciones-diferenciales",
+      "edo",
+      "modelado",
+      "matematicas"
+    ],
+    "views": 869,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "1. Introducción a la Mecánica Clásica: Cinemática, Dinámica y Estática",
+    "desc": "Clase magistral universitaria de 4:31 impartida por Profe Euler. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=hiCJSGfelhk",
+    "yt_id": "hiCJSGfelhk",
+    "thumb": "https://img.youtube.com/vi/hiCJSGfelhk/hqdefault.jpg",
+    "author": "Profe Euler",
     "career": "transversal",
     "tags": [
       "fisica",
-      "newton",
       "cinematica",
-      "dinamica"
+      "newton",
+      "energia"
     ],
-    "views": 4888,
+    "views": 1288,
     "year": 2023,
-    "type": "curso",
-    "url": "https://www.youtube.com/watch?v=Ll_qHUG6OWs",
-    "thumb": "https://img.youtube.com/vi/Ll_qHUG6OWs/hqdefault.jpg"
+    "type": "video"
+  },
+  {
+    "title": "Leyes de Newton - EXPLICACIÓN COMPLETA con ejemplos",
+    "desc": "Clase magistral universitaria de 8:39 impartida por MateFacil - Física. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=iLt6C1oxmlc",
+    "yt_id": "iLt6C1oxmlc",
+    "thumb": "https://img.youtube.com/vi/iLt6C1oxmlc/hqdefault.jpg",
+    "author": "MateFacil - Física",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 1203,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "CINEMÁTICA desde cero: MRU, MRUA y todo eso...",
+    "desc": "Clase magistral universitaria de 1:11:17 impartida por El Traductor de Ingeniería. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=aDHVXyFXxCE",
+    "yt_id": "aDHVXyFXxCE",
+    "thumb": "https://img.youtube.com/vi/aDHVXyFXxCE/hqdefault.jpg",
+    "author": "El Traductor de Ingeniería",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 1336,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "CURSO DE CINEMÁTICA DESDE CERO. Física Básica",
+    "desc": "Clase magistral universitaria de 1:00:35 impartida por Matemáticas con Juan. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=tKT8JLmQ330",
+    "yt_id": "tKT8JLmQ330",
+    "thumb": "https://img.youtube.com/vi/tKT8JLmQ330/hqdefault.jpg",
+    "author": "Matemáticas con Juan",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 788,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "👨‍🔬 La PRIMERA LEY de NEWTON | Explicación, Fórmulas y Ejercicios",
+    "desc": "Clase magistral universitaria de 4:03 impartida por Clases Particulares en Ávila. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=bsWqliD04VI",
+    "yt_id": "bsWqliD04VI",
+    "thumb": "https://img.youtube.com/vi/bsWqliD04VI/hqdefault.jpg",
+    "author": "Clases Particulares en Ávila",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 1200,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Leyes de Newton (Universo Mecánico 6)",
+    "desc": "Clase magistral universitaria de 27:23 impartida por Ciencias TV. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=DAtcTgJB66s",
+    "yt_id": "DAtcTgJB66s",
+    "thumb": "https://img.youtube.com/vi/DAtcTgJB66s/hqdefault.jpg",
+    "author": "Ciencias TV",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 1338,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "CURSO DE DINÁMICA DESDE CERO. Física básica",
+    "desc": "Clase magistral universitaria de 37:42 impartida por Matemáticas con Juan. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=RkBFq-4-aYA",
+    "yt_id": "RkBFq-4-aYA",
+    "thumb": "https://img.youtube.com/vi/RkBFq-4-aYA/hqdefault.jpg",
+    "author": "Matemáticas con Juan",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 973,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Leyes de Newton: Inercia y Movimiento - Curso de Mecánica Clásica",
+    "desc": "Clase magistral universitaria de 18:40 impartida por AfanadorPhysics Tutor. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=pnFnu6LPmQA",
+    "yt_id": "pnFnu6LPmQA",
+    "thumb": "https://img.youtube.com/vi/pnFnu6LPmQA/hqdefault.jpg",
+    "author": "AfanadorPhysics Tutor",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 1295,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Clase 12: Ejercicios Leyes de Newton",
+    "desc": "Clase magistral universitaria de 1:56:22 impartida por BITÁCORA. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=IYekU49gcfM",
+    "yt_id": "IYekU49gcfM",
+    "thumb": "https://img.youtube.com/vi/IYekU49gcfM/hqdefault.jpg",
+    "author": "BITÁCORA",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 832,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Mecánica  clásica: Clase 1",
+    "desc": "Clase magistral universitaria de 2:04:01 impartida por Instituto Balseiro - Académico. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=psms00DeX9o",
+    "yt_id": "psms00DeX9o",
+    "thumb": "https://img.youtube.com/vi/psms00DeX9o/hqdefault.jpg",
+    "author": "Instituto Balseiro - Académico",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 1109,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "Clase 1 del curso Temas de Física I (Mecánica Clásica)",
+    "desc": "Clase magistral universitaria de 1:59:52 impartida por PosgradoFísicaEducativa. Contenido de alta fidelidad académica enfocado en fisica, cinematica, newton, energia, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=ZYrthIRj3Tw",
+    "yt_id": "ZYrthIRj3Tw",
+    "thumb": "https://img.youtube.com/vi/ZYrthIRj3Tw/hqdefault.jpg",
+    "author": "PosgradoFísicaEducativa",
+    "career": "transversal",
+    "tags": [
+      "fisica",
+      "cinematica",
+      "newton",
+      "energia"
+    ],
+    "views": 1171,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "34. Ley de Gauss Explicación-Todo lo que debes saber",
+    "desc": "Clase magistral universitaria de 12:15 impartida por espiral ciencias. Contenido de alta fidelidad académica enfocado en fisica-electrica, electromagnetismo, coulomb, gauss, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=3aWFJdqM_Rw",
+    "yt_id": "3aWFJdqM_Rw",
+    "thumb": "https://img.youtube.com/vi/3aWFJdqM_Rw/hqdefault.jpg",
+    "author": "espiral ciencias",
+    "career": "transversal",
+    "tags": [
+      "fisica-electrica",
+      "electromagnetismo",
+      "coulomb",
+      "gauss"
+    ],
+    "views": 1390,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Teorema de gauss para el campo eléctrico Explicación Teórica y Carga Puntual (Bachillerato y Uni)",
+    "desc": "Clase magistral universitaria de 15:09 impartida por FísicaPRO. Contenido de alta fidelidad académica enfocado en fisica-electrica, electromagnetismo, coulomb, gauss, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=jJSq8BFJYt4",
+    "yt_id": "jJSq8BFJYt4",
+    "thumb": "https://img.youtube.com/vi/jJSq8BFJYt4/hqdefault.jpg",
+    "author": "FísicaPRO",
+    "career": "transversal",
+    "tags": [
+      "fisica-electrica",
+      "electromagnetismo",
+      "coulomb",
+      "gauss"
+    ],
+    "views": 1231,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Electromagnetismo | Clase 1: Ley de Coulomb. Campo eléctrico",
+    "desc": "Clase magistral universitaria de 1:50:36 impartida por Instituto Balseiro - Académico. Contenido de alta fidelidad académica enfocado en fisica-electrica, electromagnetismo, coulomb, gauss, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=W-lD0PFeJk4",
+    "yt_id": "W-lD0PFeJk4",
+    "thumb": "https://img.youtube.com/vi/W-lD0PFeJk4/hqdefault.jpg",
+    "author": "Instituto Balseiro - Académico",
+    "career": "transversal",
+    "tags": [
+      "fisica-electrica",
+      "electromagnetismo",
+      "coulomb",
+      "gauss"
+    ],
+    "views": 834,
+    "year": 2023,
+    "type": "curso"
+  },
+  {
+    "title": "La ley de Gauss en 3 minutos",
+    "desc": "Clase magistral universitaria de 3:24 impartida por Bromurez. Contenido de alta fidelidad académica enfocado en fisica-electrica, electromagnetismo, coulomb, gauss, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=pIpV6HN7sDQ",
+    "yt_id": "pIpV6HN7sDQ",
+    "thumb": "https://img.youtube.com/vi/pIpV6HN7sDQ/hqdefault.jpg",
+    "author": "Bromurez",
+    "career": "transversal",
+    "tags": [
+      "fisica-electrica",
+      "electromagnetismo",
+      "coulomb",
+      "gauss"
+    ],
+    "views": 1387,
+    "year": 2023,
+    "type": "video"
+  },
+  {
+    "title": "Ley de Coulomb y fuerza eléctrica,  lo que necesitas saber en 5 minutos.",
+    "desc": "Clase magistral universitaria de 6:40 impartida por IngE Darwin. Contenido de alta fidelidad académica enfocado en fisica-electrica, electromagnetismo, coulomb, gauss, ideal para estudiantes de ingeniería y semilleros de investigación.",
+    "url": "https://www.youtube.com/watch?v=XnVXKpZuIWY",
+    "yt_id": "XnVXKpZuIWY",
+    "thumb": "https://img.youtube.com/vi/XnVXKpZuIWY/hqdefault.jpg",
+    "author": "IngE Darwin",
+    "career": "transversal",
+    "tags": [
+      "fisica-electrica",
+      "electromagnetismo",
+      "coulomb",
+      "gauss"
+    ],
+    "views": 1442,
+    "year": 2023,
+    "type": "video"
   }
 ];

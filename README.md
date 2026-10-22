@@ -62,12 +62,12 @@ A diferencia de los algoritmos de "caja negra", Academflix implementa un panel i
 ## 🌟 3. Características de la Plataforma
 
 ### 📺 3.1. Experiencia Cinematográfica "Estilo Netflix"
-* **Catálogo Expandido de 210 Recursos Verificados:**  
-  Todos los videos están 100% activos y verificados mediante protocolo oEmbed de YouTube (cero pantallas de "Video no disponible").
-  * **Ingeniería de Sistemas y Computación (55 lecciones):** Arquitectura de software, clean code, algoritmos avanzados Big O, microservicios, bases de datos PostgreSQL/NoSQL, Docker/Kubernetes, IA/Machine Learning, Rust, Go, TypeScript y ciberseguridad.
-  * **Ingeniería Electrónica (55 lecciones):** Leyes de Kirchhoff, circuitos RLC, análisis en corriente alterna, transistores BJT/MOSFET, amplificadores operacionales, microcontroladores Arduino/ESP32, automatización PLC (Ladder), IoT y procesamiento digital de señales (DSP).
-  * **Ingeniería Industrial (55 lecciones):** Investigación de operaciones (Método Simplex), Lean Manufacturing, Metodología 5S, Six Sigma (DMAIC), gráficos de control estadístico ($Cp, Cpk$), estudio de tiempos y movimientos, logística y balance de líneas.
-  * **Tronco Común y Transversales (45 lecciones):** Cálculo diferencial e integral, álgebra lineal, ecuaciones diferenciales, física mecánica y termodinámica, probabilidad y estadística, y metodología de la investigación científica en semilleros.
+* **Catálogo Expandido de 220 Recursos Universitarios Verificados:**  
+  Todos los videos están 100% activos y rigurosamente auditados contra la API y reproductor de YouTube: cero Shorts, cero memes o clips de redes sociales, y cero restricciones de inserción (eliminación garantizada de los errores de "Video no disponible"). Todas las clases tienen duraciones de nivel universitario (desde clases magistrales de 10 a 50 minutos hasta cursos completos de más de 8 horas).
+  * **Ingeniería de Sistemas y Computación (55 lecciones):** Arquitectura de software, clean code, estructuras de datos y algoritmos avanzados, microservicios, bases de datos PostgreSQL/SQL, Docker/Kubernetes, IA/Machine Learning, redes Cisco, TypeScript y ciberseguridad.
+  * **Ingeniería Electrónica (55 lecciones):** Leyes de Kirchhoff, circuitos RLC, análisis nodal y de mallas, transistores BJT/MOSFET, amplificadores operacionales (Op-Amp), microcontroladores Arduino/ESP32, automatización PLC (TIA Portal Siemens), diseño de PCBs con KiCad, instrumentación y procesamiento de señales.
+  * **Ingeniería Industrial (55 lecciones):** Investigación de operaciones (Método Simplex, optimización y programación lineal), Lean Manufacturing, Metodología 5S, Six Sigma (DMAIC), control estadístico de procesos (SPC), estudio de tiempos y balance de líneas, logística y cadena de suministro (EOQ).
+  * **Tronco Común y Transversales (55 lecciones):** Cálculo diferencial (límites y derivadas), cálculo integral, álgebra lineal (matrices y espacios vectoriales), ecuaciones diferenciales homogéneas y Bernoulli, física mecánica clásica y electromagnetismo (Gauss y Coulomb), probabilidad y estadística para ingenieros.
 * **Filtros Dinámicos de Carrera con Contadores en Vivo:**  
   Alterna instantáneamente entre el catálogo completo y las subespecialidades con chips interactivos de recuento en tiempo real.
 

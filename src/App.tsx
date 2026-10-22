@@ -396,24 +396,33 @@ export default function App() {
       }
     });
 
-    // 2. Colección global de Contenidos
+    // 2. Colección global de Contenidos (100% Curados Académicos)
     const contentUnsub = onSnapshot(collection(db, 'content'), (snap) => {
       const firestoreItems: ContentItem[] = snap.empty 
         ? [] 
         : snap.docs.map(doc => ({ id: doc.id, ...(doc.data() as ContentItem) }));
 
-      const existingUrls = new Set(firestoreItems.map(i => i.url?.toLowerCase().trim()));
-      const existingYtIds = new Set(firestoreItems.map(i => i.yt_id).filter(Boolean));
+      const verifiedSeedMap = new Map(SEED_DATA.map(s => [s.yt_id, s]));
 
-      // Completar con el catálogo semillero completo para garantizar siempre 200+ cursos
+      // Filtrar ítems obsoletos no académicos o shorts que hayan quedado de seeds anteriores
+      const validFirestoreItems = firestoreItems.filter(item => {
+        if (item.yt_id) {
+          return verifiedSeedMap.has(item.yt_id) || (!item.title.toLowerCase().includes('#short') && !item.title.toLowerCase().includes('meme'));
+        }
+        return true;
+      });
+
+      const existingYtIds = new Set(validFirestoreItems.map(i => i.yt_id).filter(Boolean));
+
+      // Completar con el catálogo semillero completo 100% verificado (220 clases magistrales)
       const missingSeedItems: ContentItem[] = SEED_DATA
-        .filter(seed => !existingUrls.has(seed.url?.toLowerCase().trim()) && (!seed.yt_id || !existingYtIds.has(seed.yt_id)))
+        .filter(seed => !existingYtIds.has(seed.yt_id))
         .map((seed, idx) => ({
           ...seed,
           id: `seed_${idx}`
         }));
 
-      setContent([...firestoreItems, ...missingSeedItems]);
+      setContent([...validFirestoreItems, ...missingSeedItems]);
     });
 
     // 3. Interacciones del usuario
@@ -1899,16 +1908,29 @@ function PlayerModal({
         </button>
 
         {/* Frame de video de YouTube o Recurso */}
-        <div className="w-full aspect-video bg-black flex-shrink-0 relative">
+        <div className="w-full aspect-video bg-black flex-shrink-0 relative group">
           {item.yt_id ? (
-            <iframe 
-              title={item.title}
-              className="w-full h-full" 
-              src={`https://www.youtube.com/embed/${item.yt_id}?autoplay=1&rel=0&modestbranding=1`} 
-              referrerPolicy="strict-origin-when-cross-origin"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen 
-            />
+            <>
+              <iframe 
+                title={item.title}
+                className="w-full h-full" 
+                src={`https://www.youtube-nocookie.com/embed/${item.yt_id}?autoplay=1&rel=0&modestbranding=1&playsinline=1`} 
+                referrerPolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen 
+              />
+              <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity bg-black/85 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-white/15 flex items-center gap-2 text-xs shadow-xl pointer-events-auto">
+                <span className="text-white/70">¿Deseas verlo directo en YouTube?</span>
+                <a 
+                  href={item.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[#4285F4] hover:text-[#4285F4]/80 font-bold flex items-center gap-1 transition-colors"
+                >
+                  Abrir <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+              </div>
+            </>
           ) : (
             <div className="w-full h-full flex flex-col items-center justify-center p-8 text-center bg-gradient-to-b from-[#181818] to-black">
               <BookOpen className="w-16 h-16 text-[#4285F4] mb-4" />
