@@ -1,0 +1,6 @@
+{
+  "name": "Netflix Académico - System Design",
+  "description": "Arquitectura, esquema de BD, motor de recomendaciones y configuración de Gemini para MVP de plataforma académica interactiva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,64 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 0. Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // --- Helpers ---
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+    function incoming() {
+      return request.resource.data;
+    }
+
+    // --- Content Rules ---
+    function isValidContent(data) {
+      return data.title is string && data.title.size() <= 200 &&
+             data.desc is string && data.desc.size() <= 1000 &&
+             data.type in ['video', 'curso'] &&
+             data.career in ['sistemas', 'electronica', 'industrial', 'all', 'transversal'] &&
+             data.author is string && data.author.size() <= 200 &&
+             data.year is number && data.year >= 1900 &&
+             data.url is string && data.url.size() <= 2000;
+    }
+
+    match /content/{contentId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && isValidContent(incoming());
+      // Allow update for incrementing views or editing description, allow delete for cleanup
+      allow update: if isSignedIn() && (isValidContent(incoming()) || incoming().diff(existing()).affectedKeys().hasOnly(['views']));
+      allow delete: if isSignedIn(); 
+    }
+
+    // --- Profile Rules ---
+    match /profiles/{userId} {
+      allow read: if isOwner(userId);
+      allow create, update: if isOwner(userId) && 
+            incoming().userId == request.auth.uid &&
+            incoming().career in ['sistemas', 'electronica', 'industrial'];
+    }
+
+    // --- Interaction Rules ---
+    function isValidInteraction(data) {
+      return data.userId == request.auth.uid &&
+             data.contentId is string &&
+             data.type in ['play', 'add_list', 'cite'] &&
+             data.timestamp is timestamp;
+    }
+
+    match /interactions/{interactionId} {
+      allow list: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow get: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn() && isValidInteraction(incoming());
+    }
+  }
+}

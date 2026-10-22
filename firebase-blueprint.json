@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "Content": {
+      "title": "Academic Content",
+      "description": "Educational videos, courses, and articles",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "Title of the resource" },
+        "desc": { "type": "string", "description": "Short description" },
+        "type": { "type": "string", "enum": ["video", "curso"], "description": "Format of the content" },
+        "career": { "type": "string", "enum": ["sistemas", "electronica", "industrial", "all"], "description": "Target career" },
+        "author": { "type": "string", "description": "Author or Institution" },
+        "year": { "type": "number", "description": "Publication year" },
+        "url": { "type": "string", "description": "Full source URL" },
+        "yt_id": { "type": "string", "description": "YouTube ID if type is video" },
+        "thumb": { "type": "string", "description": "Thumbnail URL" },
+        "tags": { "type": "array", "description": "Category tags for recommendation engine" }
+      },
+      "required": ["title", "type", "career", "author", "year", "url"]
+    },
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Stored career and preferences per user",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "displayName": { "type": "string" },
+        "career": { "type": "string" },
+        "savedContent": { "type": "array" },
+        "watchLater": { "type": "array" },
+        "preferences": { "type": "array" },
+        "lastActive": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "career"]
+    },
+    "Interaction": {
+      "title": "User Interaction",
+      "description": "Record of content consumed by the user",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "contentId": { "type": "string" },
+        "type": { "type": "string", "enum": ["play", "add_list", "cite"] },
+        "timestamp": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "contentId", "type", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/content/{contentId}": {
+      "schema": "Content",
+      "description": "Global academic content catalog"
+    },
+    "/profiles/{userId}": {
+      "schema": "UserProfile",
+      "description": "Individual user setup"
+    },
+    "/interactions/{interactionId}": {
+      "schema": "Interaction",
+      "description": "Event log for recommendation algorithm"
+    }
+  }
+}
